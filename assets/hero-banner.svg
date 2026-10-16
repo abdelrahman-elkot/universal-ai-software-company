@@ -1,0 +1,216 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-labelledby="hero-title hero-desc">
+  <title id="hero-title">Universal AI Software Company OS</title>
+  <desc id="hero-desc">Turn Claude Code, Cursor, Windsurf, Antigravity, OpenCode, Copilot and 10+ AI Tools into One Cohesive 11-Department Engineering Team with 34 Core Technical Skills and a 5-Phase Zero-Collision Pipeline.</desc>
+
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090D16" />
+      <stop offset="50%" stop-color="#0D1322" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+
+    <!-- Ambient Glows -->
+    <radialGradient id="glow-indigo" cx="20%" cy="18%" r="48%">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.28" />
+      <stop offset="55%" stop-color="#4F46E5" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#090D16" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glow-cyan" cx="82%" cy="22%" r="45%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.24" />
+      <stop offset="55%" stop-color="#0891B2" stop-opacity="0.07" />
+      <stop offset="100%" stop-color="#090D16" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glow-emerald" cx="50%" cy="92%" r="45%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.18" />
+      <stop offset="60%" stop-color="#059669" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#111827" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Title Text Gradient -->
+    <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="48%" stop-color="#E0E7FF" />
+      <stop offset="78%" stop-color="#67E8F9" />
+      <stop offset="100%" stop-color="#34D399" />
+    </linearGradient>
+
+    <!-- Badge Border & Fill -->
+    <linearGradient id="badge-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.22" />
+      <stop offset="50%" stop-color="#06B6D4" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0.22" />
+    </linearGradient>
+
+    <linearGradient id="badge-stroke" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#818CF8" stop-opacity="0.7" />
+      <stop offset="50%" stop-color="#22D3EE" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#34D399" stop-opacity="0.7" />
+    </linearGradient>
+
+    <!-- Card Glass Fill & Borders -->
+    <linearGradient id="card-fill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.78" />
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.88" />
+    </linearGradient>
+
+    <linearGradient id="card-stroke-indigo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818CF8" stop-opacity="0.65" />
+      <stop offset="100%" stop-color="#334155" stop-opacity="0.3" />
+    </linearGradient>
+
+    <linearGradient id="card-stroke-cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.65" />
+      <stop offset="100%" stop-color="#334155" stop-opacity="0.3" />
+    </linearGradient>
+
+    <linearGradient id="card-stroke-emerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399" stop-opacity="0.65" />
+      <stop offset="100%" stop-color="#334155" stop-opacity="0.3" />
+    </linearGradient>
+
+    <linearGradient id="card-stroke-purple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C084FC" stop-opacity="0.65" />
+      <stop offset="100%" stop-color="#334155" stop-opacity="0.3" />
+    </linearGradient>
+
+    <!-- Subtle Architectural Grid Pattern -->
+    <pattern id="grid-pattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#94A3B8" stroke-width="0.7" stroke-opacity="0.07" />
+      <circle cx="40" cy="40" r="1" fill="#94A3B8" fill-opacity="0.14" />
+    </pattern>
+
+    <!-- Outer Frame Border Gradient -->
+    <linearGradient id="frame-stroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.45" />
+      <stop offset="50%" stop-color="#06B6D4" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0.45" />
+    </linearGradient>
+  </defs>
+
+  <!-- Main Rounded Container Background -->
+  <rect width="1200" height="420" rx="20" fill="url(#bg-grad)" />
+  <rect width="1200" height="420" rx="20" fill="url(#glow-indigo)" />
+  <rect width="1200" height="420" rx="20" fill="url(#glow-cyan)" />
+  <rect width="1200" height="420" rx="20" fill="url(#glow-emerald)" />
+  <rect width="1200" height="420" rx="20" fill="url(#grid-pattern)" />
+
+  <!-- Decorative Constellation Nodes (Left & Right) -->
+  <g stroke="#6366F1" stroke-opacity="0.22" stroke-width="1.2" fill="none">
+    <path d="M 45 70 L 115 110 L 85 175 L 155 215" />
+    <path d="M 115 110 L 175 75" />
+    <circle cx="45" cy="70" r="3.5" fill="#818CF8" fill-opacity="0.5" stroke="none" />
+    <circle cx="115" cy="110" r="4.5" fill="#22D3EE" fill-opacity="0.6" stroke="none" />
+    <circle cx="85" cy="175" r="3" fill="#818CF8" fill-opacity="0.4" stroke="none" />
+    <circle cx="175" cy="75" r="2.5" fill="#34D399" fill-opacity="0.5" stroke="none" />
+  </g>
+
+  <g stroke="#06B6D4" stroke-opacity="0.22" stroke-width="1.2" fill="none">
+    <path d="M 1155 65 L 1080 110 L 1115 180 L 1040 215" />
+    <path d="M 1080 110 L 1020 70" />
+    <circle cx="1155" cy="65" r="3.5" fill="#22D3EE" fill-opacity="0.5" stroke="none" />
+    <circle cx="1080" cy="110" r="4.5" fill="#34D399" fill-opacity="0.6" stroke="none" />
+    <circle cx="1115" cy="180" r="3" fill="#818CF8" fill-opacity="0.4" stroke="none" />
+    <circle cx="1020" cy="70" r="2.5" fill="#22D3EE" fill-opacity="0.5" stroke="none" />
+  </g>
+
+  <!-- Top Glow Line -->
+  <line x1="250" y1="1.5" x2="950" y2="1.5" stroke="url(#badge-stroke)" stroke-width="2" stroke-opacity="0.85" />
+
+  <!-- Top Badge Pill -->
+  <g transform="translate(345, 38)">
+    <rect width="510" height="34" rx="17" fill="url(#badge-grad)" stroke="url(#badge-stroke)" stroke-width="1.2" />
+    <circle cx="22" cy="17" r="4.5" fill="#34D399" />
+    <circle cx="22" cy="17" r="8" fill="#34D399" fill-opacity="0.25" />
+    <text x="264" y="21.5" text-anchor="middle" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11.5" font-weight="700" letter-spacing="1.4">OPEN-SOURCE MULTI-AGENT OPERATING SYSTEM &#8226; MIT LICENSE</text>
+  </g>
+
+  <!-- Main Hero Title -->
+  <text x="600" y="134" text-anchor="middle" fill="url(#title-grad)" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="48" font-weight="800" letter-spacing="-0.8">
+    Universal AI Software Company OS
+  </text>
+
+  <!-- Subtitle Line 1 & Line 2 -->
+  <text x="600" y="176" text-anchor="middle" fill="#94A3B8" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="17.5" font-weight="500">
+    Turn <tspan fill="#E2E8F0" font-weight="600">Claude Code</tspan>, <tspan fill="#E2E8F0" font-weight="600">Cursor</tspan>, <tspan fill="#E2E8F0" font-weight="600">Windsurf</tspan>, <tspan fill="#E2E8F0" font-weight="600">Antigravity</tspan>, <tspan fill="#E2E8F0" font-weight="600">OpenCode</tspan>, <tspan fill="#E2E8F0" font-weight="600">Copilot</tspan> &amp; 10+ AI Tools
+  </text>
+  <text x="600" y="203" text-anchor="middle" fill="#94A3B8" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="17.5" font-weight="500">
+    into <tspan fill="#38BDF8" font-weight="600">One Cohesive 11-Department Engineering Team</tspan> with Zero Prompt Bloat &amp; Zero File Collisions
+  </text>
+
+  <!-- Quick Feature Pills Row -->
+  <g transform="translate(220, 224)" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11.5" font-weight="600">
+    <rect x="0" y="0" width="235" height="26" rx="6" fill="#1E293B" fill-opacity="0.75" stroke="#334155" stroke-width="1" />
+    <text x="117.5" y="17" text-anchor="middle" fill="#A5B4FC">Layer 1: Universal Engine</text>
+
+    <rect x="250" y="0" width="265" height="26" rx="6" fill="#1E293B" fill-opacity="0.75" stroke="#334155" stroke-width="1" />
+    <text x="382.5" y="17" text-anchor="middle" fill="#67E8F9">Layer 2: project-context.md</text>
+
+    <rect x="530" y="0" width="230" height="26" rx="6" fill="#1E293B" fill-opacity="0.75" stroke="#334155" stroke-width="1" />
+    <text x="645" y="17" text-anchor="middle" fill="#6EE7B7">Auto-Onboards Any Repo</text>
+  </g>
+
+  <!-- ==================== 4 METRIC STAT CARDS ==================== -->
+
+  <!-- Card 1: 11 Department Lead Agents -->
+  <g transform="translate(60, 274)">
+    <rect width="252" height="112" rx="14" fill="url(#card-fill)" stroke="url(#card-stroke-indigo)" stroke-width="1.4" />
+    <line x1="20" y1="1" x2="120" y2="1" stroke="#818CF8" stroke-width="2.2" />
+    <!-- Icon Box -->
+    <rect x="20" y="22" width="42" height="42" rx="10" fill="#4F46E5" fill-opacity="0.2" stroke="#818CF8" stroke-opacity="0.4" stroke-width="1" />
+    <path d="M 35 37 L 41 31 L 47 37 M 32 45 L 50 45 M 36 45 L 36 51 M 46 45 L 46 51" stroke="#A5B4FC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <circle cx="41" cy="40" r="2" fill="#A5B4FC" />
+    <!-- Metric Value & Label -->
+    <text x="76" y="48" fill="#FFFFFF" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="32" font-weight="800" letter-spacing="-0.5">11</text>
+    <text x="122" y="46" fill="#A5B4FC" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" font-weight="700">DEPT LEADS</text>
+    <text x="20" y="84" fill="#F1F5F9" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="700">Department Lead Agents</text>
+    <text x="20" y="101" fill="#94A3B8" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500">CEO, CTO, Product, Backend, UI, AI, Sec, QA</text>
+  </g>
+
+  <!-- Card 2: 34 Core Technical Skills -->
+  <g transform="translate(336, 274)">
+    <rect width="252" height="112" rx="14" fill="url(#card-fill)" stroke="url(#card-stroke-cyan)" stroke-width="1.4" />
+    <line x1="20" y1="1" x2="120" y2="1" stroke="#22D3EE" stroke-width="2.2" />
+    <!-- Icon Box -->
+    <rect x="20" y="22" width="42" height="42" rx="10" fill="#0891B2" fill-opacity="0.2" stroke="#22D3EE" stroke-opacity="0.4" stroke-width="1" />
+    <path d="M 36 37 L 31 43 L 36 49 M 46 37 L 51 43 L 46 49 M 43 34 L 39 52" stroke="#67E8F9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <!-- Metric Value & Label -->
+    <text x="76" y="48" fill="#FFFFFF" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="32" font-weight="800" letter-spacing="-0.5">34</text>
+    <text x="124" y="46" fill="#67E8F9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" font-weight="700">SKILL.MD</text>
+    <text x="20" y="84" fill="#F1F5F9" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="700">Core Technical Skills</text>
+    <text x="20" y="101" fill="#94A3B8" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500">Zero fluff &#8226; Strictly scoped 2&#8211;4 per agent</text>
+  </g>
+
+  <!-- Card 3: 5-Phase Zero-Collision Pipeline -->
+  <g transform="translate(612, 274)">
+    <rect width="252" height="112" rx="14" fill="url(#card-fill)" stroke="url(#card-stroke-emerald)" stroke-width="1.4" />
+    <line x1="20" y1="1" x2="120" y2="1" stroke="#34D399" stroke-width="2.2" />
+    <!-- Icon Box -->
+    <rect x="20" y="22" width="42" height="42" rx="10" fill="#059669" fill-opacity="0.2" stroke="#34D399" stroke-opacity="0.4" stroke-width="1" />
+    <path d="M 32 43 L 38 49 L 50 37" stroke="#6EE7B7" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <!-- Metric Value & Label -->
+    <text x="76" y="48" fill="#FFFFFF" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="800" letter-spacing="-0.5">5-Phase</text>
+    <text x="20" y="84" fill="#F1F5F9" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="700">Zero-Collision Pipeline</text>
+    <text x="20" y="101" fill="#94A3B8" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500">Spec Lock &#8594; Build &#8594; Sec &#8594; QA &#8594; Ship</text>
+  </g>
+
+  <!-- Card 4: 16+ AI IDEs & CLIs Supported -->
+  <g transform="translate(888, 274)">
+    <rect width="252" height="112" rx="14" fill="url(#card-fill)" stroke="url(#card-stroke-purple)" stroke-width="1.4" />
+    <line x1="20" y1="1" x2="120" y2="1" stroke="#C084FC" stroke-width="2.2" />
+    <!-- Icon Box -->
+    <rect x="20" y="22" width="42" height="42" rx="10" fill="#7E22CE" fill-opacity="0.2" stroke="#C084FC" stroke-opacity="0.4" stroke-width="1" />
+    <rect x="31" y="34" width="20" height="16" rx="3" stroke="#D8B4FE" stroke-width="1.8" fill="none" />
+    <path d="M 35 40 L 38 42.5 L 35 45 M 41 45 L 46 45" stroke="#D8B4FE" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <!-- Metric Value & Label -->
+    <text x="76" y="48" fill="#FFFFFF" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="32" font-weight="800" letter-spacing="-0.5">16+</text>
+    <text x="138" y="46" fill="#D8B4FE" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" font-weight="700">TOOLS READY</text>
+    <text x="20" y="84" fill="#F1F5F9" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="700">AI IDEs &amp; CLIs Supported</text>
+    <text x="20" y="101" fill="#94A3B8" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500">1-Command Install via npx, sh, or ps1</text>
+  </g>
+
+  <!-- Outer Frame Border -->
+  <rect x="1" y="1" width="1198" height="418" rx="19" fill="none" stroke="url(#frame-stroke)" stroke-width="1.5" />
+</svg>

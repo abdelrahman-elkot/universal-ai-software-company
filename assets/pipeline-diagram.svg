@@ -1,0 +1,246 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="1200" height="520" role="img" aria-labelledby="pipe-title pipe-desc">
+  <title id="pipe-title">Universal AI Software Company OS — 2-Layer Architecture &amp; 5-Phase Execution Pipeline</title>
+  <desc id="pipe-desc">Architectural diagram illustrating the separation between Layer 1 (Universal Company Engine) and Layer 2 (project-context.md), followed by the 5-Phase Execution Pipeline: Phase 1 Product and CTO Lock, Phase 2 Parallel Build with non-overlapping folders, Phase 3 Security and CWE Audit, Phase 4 5-Stage QA and Reality-Checker Gate, and Phase 5 DevOps, FinOps, and DevRel Docs.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090D16" />
+      <stop offset="50%" stop-color="#0D1424" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#94A3B8" stroke-width="0.6" stroke-opacity="0.06" />
+    </pattern>
+
+    <!-- Card Gradients -->
+    <linearGradient id="layer-card" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.88" />
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.92" />
+    </linearGradient>
+
+    <linearGradient id="phase-card" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.95" />
+    </linearGradient>
+
+    <!-- Arrow Markers -->
+    <marker id="arrow-cyan" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#38BDF8" />
+    </marker>
+    <marker id="arrow-indigo" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#818CF8" />
+    </marker>
+    <marker id="arrow-amber" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#F59E0B" />
+    </marker>
+    <marker id="arrow-emerald" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#34D399" />
+    </marker>
+    <marker id="arrow-rose" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#FB7185" />
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="520" rx="18" fill="url(#bg)" />
+  <rect width="1200" height="520" rx="18" fill="url(#grid)" />
+
+  <!-- ==================== HEADER ==================== -->
+  <text x="36" y="38" fill="#F8FAFC" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="800" letter-spacing="-0.3">
+    2-Layer Engine vs. Context Separation &amp; 5-Phase Zero-Collision Execution Pipeline
+  </text>
+  <g transform="translate(868, 17)">
+    <rect width="296" height="28" rx="14" fill="#1E1B4B" stroke="#6366F1" stroke-width="1.2" />
+    <circle cx="16" cy="14" r="4" fill="#818CF8" />
+    <text x="155" y="18" text-anchor="middle" fill="#E0E7FF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" font-weight="700">ORCHESTRATED BY: ceo-executive-orchestrator</text>
+  </g>
+
+  <!-- ==================== TOP SECTION: 2-LAYER ARCHITECTURE ==================== -->
+  <!-- Layer 1 Box -->
+  <g transform="translate(36, 56)">
+    <rect width="540" height="84" rx="12" fill="url(#layer-card)" stroke="#6366F1" stroke-width="1.5" />
+    <rect x="14" y="14" width="108" height="22" rx="5" fill="#312E81" />
+    <text x="68" y="28.5" text-anchor="middle" fill="#C7D2FE" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" font-weight="700">LAYER 1 • ENGINE</text>
+    <text x="134" y="29" fill="#FFFFFF" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="700">100% Project-Agnostic Company OS</text>
+    <text x="16" y="53" fill="#94A3B8" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">
+      Reusable across any repo: <tspan fill="#E2E8F0" font-weight="600">11 Department Lead Agents</tspan> + <tspan fill="#E2E8F0" font-weight="600">34 Core Technical Skills</tspan>
+    </text>
+    <text x="16" y="71" fill="#818CF8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" font-weight="600">
+      AGENTS.md &#8226; .agents/agents/*.md &#8226; .agents/skills/*/SKILL.md
+    </text>
+  </g>
+
+  <!-- Bidirectional Binding Connector -->
+  <g transform="translate(576, 82)">
+    <line x1="6" y1="16" x2="42" y2="16" stroke="#38BDF8" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#arrow-cyan)" marker-start="url(#arrow-indigo)" />
+    <text x="24" y="8" text-anchor="middle" fill="#7DD3FC" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9.5" font-weight="700">BINDS</text>
+  </g>
+
+  <!-- Layer 2 Box -->
+  <g transform="translate(624, 56)">
+    <rect width="540" height="84" rx="12" fill="url(#layer-card)" stroke="#06B6D4" stroke-width="1.5" />
+    <rect x="14" y="14" width="114" height="22" rx="5" fill="#164E63" />
+    <text x="71" y="28.5" text-anchor="middle" fill="#A5F3FC" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" font-weight="700">LAYER 2 • CONTEXT</text>
+    <text x="140" y="29" fill="#FFFFFF" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="700">Single Project Identity Card</text>
+    <text x="16" y="53" fill="#94A3B8" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">
+      Stores your stack, PRD, security invariants &amp; path ownership (auto-generated on 1st run)
+    </text>
+    <text x="16" y="71" fill="#22D3EE" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" font-weight="600">
+      .agents/rules/project-context.md (Single Source of Project Truth)
+    </text>
+  </g>
+
+  <!-- ==================== 5-PHASE EXECUTION PIPELINE ==================== -->
+
+  <!-- PHASE 1: Product & Architecture Lock -->
+  <g transform="translate(36, 166)">
+    <rect width="204" height="284" rx="14" fill="url(#phase-card)" stroke="#818CF8" stroke-width="1.6" />
+    <rect x="0" y="0" width="204" height="38" rx="14" fill="#312E81" fill-opacity="0.7" />
+    <text x="16" y="24" fill="#A5B4FC" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5" font-weight="800">PHASE 1 &#8226; LOCK</text>
+    <circle cx="182" cy="19" r="8" fill="#4F46E5" />
+    <text x="182" y="23" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="10.5" font-weight="800">1</text>
+
+    <text x="16" y="64" fill="#FFFFFF" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="15.5" font-weight="800">Product &amp; CTO Lock</text>
+    <text x="16" y="84" fill="#94A3B8" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500">Read project-context.md &amp; lock</text>
+    <text x="16" y="100" fill="#94A3B8" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500">contracts before coding starts.</text>
+
+    <!-- Active Agents -->
+    <rect x="14" y="116" width="176" height="44" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1" />
+    <text x="24" y="133" fill="#C7D2FE" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" font-weight="700">Dept 2: product-pmo-lead</text>
+    <text x="24" y="150" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="10.5">Atomic specs &amp; acceptance</text>
+
+    <rect x="14" y="168" width="176" height="44" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1" />
+    <text x="24" y="185" fill="#C7D2FE" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" font-weight="700">Dept 3: cto-cloud-architect</text>
+    <text x="24" y="202" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="10.5">Shared APIs, DB &amp; FinOps</text>
+
+    <!-- Locked Outputs -->
+    <rect x="14" y="224" width="176" height="46" rx="8" fill="#1E1B4B" fill-opacity="0.65" stroke="#4F46E5" stroke-width="1" />
+    <text x="24" y="241" fill="#A5B4FC" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" font-weight="700">LOCKED ARTIFACTS:</text>
+    <text x="24" y="258" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5">specs/ &#8226; src/types/</text>
+  </g>
+
+  <!-- Connector 1 -> 2 -->
+  <line x1="240" y1="308" x2="266" y2="308" stroke="#38BDF8" stroke-width="2.2" marker-end="url(#arrow-cyan)" />
+
+  <!-- PHASE 2: Parallel Engineering Build -->
+  <g transform="translate(272, 166)">
+    <rect width="268" height="284" rx="14" fill="url(#phase-card)" stroke="#22D3EE" stroke-width="1.6" />
+    <rect x="0" y="0" width="268" height="38" rx="14" fill="#164E63" fill-opacity="0.75" />
+    <text x="16" y="24" fill="#67E8F9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5" font-weight="800">PHASE 2 &#8226; PARALLEL BUILD</text>
+    <circle cx="246" cy="19" r="8" fill="#0891B2" />
+    <text x="246" y="23" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="10.5" font-weight="800">2</text>
+
+    <text x="16" y="60" fill="#FFFFFF" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="800">Zero-Collision Parallel Work</text>
+    <text x="16" y="76" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">Strict non-overlapping folder ownership:</text>
+
+    <!-- 4 Parallel Engineering Tracks -->
+    <rect x="14" y="88" width="240" height="42" rx="7" fill="#0F172A" stroke="#0891B2" stroke-opacity="0.6" stroke-width="1" />
+    <text x="22" y="105" fill="#67E8F9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" font-weight="700">Dept 4: backend-data-engineer</text>
+    <text x="22" y="121" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">src/backend/ &#8226; src/db/ &#8226; migrations/</text>
+
+    <rect x="14" y="136" width="240" height="42" rx="7" fill="#0F172A" stroke="#0891B2" stroke-opacity="0.6" stroke-width="1" />
+    <text x="22" y="153" fill="#67E8F9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" font-weight="700">Dept 5: frontend-ux-engineer</text>
+    <text x="22" y="169" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">src/ui/ &#8226; src/client/ &#8226; public/</text>
+
+    <rect x="14" y="184" width="240" height="42" rx="7" fill="#0F172A" stroke="#0891B2" stroke-opacity="0.6" stroke-width="1" />
+    <text x="22" y="201" fill="#67E8F9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" font-weight="700">Dept 6: ai-agentic-engineer</text>
+    <text x="22" y="217" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">src/router/ &#8226; src/search/ &#8226; src/eval/</text>
+
+    <rect x="14" y="232" width="240" height="42" rx="7" fill="#0F172A" stroke="#0891B2" stroke-opacity="0.6" stroke-width="1" />
+    <text x="22" y="249" fill="#67E8F9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" font-weight="700">Dept 7: ai-ml-langchain-lead</text>
+    <text x="22" y="265" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">src/agents/ &#8226; src/graphs/ &#8226; src/mcp/</text>
+  </g>
+
+  <!-- Connector 2 -> 3 -->
+  <line x1="540" y1="308" x2="566" y2="308" stroke="#F59E0B" stroke-width="2.2" marker-end="url(#arrow-amber)" />
+
+  <!-- PHASE 3: Mandatory Security & Crypto Audit -->
+  <g transform="translate(572, 166)">
+    <rect width="186" height="284" rx="14" fill="url(#phase-card)" stroke="#F59E0B" stroke-width="1.6" />
+    <rect x="0" y="0" width="186" height="38" rx="14" fill="#78350F" fill-opacity="0.65" />
+    <text x="14" y="24" fill="#FCD34D" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5" font-weight="800">PHASE 3 &#8226; SEC GATE</text>
+    <circle cx="164" cy="19" r="8" fill="#D97706" />
+    <text x="164" y="23" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="10.5" font-weight="800">3</text>
+
+    <text x="14" y="64" fill="#FFFFFF" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="800">Security &amp; CWE Audit</text>
+    <text x="14" y="84" fill="#FDE68A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" font-weight="700">security-privacy-lead</text>
+    <text x="14" y="100" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">Dept 8 Cross-PR Gate</text>
+
+    <!-- Audit Checklist -->
+    <g transform="translate(14, 114)" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#E2E8F0">
+      <rect width="158" height="154" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1" />
+      <text x="10" y="24" fill="#FCD34D" font-weight="700">Mandatory Checks:</text>
+      <text x="10" y="46">&#10003; AES-256-GCM Vault</text>
+      <text x="10" y="68">&#10003; SHA-256 Key Hashing</text>
+      <text x="10" y="90">&#10003; Auth &amp; Tenant Isolation</text>
+      <text x="10" y="112">&#10003; SSRF &amp; Input Guards</text>
+      <text x="10" y="134">&#10003; CWE / Prompt Shield</text>
+    </g>
+  </g>
+
+  <!-- Connector 3 -> 4 -->
+  <line x1="758" y1="308" x2="784" y2="308" stroke="#34D399" stroke-width="2.2" marker-end="url(#arrow-emerald)" />
+
+  <!-- PHASE 4: 5-Stage QA & Reality-Checker Gate -->
+  <g transform="translate(790, 166)">
+    <rect width="186" height="284" rx="14" fill="url(#phase-card)" stroke="#10B981" stroke-width="1.6" />
+    <rect x="0" y="0" width="186" height="38" rx="14" fill="#064E3B" fill-opacity="0.75" />
+    <text x="14" y="24" fill="#6EE7B7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5" font-weight="800">PHASE 4 &#8226; QA GATE</text>
+    <circle cx="164" cy="19" r="8" fill="#059669" />
+    <text x="164" y="23" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="10.5" font-weight="800">4</text>
+
+    <text x="14" y="64" fill="#FFFFFF" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="800">5-Stage QA Gate</text>
+    <text x="14" y="84" fill="#6EE7B7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" font-weight="700">qa-release-lead</text>
+    <text x="14" y="100" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">Dept 9 Reality-Checker</text>
+
+    <!-- 5 Stages -->
+    <g transform="translate(14, 114)" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#E2E8F0">
+      <rect width="158" height="154" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1" />
+      <text x="10" y="24" fill="#6EE7B7" font-weight="700">Evidence Required:</text>
+      <text x="10" y="46">1. Strict Typecheck</text>
+      <text x="10" y="68">2. Unit &amp; Edge Tests</text>
+      <text x="10" y="90">3. API Contract Suite</text>
+      <text x="10" y="112">4. E2E / Accessibility</text>
+      <text x="10" y="134">5. Reality Certification</text>
+    </g>
+  </g>
+
+  <!-- Connector 4 -> 5 -->
+  <line x1="976" y1="308" x2="1002" y2="308" stroke="#34D399" stroke-width="2.2" marker-end="url(#arrow-emerald)" />
+
+  <!-- PHASE 5: DevOps, FinOps & DevRel Docs -->
+  <g transform="translate(1008, 166)">
+    <rect width="156" height="284" rx="14" fill="url(#phase-card)" stroke="#C084FC" stroke-width="1.6" />
+    <rect x="0" y="0" width="156" height="38" rx="14" fill="#4C1D95" fill-opacity="0.7" />
+    <text x="14" y="24" fill="#E9D5FF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5" font-weight="800">PHASE 5 &#8226; SHIP</text>
+    <circle cx="136" cy="19" r="8" fill="#9333EA" />
+    <text x="136" y="23" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="10.5" font-weight="800">5</text>
+
+    <text x="14" y="64" fill="#FFFFFF" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="800">DevOps &amp; Docs</text>
+    <text x="14" y="82" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">Production release</text>
+
+    <rect x="12" y="98" width="132" height="74" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1" />
+    <text x="20" y="116" fill="#D8B4FE" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" font-weight="700">Dept 10: devops-sre</text>
+    <text x="20" y="134" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="10.5">&#8226; CI/CD &amp; Docker</text>
+    <text x="20" y="150" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="10.5">&#8226; DB Migrations</text>
+    <text x="20" y="166" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="10.5">&#8226; FinOps &amp; SLOs</text>
+
+    <rect x="12" y="182" width="132" height="86" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1" />
+    <text x="20" y="200" fill="#D8B4FE" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" font-weight="700">Dept 11: gtm-docs</text>
+    <text x="20" y="218" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="10.5">&#8226; API Docs &amp; SDK</text>
+    <text x="20" y="234" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="10.5">&#8226; README Sync</text>
+    <text x="20" y="250" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="10.5">&#8226; Unit Economics</text>
+  </g>
+
+  <!-- ==================== SELF-HEALING FEEDBACK LOOP (PHASE 3/4 -> PHASE 2) ==================== -->
+  <path d="M 883 450 L 883 486 L 406 486 L 406 456" fill="none" stroke="#FB7185" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arrow-rose)" />
+  <line x1="665" y1="450" x2="665" y2="486" stroke="#FB7185" stroke-width="2" stroke-dasharray="4 3" />
+  <rect x="466" y="471" width="364" height="28" rx="14" fill="#1F1224" stroke="#FB7185" stroke-width="1.2" />
+  <text x="648" y="489" text-anchor="middle" fill="#FDA4AF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" font-weight="700">
+    AUTO-REMEDIATION LOOP: Failed Check &#8594; Route Back to Phase 2 Owner
+  </text>
+
+  <!-- Outer Frame -->
+  <rect x="1" y="1" width="1198" height="518" rx="17" fill="none" stroke="#334155" stroke-width="1.5" />
+</svg>

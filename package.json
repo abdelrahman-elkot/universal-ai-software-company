@@ -1,0 +1,78 @@
+{
+  "name": "universal-ai-software-company",
+  "version": "2.0.0",
+  "description": "Universal AI Software Company OS — 11 Autonomous Department Lead Agents, 34 Core Engineering Skills & 5-Phase Pipeline for Claude Code, Cursor, Windsurf, Antigravity, OpenCode, Copilot, Cline, Roo Code, Aider, Gemini CLI & Codex",
+  "type": "module",
+  "bin": {
+    "universal-ai-software-company": "./bin/cli.mjs",
+    "uasc": "./bin/cli.mjs"
+  },
+  "scripts": {
+    "start": "node ./bin/cli.mjs",
+    "list": "node ./bin/cli.mjs --list",
+    "doctor": "node ./bin/cli.mjs --doctor"
+  },
+  "files": [
+    "bin/",
+    "AGENTS.md",
+    "CLAUDE.md",
+    "GEMINI.md",
+    "install.sh",
+    "install.ps1",
+    ".agents/",
+    ".claude/",
+    ".opencode/",
+    ".cursor/",
+    ".cursorrules",
+    ".windsurf/",
+    ".windsurfrules",
+    ".clinerules/",
+    ".roo/",
+    ".roorules",
+    ".github/",
+    ".codex/",
+    ".gemini/",
+    ".aider.conf.yml",
+    ".continue/",
+    ".rules",
+    ".trae/",
+    ".kilocode/",
+    ".goosehints"
+  ],
+  "keywords": [
+    "ai-agents",
+    "software-company",
+    "multi-agent",
+    "claude-code",
+    "cursor",
+    "windsurf",
+    "antigravity",
+    "opencode",
+    "github-copilot",
+    "cline",
+    "roo-code",
+    "gemini-cli",
+    "codex",
+    "aider",
+    "continue-dev",
+    "zed",
+    "trae",
+    "kilocode",
+    "goose",
+    "langgraph",
+    "mcp"
+  ],
+  "author": "Abdelrahman Elkot",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abdelrahman-elkot/universal-ai-software-company.git"
+  },
+  "homepage": "https://github.com/abdelrahman-elkot/universal-ai-software-company#readme",
+  "bugs": {
+    "url": "https://github.com/abdelrahman-elkot/universal-ai-software-company/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

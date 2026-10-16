@@ -1,0 +1,2412 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Universal AI Software Company OS — 11 Departments • 34 Skills • 5-Phase Pipeline</title>
+  <meta name="description" content="Turn Claude Code, Cursor, Windsurf, Google Antigravity, OpenCode, GitHub Copilot, and 10+ AI coding tools into One Cohesive 11-Department Engineering Team with 34 Core Technical Skills and a 5-Phase Zero-Collision Pipeline." />
+  <style>
+    /* ==========================================================================
+       DESIGN TOKEN SYSTEM (Dark Default + Light Theme + System Preference)
+       ========================================================================== */
+    :root {
+      --bg-primary: #090d16;
+      --bg-secondary: #0f172a;
+      --bg-elevated: rgba(30, 41, 59, 0.72);
+      --bg-card: rgba(15, 23, 42, 0.85);
+      --bg-code: #060911;
+      --text-primary: #f8fafc;
+      --text-secondary: #cbd5e1;
+      --text-muted: #94a3b8;
+      --border-subtle: rgba(148, 163, 184, 0.16);
+      --border-strong: rgba(99, 102, 241, 0.45);
+      --accent-indigo: #6366f1;
+      --accent-indigo-soft: rgba(99, 102, 241, 0.16);
+      --accent-cyan: #06b6d4;
+      --accent-cyan-soft: rgba(6, 182, 212, 0.16);
+      --accent-emerald: #10b981;
+      --accent-emerald-soft: rgba(16, 185, 129, 0.16);
+      --accent-amber: #f59e0b;
+      --accent-amber-soft: rgba(245, 158, 11, 0.16);
+      --accent-purple: #a855f7;
+      --accent-purple-soft: rgba(168, 85, 247, 0.16);
+      --accent-rose: #f43f5e;
+      --shadow-lg: 0 20px 45px -15px rgba(0, 0, 0, 0.6);
+      --shadow-glow: 0 0 32px rgba(99, 102, 241, 0.22);
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+      --font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace;
+      --container-max: 1260px;
+      --transition-fast: 160ms cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    [data-theme="light"] {
+      --bg-primary: #f8fafc;
+      --bg-secondary: #f1f5f9;
+      --bg-elevated: rgba(255, 255, 255, 0.88);
+      --bg-card: #ffffff;
+      --bg-code: #0f172a;
+      --text-primary: #0f172a;
+      --text-secondary: #334155;
+      --text-muted: #64748b;
+      --border-subtle: rgba(15, 23, 42, 0.12);
+      --border-strong: rgba(79, 70, 229, 0.45);
+      --accent-indigo: #4f46e5;
+      --accent-indigo-soft: rgba(79, 70, 229, 0.1);
+      --accent-cyan: #0891b2;
+      --accent-cyan-soft: rgba(8, 145, 178, 0.1);
+      --accent-emerald: #059669;
+      --accent-emerald-soft: rgba(5, 150, 105, 0.1);
+      --accent-amber: #d97706;
+      --accent-amber-soft: rgba(217, 119, 6, 0.12);
+      --accent-purple: #7e22ce;
+      --accent-purple-soft: rgba(126, 34, 206, 0.1);
+      --shadow-lg: 0 15px 35px -10px rgba(15, 23, 42, 0.08);
+      --shadow-glow: 0 0 24px rgba(79, 70, 229, 0.14);
+    }
+
+    @media (prefers-color-scheme: light) {
+      :root:not([data-theme="dark"]):not([data-theme="light"]) {
+        --bg-primary: #f8fafc;
+        --bg-secondary: #f1f5f9;
+        --bg-elevated: rgba(255, 255, 255, 0.88);
+        --bg-card: #ffffff;
+        --bg-code: #0f172a;
+        --text-primary: #0f172a;
+        --text-secondary: #334155;
+        --text-muted: #64748b;
+        --border-subtle: rgba(15, 23, 42, 0.12);
+        --border-strong: rgba(79, 70, 229, 0.45);
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-family: var(--font-sans);
+      background-color: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.6;
+    }
+
+    body {
+      background-color: var(--bg-primary);
+      background-image:
+        radial-gradient(circle at 15% 8%, rgba(99, 102, 241, 0.14), transparent 36%),
+        radial-gradient(circle at 85% 12%, rgba(6, 182, 212, 0.12), transparent 36%),
+        radial-gradient(circle at 50% 92%, rgba(16, 185, 129, 0.08), transparent 40%);
+      color: var(--text-primary);
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    a {
+      color: var(--accent-cyan);
+      text-decoration: none;
+      transition: color var(--transition-fast);
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    code, pre {
+      font-family: var(--font-mono);
+    }
+
+    .container {
+      width: 100%;
+      max-width: var(--container-max);
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    /* Skip Link for Accessibility */
+    .skip-link {
+      position: absolute;
+      top: -100px;
+      left: 1rem;
+      background: var(--accent-indigo);
+      color: #fff;
+      padding: 0.6rem 1rem;
+      border-radius: var(--radius-sm);
+      z-index: 999;
+      font-weight: 600;
+    }
+    .skip-link:focus {
+      top: 1rem;
+    }
+
+    /* ==========================================================================
+       STICKY GLASSMORPHIC HEADER & NAVIGATION
+       ========================================================================== */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      background: rgba(9, 13, 22, 0.8);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    [data-theme="light"] .site-header {
+      background: rgba(248, 250, 252, 0.86);
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      min-height: 68px;
+      flex-wrap: wrap;
+      padding: 0.5rem 0;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      font-weight: 800;
+      font-size: 1.05rem;
+      color: var(--text-primary);
+      text-decoration: none !important;
+    }
+
+    .brand-badge {
+      width: 36px;
+      height: 36px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, #6366f1, #06b6d4, #10b981);
+      display: grid;
+      place-items: center;
+      color: #ffffff;
+      font-family: var(--font-mono);
+      font-weight: 800;
+      font-size: 0.9rem;
+      box-shadow: 0 4px 14px rgba(99, 102, 241, 0.35);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+      flex-wrap: wrap;
+    }
+
+    .nav-link {
+      padding: 0.45rem 0.8rem;
+      border-radius: var(--radius-sm);
+      color: var(--text-secondary);
+      font-size: 0.88rem;
+      font-weight: 600;
+      text-decoration: none !important;
+      transition: all var(--transition-fast);
+    }
+
+    .nav-link:hover,
+    .nav-link:focus-visible {
+      color: var(--text-primary);
+      background: var(--accent-indigo-soft);
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+    }
+
+    .theme-toggle {
+      display: inline-flex;
+      align-items: center;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-subtle);
+      border-radius: 999px;
+      padding: 3px;
+    }
+
+    .theme-btn {
+      border: none;
+      background: transparent;
+      color: var(--text-muted);
+      font-size: 0.76rem;
+      font-weight: 600;
+      padding: 0.3rem 0.65rem;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: all var(--transition-fast);
+    }
+
+    .theme-btn[aria-checked="true"] {
+      background: var(--accent-indigo);
+      color: #ffffff;
+    }
+
+    .btn-github {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      padding: 0.45rem 0.9rem;
+      border-radius: var(--radius-sm);
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-subtle);
+      color: var(--text-primary);
+      font-size: 0.84rem;
+      font-weight: 600;
+      text-decoration: none !important;
+      transition: all var(--transition-fast);
+    }
+
+    .btn-github:hover {
+      border-color: var(--accent-indigo);
+      transform: translateY(-1px);
+    }
+
+    /* ==========================================================================
+       HERO SECTION
+       ========================================================================== */
+    .hero {
+      padding: 3.5rem 0 2.5rem;
+      text-align: center;
+    }
+
+    .hero-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
+      padding: 0.4rem 1rem;
+      border-radius: 999px;
+      background: var(--accent-indigo-soft);
+      border: 1px solid var(--border-strong);
+      color: var(--text-primary);
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      margin-bottom: 1.25rem;
+    }
+
+    .pulse-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent-emerald);
+      box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.25);
+    }
+
+    .hero h1 {
+      font-size: clamp(2.1rem, 4.5vw, 3.6rem);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      line-height: 1.12;
+      margin-bottom: 1rem;
+      background: linear-gradient(90deg, var(--text-primary) 0%, #818cf8 45%, #22d3ee 80%, #34d399 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .hero-subtitle {
+      max-width: 840px;
+      margin: 0 auto 1.75rem;
+      font-size: clamp(1rem, 1.8vw, 1.2rem);
+      color: var(--text-secondary);
+    }
+
+    .hero-cta-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.85rem;
+      flex-wrap: wrap;
+      margin-bottom: 2.5rem;
+    }
+
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.78rem 1.45rem;
+      border-radius: var(--radius-md);
+      background: linear-gradient(135deg, #4f46e5, #0891b2);
+      color: #ffffff !important;
+      font-weight: 700;
+      font-size: 0.95rem;
+      border: none;
+      cursor: pointer;
+      box-shadow: var(--shadow-glow);
+      text-decoration: none !important;
+      transition: all var(--transition-fast);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      filter: brightness(1.08);
+    }
+
+    .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.78rem 1.35rem;
+      border-radius: var(--radius-md);
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-subtle);
+      color: var(--text-primary) !important;
+      font-weight: 600;
+      font-size: 0.95rem;
+      cursor: pointer;
+      text-decoration: none !important;
+      transition: all var(--transition-fast);
+    }
+
+    .btn-secondary:hover {
+      border-color: var(--accent-cyan);
+      transform: translateY(-1px);
+    }
+
+    /* Metric Grid */
+    .metrics-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2.5rem;
+      text-align: left;
+    }
+
+    .metric-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 1.25rem 1.35rem;
+      box-shadow: var(--shadow-lg);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .metric-card::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--accent-indigo), var(--accent-cyan), var(--accent-emerald));
+    }
+
+    .metric-value {
+      font-size: 2rem;
+      font-weight: 800;
+      line-height: 1.1;
+      color: var(--text-primary);
+      display: flex;
+      align-items: baseline;
+      gap: 0.5rem;
+      margin-bottom: 0.35rem;
+    }
+
+    .metric-tag {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 0.15rem 0.5rem;
+      border-radius: 4px;
+      background: var(--accent-indigo-soft);
+      color: var(--accent-indigo);
+    }
+
+    .metric-label {
+      font-weight: 700;
+      font-size: 0.98rem;
+      color: var(--text-primary);
+    }
+
+    .metric-sub {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      margin-top: 0.2rem;
+    }
+
+    /* 2-Layer Architecture Callout */
+    .layer-split {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.2rem;
+      text-align: left;
+      margin-top: 1rem;
+    }
+
+    .layer-box {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 1.35rem;
+    }
+
+    .layer-badge {
+      display: inline-block;
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 0.2rem 0.55rem;
+      border-radius: 5px;
+      margin-bottom: 0.55rem;
+    }
+
+    .layer-badge.engine {
+      background: var(--accent-indigo-soft);
+      color: #818cf8;
+      border: 1px solid rgba(99, 102, 241, 0.35);
+    }
+
+    .layer-badge.context {
+      background: var(--accent-cyan-soft);
+      color: #22d3ee;
+      border: 1px solid rgba(6, 182, 212, 0.35);
+    }
+
+    /* ==========================================================================
+       SECTION LAYOUT COMMONS
+       ========================================================================== */
+    .section {
+      padding: 3.5rem 0;
+      border-top: 1px solid var(--border-subtle);
+    }
+
+    .section-header {
+      margin-bottom: 2rem;
+    }
+
+    .section-eyebrow {
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent-cyan);
+      margin-bottom: 0.4rem;
+    }
+
+    .section-title {
+      font-size: clamp(1.6rem, 3vw, 2.25rem);
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      color: var(--text-primary);
+      margin-bottom: 0.5rem;
+    }
+
+    .section-desc {
+      color: var(--text-secondary);
+      max-width: 780px;
+      font-size: 1rem;
+    }
+
+    /* ==========================================================================
+       1. INTERACTIVE SETUP & COMMAND GENERATOR
+       ========================================================================== */
+    .generator-shell {
+      background: var(--bg-card);
+      border: 1px solid var(--border-strong);
+      border-radius: var(--radius-lg);
+      padding: 1.75rem;
+      box-shadow: var(--shadow-lg);
+    }
+
+    .gen-controls-grid {
+      display: grid;
+      grid-template-columns: 1.3fr 1fr;
+      gap: 1.25rem;
+      margin-bottom: 1.5rem;
+    }
+
+    @media (max-width: 860px) {
+      .gen-controls-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .control-label {
+      display: block;
+      font-size: 0.82rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      margin-bottom: 0.55rem;
+    }
+
+    .os-tabs {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .os-tab {
+      flex: 1;
+      min-width: 145px;
+      padding: 0.65rem 0.9rem;
+      border-radius: var(--radius-sm);
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-subtle);
+      color: var(--text-secondary);
+      font-weight: 600;
+      font-size: 0.85rem;
+      cursor: pointer;
+      transition: all var(--transition-fast);
+      text-align: center;
+    }
+
+    .os-tab:hover {
+      border-color: var(--accent-indigo);
+      color: var(--text-primary);
+    }
+
+    .os-tab.active {
+      background: var(--accent-indigo-soft);
+      border-color: var(--accent-indigo);
+      color: var(--text-primary);
+      box-shadow: inset 0 0 0 1px var(--accent-indigo);
+    }
+
+    .target-dir-row {
+      display: flex;
+      gap: 0.65rem;
+      align-items: center;
+    }
+
+    .input-text {
+      width: 100%;
+      padding: 0.65rem 0.9rem;
+      border-radius: var(--radius-sm);
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-subtle);
+      color: var(--text-primary);
+      font-family: var(--font-mono);
+      font-size: 0.88rem;
+    }
+
+    .input-text:focus {
+      outline: 2px solid var(--accent-indigo);
+      border-color: transparent;
+    }
+
+    /* 16+ AI Tools Pill Grid */
+    .tools-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(168px, 1fr));
+      gap: 0.55rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .tool-chip {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.5rem;
+      padding: 0.6rem 0.85rem;
+      border-radius: var(--radius-sm);
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-subtle);
+      color: var(--text-secondary);
+      font-size: 0.84rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all var(--transition-fast);
+      text-align: left;
+    }
+
+    .tool-chip:hover {
+      border-color: var(--accent-cyan);
+      color: var(--text-primary);
+    }
+
+    .tool-chip[aria-pressed="true"] {
+      background: var(--accent-cyan-soft);
+      border-color: var(--accent-cyan);
+      color: var(--text-primary);
+      box-shadow: inset 0 0 0 1px var(--accent-cyan);
+    }
+
+    .tool-chip-flag {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      opacity: 0.75;
+    }
+
+    /* Terminal Output Box */
+    .terminal-card {
+      background: var(--bg-code);
+      border: 1px solid rgba(148, 163, 184, 0.25);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      margin-bottom: 1.25rem;
+    }
+
+    .terminal-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.6rem 1rem;
+      background: rgba(30, 41, 59, 0.65);
+      border-bottom: 1px solid rgba(148, 163, 184, 0.18);
+    }
+
+    .terminal-dots {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .terminal-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+    }
+
+    .terminal-title {
+      font-family: var(--font-mono);
+      font-size: 0.76rem;
+      color: #94a3b8;
+    }
+
+    .copy-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.35rem 0.75rem;
+      border-radius: 6px;
+      background: rgba(99, 102, 241, 0.2);
+      border: 1px solid rgba(99, 102, 241, 0.5);
+      color: #e0e7ff;
+      font-family: var(--font-mono);
+      font-size: 0.76rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all var(--transition-fast);
+    }
+
+    .copy-btn:hover {
+      background: rgba(99, 102, 241, 0.35);
+    }
+
+    .copy-btn.copied {
+      background: rgba(16, 185, 129, 0.25);
+      border-color: #10b981;
+      color: #6ee7b7;
+    }
+
+    .terminal-body {
+      padding: 1.15rem 1.25rem;
+      overflow-x: auto;
+      color: #e2e8f0;
+      font-family: var(--font-mono);
+      font-size: 0.9rem;
+      line-height: 1.65;
+      white-space: pre-wrap;
+      word-break: break-all;
+    }
+
+    /* Generated Files Manifest */
+    .manifest-panel {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 1.15rem 1.25rem;
+    }
+
+    .manifest-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 0.65rem;
+      margin-top: 0.75rem;
+      list-style: none;
+    }
+
+    .manifest-item {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-sm);
+      padding: 0.65rem 0.85rem;
+      font-size: 0.83rem;
+    }
+
+    .manifest-path {
+      font-family: var(--font-mono);
+      font-weight: 700;
+      color: var(--accent-cyan);
+      display: block;
+      margin-bottom: 0.2rem;
+    }
+
+    /* ==========================================================================
+       2. NEW USER 3-STEP ONBOARDING GUIDE
+       ========================================================================== */
+    .steps-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .step-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .step-num-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 0.5rem;
+    }
+
+    .step-number {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      background: var(--accent-indigo);
+      color: #fff;
+      font-weight: 800;
+      font-size: 0.95rem;
+      display: grid;
+      place-items: center;
+    }
+
+    .step-tag {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 0.2rem 0.6rem;
+      border-radius: 999px;
+      background: var(--accent-emerald-soft);
+      color: var(--accent-emerald);
+    }
+
+    .prompt-snippet {
+      background: var(--bg-code);
+      color: #e2e8f0;
+      border: 1px solid rgba(148, 163, 184, 0.22);
+      border-radius: var(--radius-sm);
+      padding: 0.85rem;
+      font-family: var(--font-mono);
+      font-size: 0.82rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+    }
+
+    /* ==========================================================================
+       3. INTERACTIVE 5-PHASE PIPELINE VISUALIZER
+       ========================================================================== */
+    .pipeline-tabs {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 0.65rem;
+      margin-bottom: 1.5rem;
+    }
+
+    @media (max-width: 900px) {
+      .pipeline-tabs {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .phase-tab {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 1rem;
+      text-align: left;
+      cursor: pointer;
+      transition: all var(--transition-fast);
+      color: var(--text-primary);
+    }
+
+    .phase-tab:hover {
+      border-color: var(--accent-indigo);
+      transform: translateY(-2px);
+    }
+
+    .phase-tab[aria-selected="true"] {
+      border-color: var(--accent-cyan);
+      background: var(--accent-cyan-soft);
+      box-shadow: inset 0 0 0 1px var(--accent-cyan);
+    }
+
+    .phase-step-badge {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      font-weight: 800;
+      color: var(--accent-cyan);
+      display: block;
+      margin-bottom: 0.25rem;
+    }
+
+    .phase-tab-title {
+      font-weight: 800;
+      font-size: 0.95rem;
+      margin-bottom: 0.2rem;
+    }
+
+    .phase-tab-sub {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+
+    .phase-detail-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-strong);
+      border-radius: var(--radius-lg);
+      padding: 1.75rem;
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 1.5rem;
+      margin-bottom: 1.75rem;
+    }
+
+    @media (max-width: 860px) {
+      .phase-detail-card {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .detail-list {
+      list-style: none;
+      display: grid;
+      gap: 0.55rem;
+      margin-top: 0.6rem;
+    }
+
+    .detail-list li {
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      display: flex;
+      align-items: flex-start;
+      gap: 0.5rem;
+    }
+
+    .detail-list li::before {
+      content: "→";
+      color: var(--accent-cyan);
+      font-family: var(--font-mono);
+      font-weight: 700;
+    }
+
+    .diagram-preview {
+      margin-top: 1.25rem;
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      border: 1px solid var(--border-subtle);
+      background: #090d16;
+    }
+
+    .diagram-preview img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* ==========================================================================
+       4. INTERACTIVE 11 DEPARTMENT LEAD EXPLORER
+       ========================================================================== */
+    .dept-explorer-layout {
+      display: grid;
+      grid-template-columns: 1.15fr 1fr;
+      gap: 1.5rem;
+      align-items: start;
+    }
+
+    @media (max-width: 960px) {
+      .dept-explorer-layout {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .dept-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(215px, 1fr));
+      gap: 0.75rem;
+    }
+
+    .dept-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 1rem;
+      text-align: left;
+      cursor: pointer;
+      color: var(--text-primary);
+      transition: all var(--transition-fast);
+    }
+
+    .dept-card:hover {
+      border-color: var(--accent-indigo);
+      transform: translateY(-2px);
+    }
+
+    .dept-card[aria-selected="true"] {
+      border-color: var(--accent-indigo);
+      background: var(--accent-indigo-soft);
+      box-shadow: inset 0 0 0 1px var(--accent-indigo);
+    }
+
+    .dept-num {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      font-weight: 800;
+      color: var(--accent-indigo);
+      display: inline-block;
+      padding: 0.12rem 0.45rem;
+      border-radius: 4px;
+      background: rgba(99, 102, 241, 0.14);
+      margin-bottom: 0.45rem;
+    }
+
+    .dept-id {
+      font-family: var(--font-mono);
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      word-break: break-word;
+      margin-bottom: 0.25rem;
+    }
+
+    .dept-role {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      line-height: 1.4;
+    }
+
+    .dept-inspector {
+      position: sticky;
+      top: 88px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-strong);
+      border-radius: var(--radius-lg);
+      padding: 1.6rem;
+      box-shadow: var(--shadow-lg);
+    }
+
+    .inspector-paths {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin: 0.5rem 0 1.1rem;
+    }
+
+    .path-pill {
+      font-family: var(--font-mono);
+      font-size: 0.76rem;
+      padding: 0.2rem 0.55rem;
+      border-radius: 5px;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-subtle);
+      color: var(--accent-cyan);
+    }
+
+    .skill-link-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.35rem 0.7rem;
+      border-radius: 6px;
+      background: var(--accent-emerald-soft);
+      border: 1px solid rgba(16, 185, 129, 0.35);
+      color: var(--text-primary);
+      font-family: var(--font-mono);
+      font-size: 0.76rem;
+      font-weight: 600;
+      cursor: pointer;
+      margin: 0.25rem 0.35rem 0.25rem 0;
+      transition: all var(--transition-fast);
+    }
+
+    .skill-link-btn:hover {
+      border-color: var(--accent-emerald);
+      transform: translateY(-1px);
+    }
+
+    /* ==========================================================================
+       5. INTERACTIVE 34 SKILLS SEARCH & FILTER
+       ========================================================================== */
+    .skills-toolbar {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .search-row {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .search-input-wrap {
+      flex: 1;
+      min-width: 260px;
+      position: relative;
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 0.8rem 1rem;
+      border-radius: var(--radius-md);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      color: var(--text-primary);
+      font-size: 0.95rem;
+    }
+
+    .search-input:focus {
+      outline: 2px solid var(--accent-cyan);
+      border-color: transparent;
+    }
+
+    .filter-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.45rem;
+    }
+
+    .filter-pill {
+      padding: 0.4rem 0.8rem;
+      border-radius: 999px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      color: var(--text-secondary);
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all var(--transition-fast);
+    }
+
+    .filter-pill:hover {
+      border-color: var(--accent-indigo);
+      color: var(--text-primary);
+    }
+
+    .filter-pill[aria-pressed="true"] {
+      background: var(--accent-indigo);
+      border-color: var(--accent-indigo);
+      color: #ffffff;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1rem;
+    }
+
+    .skill-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 0.85rem;
+      transition: all var(--transition-fast);
+    }
+
+    .skill-card:hover {
+      border-color: var(--accent-cyan);
+      transform: translateY(-2px);
+    }
+
+    .skill-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.5rem;
+      margin-bottom: 0.35rem;
+    }
+
+    .skill-dept-tag {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 0.15rem 0.5rem;
+      border-radius: 4px;
+      background: var(--accent-indigo-soft);
+      color: var(--accent-indigo);
+    }
+
+    .skill-name {
+      font-family: var(--font-mono);
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 0.3rem;
+    }
+
+    .skill-desc {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+    }
+
+    .skill-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.5rem;
+      padding-top: 0.65rem;
+      border-top: 1px solid var(--border-subtle);
+      font-family: var(--font-mono);
+      font-size: 0.74rem;
+      color: var(--text-muted);
+    }
+
+    /* Footer */
+    .site-footer {
+      border-top: 1px solid var(--border-subtle);
+      padding: 2.5rem 0;
+      margin-top: 2rem;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.88rem;
+    }
+  </style>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ==================== STICKY HEADER ==================== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="brand">
+        <span class="brand-badge" aria-hidden="true">OS</span>
+        <span>Universal AI Software Company</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary Navigation">
+        <a href="#setup" class="nav-link">1-Click Installer</a>
+        <a href="#onboarding" class="nav-link">3-Step Onboarding</a>
+        <a href="#pipeline" class="nav-link">5-Phase Pipeline</a>
+        <a href="#departments" class="nav-link">11 Departments</a>
+        <a href="#skills" class="nav-link">34 Core Skills</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="theme-toggle" role="radiogroup" aria-label="Color theme switcher">
+          <button type="button" class="theme-btn" data-theme-opt="dark" role="radio" aria-checked="true">Dark</button>
+          <button type="button" class="theme-btn" data-theme-opt="light" role="radio" aria-checked="false">Light</button>
+          <button type="button" class="theme-btn" data-theme-opt="system" role="radio" aria-checked="false">System</button>
+        </div>
+        <a href="https://github.com/abdelrahman-elkot/universal-ai-software-company" target="_blank" rel="noopener noreferrer" class="btn-github">
+          <span>GitHub Repo</span>
+          <span aria-hidden="true">&#8599;</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero container">
+      <div class="hero-pill">
+        <span class="pulse-dot" aria-hidden="true"></span>
+        <span>OPEN-SOURCE MULTI-AGENT OPERATING SYSTEM &#8226; MIT LICENSE</span>
+      </div>
+      <h1>Universal AI Software Company OS</h1>
+      <p class="hero-subtitle">
+        Turn <strong>Claude Code</strong>, <strong>Cursor</strong>, <strong>Windsurf</strong>, <strong>Google Antigravity</strong>, <strong>OpenCode</strong>, <strong>GitHub Copilot</strong> &amp; 10+ AI tools into <strong>One Cohesive 11-Department Engineering Team</strong> with zero prompt bloat and zero file collisions.
+      </p>
+
+      <div class="hero-cta-row">
+        <a href="#setup" class="btn-primary">Generate Install Command &#8594;</a>
+        <a href="QUICKSTART.md" class="btn-secondary">5-Minute Quickstart</a>
+        <a href="IDE_SETUP_GUIDE.md" class="btn-secondary">16+ IDE &amp; CLI Setup Guide</a>
+      </div>
+
+      <!-- 4 Key Metric Cards -->
+      <div class="metrics-grid">
+        <article class="metric-card">
+          <div class="metric-value">
+            <span>11</span>
+            <span class="metric-tag">SUBAGENTS</span>
+          </div>
+          <div class="metric-label">Department Lead Agents</div>
+          <p class="metric-sub">CEO, Product, CTO, Backend, Frontend, AI Router, LangGraph, Security, QA, DevOps &amp; DevRel</p>
+        </article>
+
+        <article class="metric-card">
+          <div class="metric-value">
+            <span>34</span>
+            <span class="metric-tag">SKILL.MD</span>
+          </div>
+          <div class="metric-label">Core Technical Skills</div>
+          <p class="metric-sub">Strictly scoped 2&#8211;4 skills per department &#8212; zero HR or non-coding prompt bloat</p>
+        </article>
+
+        <article class="metric-card">
+          <div class="metric-value">
+            <span>5-Phase</span>
+            <span class="metric-tag">PIPELINE</span>
+          </div>
+          <div class="metric-label">Zero-Collision Execution</div>
+          <p class="metric-sub">Contract Lock &#8594; Parallel Build &#8594; Security Gate &#8594; 5-Stage QA &#8594; DevOps &amp; Docs</p>
+        </article>
+
+        <article class="metric-card">
+          <div class="metric-value">
+            <span>16+</span>
+            <span class="metric-tag">IDEs &amp; CLIs</span>
+          </div>
+          <div class="metric-label">AI Coding Tools Supported</div>
+          <p class="metric-sub">1-command installer via npx, macOS/Linux bash, or Windows PowerShell</p>
+        </article>
+      </div>
+
+      <!-- 2-Layer Separation Callout -->
+      <div class="layer-split">
+        <div class="layer-box">
+          <span class="layer-badge engine">LAYER 1 &#8226; 100% PROJECT-AGNOSTIC ENGINE</span>
+          <h3>Universal Company Operating System (<code>AGENTS.md</code> + <code>.agents/</code>)</h3>
+          <p style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 0.35rem;">
+            All 11 Department Lead Subagents and 34 Core Technical Skills are reusable across any programming language, framework, or cloud provider without modification.
+          </p>
+        </div>
+        <div class="layer-box">
+          <span class="layer-badge context">LAYER 2 &#8226; SINGLE SOURCE OF PROJECT TRUTH</span>
+          <h3>Active Project Identity Card (<code>.agents/rules/project-context.md</code>)</h3>
+          <p style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 0.35rem;">
+            The <strong>only</strong> file that stores your repository's tech stack, PRD, security invariants, and non-overlapping folder ownership &#8212; auto-populated by your CEO &amp; CTO agents on first run!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 1. INTERACTIVE SETUP & COMMAND GENERATOR ==================== -->
+    <section id="setup" class="section container">
+      <div class="section-header">
+        <div class="section-eyebrow">Interactive Command Builder</div>
+        <h2 class="section-title">1-Command Setup &amp; Native Adapter Generator</h2>
+        <p class="section-desc">
+          Select your preferred installation shell and click one or more AI coding tools below to generate the exact copy-paste installation command and preview every native file created in your project.
+        </p>
+      </div>
+
+      <div class="generator-shell">
+        <div class="gen-controls-grid">
+          <div>
+            <span class="control-label">1. Select Installation Method / OS</span>
+            <div class="os-tabs" role="tablist" aria-label="Installation method">
+              <button type="button" class="os-tab active" data-os="npx" role="tab" aria-selected="true">npx (Cross-Platform)</button>
+              <button type="button" class="os-tab" data-os="bash" role="tab" aria-selected="false">macOS / Linux / Git Bash</button>
+              <button type="button" class="os-tab" data-os="ps1" role="tab" aria-selected="false">Windows PowerShell</button>
+            </div>
+          </div>
+
+          <div>
+            <label for="target-dir-input" class="control-label">2. Target Project Directory</label>
+            <div class="target-dir-row">
+              <input id="target-dir-input" type="text" class="input-text" value="." aria-label="Target project directory path" />
+            </div>
+          </div>
+        </div>
+
+        <span class="control-label">3. Select AI Coding Tools (Click "All 16+ Tools" or pick individual tools)</span>
+        <div id="tools-grid" class="tools-grid" role="group" aria-label="Supported AI Coding Tools">
+          <!-- Populated dynamically by JS -->
+        </div>
+
+        <!-- Generated Command Output -->
+        <div class="terminal-card">
+          <div class="terminal-bar">
+            <div class="terminal-dots" aria-hidden="true">
+              <span class="terminal-dot" style="background:#ef4444;"></span>
+              <span class="terminal-dot" style="background:#f59e0b;"></span>
+              <span class="terminal-dot" style="background:#10b981;"></span>
+              <span id="terminal-os-label" class="terminal-title" style="margin-left:8px;">Terminal — npx Cross-Platform Installer</span>
+            </div>
+            <button type="button" id="copy-install-btn" class="copy-btn">Copy Command</button>
+          </div>
+          <pre id="install-command-output" class="terminal-body"></pre>
+        </div>
+
+        <!-- Generated Native Files Manifest -->
+        <div class="manifest-panel">
+          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem;">
+            <strong style="font-size:0.92rem;">Generated Native Files &amp; Directories (<span id="manifest-count">0</span> items)</strong>
+            <span style="font-family:var(--font-mono); font-size:0.78rem; color:var(--text-muted);">Verify anytime with: <code>npx github:abdelrahman-elkot/universal-ai-software-company . --doctor</code></span>
+          </div>
+          <ul id="manifest-list" class="manifest-list"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 2. NEW USER 3-STEP ONBOARDING GUIDE ==================== -->
+    <section id="onboarding" class="section container">
+      <div class="section-header">
+        <div class="section-eyebrow">New User Walkthrough</div>
+        <h2 class="section-title">From Zero to a 11-Department AI Team in 3 Steps</h2>
+        <p class="section-desc">
+          No manual configuration files to write by hand. Install the engine once, let the CEO and CTO agents inspect your repository, and start shipping features through the 5-Phase Pipeline.
+        </p>
+      </div>
+
+      <div class="steps-grid">
+        <!-- Step 1 -->
+        <article class="step-card">
+          <div>
+            <div class="step-num-row">
+              <span class="step-number">1</span>
+              <span class="step-tag">30 SECONDS</span>
+            </div>
+            <h3 style="margin-bottom:0.4rem;">Install the Universal Engine</h3>
+            <p style="color:var(--text-secondary); font-size:0.9rem;">
+              Run the 1-command installer inside any new or existing repository (TypeScript, Python, Go, Rust, Next.js, FastAPI, Cloudflare Workers, etc.).
+            </p>
+          </div>
+          <div class="prompt-snippet">
+            <code id="step1-code">npx github:abdelrahman-elkot/universal-ai-software-company . --agent all</code>
+            <button type="button" class="copy-btn" data-copy-target="step1-code">Copy</button>
+          </div>
+        </article>
+
+        <!-- Step 2 -->
+        <article class="step-card">
+          <div>
+            <div class="step-num-row">
+              <span class="step-number">2</span>
+              <span class="step-tag">AUTO-ONBOARDING</span>
+            </div>
+            <h3 style="margin-bottom:0.4rem;">Initialize Project Context</h3>
+            <p style="color:var(--text-secondary); font-size:0.9rem;">
+              Open your AI coding tool and type this exact prompt. <code>ceo-executive-orchestrator</code> and <code>cto-cloud-architect</code> will inspect your repo and populate <code>.agents/rules/project-context.md</code> automatically.
+            </p>
+          </div>
+          <div class="prompt-snippet">
+            <code id="step2-code">Initialize project context</code>
+            <button type="button" class="copy-btn" data-copy-target="step2-code">Copy</button>
+          </div>
+        </article>
+
+        <!-- Step 3 -->
+        <article class="step-card">
+          <div>
+            <div class="step-num-row">
+              <span class="step-number">3</span>
+              <span class="step-tag">5-PHASE PIPELINE</span>
+            </div>
+            <h3 style="margin-bottom:0.4rem;">Build Features with Zero Collisions</h3>
+            <p style="color:var(--text-secondary); font-size:0.9rem;">
+              Describe any feature or milestone. Your AI assistant automatically routes each phase to the owning department leads and enforces Security &amp; 5-Stage QA gates before completion.
+            </p>
+          </div>
+          <div class="prompt-snippet">
+            <code id="step3-code">Run the 5-Phase Company Pipeline to design, build, audit, and test [your feature].</code>
+            <button type="button" class="copy-btn" data-copy-target="step3-code">Copy</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ==================== 3. INTERACTIVE 5-PHASE PIPELINE VISUALIZER ==================== -->
+    <section id="pipeline" class="section container">
+      <div class="section-header">
+        <div class="section-eyebrow">Deterministic Governance</div>
+        <h2 class="section-title">Interactive 5-Phase Execution Pipeline</h2>
+        <p class="section-desc">
+          Click any phase below to inspect its active Department Leads, input contracts, non-overlapping folder boundaries, quality gates, and handoff artifacts.
+        </p>
+      </div>
+
+      <div id="pipeline-tabs" class="pipeline-tabs" role="tablist" aria-label="5-Phase Execution Pipeline">
+        <!-- Populated by JS -->
+      </div>
+
+      <div id="phase-detail-panel" class="phase-detail-card" role="tabpanel" aria-live="polite">
+        <!-- Populated by JS -->
+      </div>
+
+      <div class="diagram-preview">
+        <img src="../assets/pipeline-diagram.svg" width="1200" height="520" alt="2-Layer Architecture and 5-Phase Zero-Collision Execution Pipeline Diagram" loading="lazy" />
+      </div>
+    </section>
+
+    <!-- ==================== 4. INTERACTIVE 11 DEPARTMENT LEAD EXPLORER ==================== -->
+    <section id="departments" class="section container">
+      <div class="section-header">
+        <div class="section-eyebrow">Organizational Topology</div>
+        <h2 class="section-title">Interactive 11 Department Lead Explorer</h2>
+        <p class="section-desc">
+          Select any Department Lead card on the left to inspect its mission, default owned codebase paths, assigned technical skills, and copyable starter prompts.
+        </p>
+      </div>
+
+      <div class="dept-explorer-layout">
+        <div id="dept-grid" class="dept-grid" role="listbox" aria-label="11 Department Leads">
+          <!-- Populated by JS -->
+        </div>
+
+        <aside id="dept-inspector" class="dept-inspector" aria-live="polite">
+          <!-- Populated by JS -->
+        </aside>
+      </div>
+    </section>
+
+    <!-- ==================== 5. INTERACTIVE 34 SKILLS SEARCH & FILTER ==================== -->
+    <section id="skills" class="section container">
+      <div class="section-header">
+        <div class="section-eyebrow">Razor-Sharp Engineering Capabilities</div>
+        <h2 class="section-title">34 Core Technical Skills Directory</h2>
+        <p class="section-desc">
+          Search across all 34 production engineering skills (press <kbd style="padding:2px 6px; border-radius:4px; border:1px solid var(--border-subtle); font-family:var(--font-mono); font-size:0.82rem;">/</kbd> to focus) or filter by department category.
+        </p>
+      </div>
+
+      <div class="skills-toolbar">
+        <div class="search-row">
+          <div class="search-input-wrap">
+            <input id="skill-search-input" type="search" class="search-input" placeholder="Search 34 skills by name, technology (e.g. LangGraph, Cloudflare, CWE, Playwright, Stripe, FinOps)..." aria-label="Search 34 core technical skills" />
+          </div>
+          <div style="font-family:var(--font-mono); font-size:0.85rem; color:var(--text-muted);">
+            Showing <strong id="skill-count-num" style="color:var(--text-primary);">34</strong> of 34 skills
+          </div>
+        </div>
+
+        <div id="skill-filter-pills" class="filter-pills" role="group" aria-label="Filter skills by department category">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+
+      <div id="skills-grid" class="skills-grid">
+        <!-- Populated by JS -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        <strong>Universal AI Software Company OS</strong> &#8226; Released under the MIT License &#8226;
+        <a href="https://github.com/abdelrahman-elkot/universal-ai-software-company" target="_blank" rel="noopener noreferrer">GitHub Repository</a> &#8226;
+        <a href="QUICKSTART.md">Quickstart Guide</a> &#8226;
+        <a href="IDE_SETUP_GUIDE.md">IDE &amp; CLI Setup Guide</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- ==================== INTERACTIVE PORTAL APPLICATION SCRIPT ==================== -->
+  <script>
+    (function () {
+      'use strict';
+
+      /* ----------------------------------------------------------------------
+         1. DATA: 16+ SUPPORTED AI CODING TOOLS
+         ---------------------------------------------------------------------- */
+      const AI_TOOLS = [
+        {
+          id: 'all',
+          name: 'All 16+ Tools',
+          flag: 'all',
+          files: [
+            { path: 'AGENTS.md & .agents/rules/project-context.md', desc: 'Universal Company OS & Single Project Identity Card' },
+            { path: '.agents/skills/*/SKILL.md (34 Skills)', desc: 'All 34 Core Technical Skills shared across tools' },
+            { path: '.claude/agents/ & CLAUDE.md', desc: 'Native Claude Code subagents, skills & root instructions' },
+            { path: '.cursor/rules/software-company.mdc', desc: 'Always-on Cursor rule & .cursorrules adapter' },
+            { path: '.windsurf/rules/ & .windsurfrules', desc: 'Native Windsurf Cascade workspace rules' },
+            { path: '.agents/agents/ & .agents/plugins/', desc: 'Google Antigravity 11 subagents & plugin bundle' },
+            { path: '.opencode/agent/*.md', desc: '11 native OpenCode subagents (mode: subagent)' },
+            { path: '.github/copilot-instructions.md & .github/agents/', desc: 'GitHub Copilot instructions & custom agents' },
+            { path: '.clinerules/, .roo/, .kilocode/, .trae/, .continue/', desc: 'Native rule directories for Cline, Roo Code, Kilo Code, Trae & Continue.dev' },
+            { path: 'GEMINI.md, .aider.conf.yml, .rules, .goosehints', desc: 'Native adapters for Gemini CLI, Codex CLI, Aider, Zed AI & Block Goose' }
+          ]
+        },
+        {
+          id: 'claude',
+          name: 'Claude Code',
+          flag: 'claude',
+          files: [
+            { path: 'CLAUDE.md', desc: 'Root instructions importing @AGENTS.md and @.agents/rules/project-context.md' },
+            { path: '.claude/agents/*.md (11 Agents)', desc: '11 native Claude Code subagents invoked via /agents or natural prompt' },
+            { path: '.claude/skills/*/SKILL.md (34 Skills)', desc: '34 native Claude Code engineering skills' },
+            { path: '.agents/rules/project-context.md', desc: 'Single Source of Project Truth auto-populated on first run' }
+          ]
+        },
+        {
+          id: 'cursor',
+          name: 'Cursor',
+          flag: 'cursor',
+          files: [
+            { path: '.cursor/rules/software-company.mdc', desc: 'Always-on (alwaysApply: true) Cursor rule with 11-department routing matrix' },
+            { path: '.cursorrules & AGENTS.md', desc: 'Root multi-agent operating system instructions' },
+            { path: '.agents/rules/project-context.md', desc: 'Single Source of Project Truth' },
+            { path: '.agents/skills/*/SKILL.md', desc: '34 Core Technical Skills loaded on demand' }
+          ]
+        },
+        {
+          id: 'windsurf',
+          name: 'Windsurf',
+          flag: 'windsurf',
+          files: [
+            { path: '.windsurf/rules/software-company.md', desc: 'Native Windsurf Cascade workspace rule' },
+            { path: '.windsurfrules & AGENTS.md', desc: 'Root Windsurf rules and company operating system' },
+            { path: '.agents/rules/project-context.md', desc: 'Single Source of Project Truth' },
+            { path: '.agents/skills/*/SKILL.md', desc: '34 Core Technical Skills' }
+          ]
+        },
+        {
+          id: 'antigravity',
+          name: 'Google Antigravity',
+          flag: 'antigravity',
+          files: [
+            { path: '.agents/agents/*.md (11 Subagents)', desc: 'Native invoke_subagent definitions for all 11 Department Leads' },
+            { path: '.agents/plugins/software-company-team/', desc: 'Portable Antigravity plugin bundle (plugin.json)' },
+            { path: 'AGENTS.md & GEMINI.md', desc: 'Workspace root instructions' },
+            { path: '.agents/rules/project-context.md & .agents/skills/', desc: 'Active Project Context + 34 Priority #1 Workspace Skills' }
+          ]
+        },
+        {
+          id: 'opencode',
+          name: 'OpenCode',
+          flag: 'opencode',
+          files: [
+            { path: '.opencode/agent/*.md (11 Subagents)', desc: 'Native OpenCode subagents configured with mode: subagent (@agent)' },
+            { path: 'AGENTS.md', desc: 'Root dispatcher automatically read by OpenCode' },
+            { path: '.agents/rules/project-context.md & .agents/skills/', desc: 'Active Project Context + 34 Core Technical Skills' }
+          ]
+        },
+        {
+          id: 'copilot',
+          name: 'GitHub Copilot',
+          flag: 'copilot',
+          files: [
+            { path: '.github/copilot-instructions.md', desc: 'Repository-wide GitHub Copilot custom instructions' },
+            { path: '.github/agents/*.agent.md', desc: '11 custom GitHub Copilot agent definitions' },
+            { path: 'AGENTS.md & .agents/rules/project-context.md', desc: 'Company OS & Single Project Identity Card' },
+            { path: '.agents/skills/*/SKILL.md', desc: '34 Core Technical Skills' }
+          ]
+        },
+        {
+          id: 'cline',
+          name: 'Cline',
+          flag: 'cline',
+          files: [
+            { path: '.clinerules/software-company.md', desc: 'Native Cline workspace rule directory file' },
+            { path: 'AGENTS.md & .agents/rules/project-context.md', desc: 'Company OS & Single Project Identity Card' },
+            { path: '.agents/skills/*/SKILL.md', desc: '34 Core Technical Skills' }
+          ]
+        },
+        {
+          id: 'roo',
+          name: 'Roo Code',
+          flag: 'roo',
+          files: [
+            { path: '.roo/rules/software-company.md & .roorules', desc: 'Workspace-wide Roo Code rules' },
+            { path: 'AGENTS.md & .agents/rules/project-context.md', desc: 'Company OS & Single Project Identity Card' },
+            { path: '.agents/skills/*/SKILL.md', desc: '34 Core Technical Skills for Boomerang/Orchestrator modes' }
+          ]
+        },
+        {
+          id: 'aider',
+          name: 'Aider',
+          flag: 'aider',
+          files: [
+            { path: '.aider.conf.yml', desc: 'Pre-configured to auto-load AGENTS.md and .agents/rules/project-context.md' },
+            { path: 'AGENTS.md & .agents/rules/project-context.md', desc: 'Read-only architectural context & guardrails' },
+            { path: '.agents/skills/*/SKILL.md', desc: '34 Core Technical Skills loadable via /read' }
+          ]
+        },
+        {
+          id: 'gemini',
+          name: 'Gemini CLI',
+          flag: 'gemini',
+          files: [
+            { path: 'GEMINI.md & .gemini/', desc: 'Root context file automatically ingested by Google Gemini CLI' },
+            { path: 'AGENTS.md & .agents/rules/project-context.md', desc: 'Company OS & Single Project Identity Card' },
+            { path: '.agents/skills/*/SKILL.md', desc: '34 Core Technical Skills' }
+          ]
+        },
+        {
+          id: 'codex',
+          name: 'OpenAI Codex',
+          flag: 'codex',
+          files: [
+            { path: 'AGENTS.md & .codex/', desc: 'Native root instruction file automatically discovered by OpenAI Codex CLI' },
+            { path: '.agents/rules/project-context.md', desc: 'Single Source of Project Truth' },
+            { path: '.agents/skills/*/SKILL.md', desc: '34 Core Technical Skills' }
+          ]
+        },
+        {
+          id: 'continue',
+          name: 'Continue.dev',
+          flag: 'continue',
+          files: [
+            { path: '.continue/rules/software-company.md', desc: 'Workspace rule automatically injected into Continue system prompt' },
+            { path: 'AGENTS.md & .agents/rules/project-context.md', desc: 'Company OS & Single Project Identity Card' },
+            { path: '.agents/skills/*/SKILL.md', desc: '34 Core Technical Skills' }
+          ]
+        },
+        {
+          id: 'zed',
+          name: 'Zed AI',
+          flag: 'zed',
+          files: [
+            { path: '.rules & AGENTS.md', desc: 'Root rule files automatically recognized by Zed AI Assistant' },
+            { path: '.agents/rules/project-context.md', desc: 'Single Source of Project Truth' },
+            { path: '.agents/skills/*/SKILL.md', desc: '34 Core Technical Skills' }
+          ]
+        },
+        {
+          id: 'trae',
+          name: 'Trae',
+          flag: 'trae',
+          files: [
+            { path: '.trae/rules/project_rules.md', desc: 'Native Trae IDE project rules file' },
+            { path: 'AGENTS.md & .agents/rules/project-context.md', desc: 'Company OS & Single Project Identity Card' },
+            { path: '.agents/skills/*/SKILL.md', desc: '34 Core Technical Skills' }
+          ]
+        },
+        {
+          id: 'kilocode',
+          name: 'Kilo Code',
+          flag: 'kilocode',
+          files: [
+            { path: '.kilocode/rules/software-company.md', desc: 'Native Kilo Code workspace rules & custom modes' },
+            { path: 'AGENTS.md & .agents/rules/project-context.md', desc: 'Company OS & Single Project Identity Card' },
+            { path: '.agents/skills/*/SKILL.md', desc: '34 Core Technical Skills' }
+          ]
+        },
+        {
+          id: 'goose',
+          name: 'Goose',
+          flag: 'goose',
+          files: [
+            { path: '.goosehints', desc: 'Native Block Goose context hints pointing to AGENTS.md and project-context.md' },
+            { path: 'AGENTS.md & .agents/rules/project-context.md', desc: 'Company OS & Single Project Identity Card' },
+            { path: '.agents/skills/*/SKILL.md', desc: '34 Core Technical Skills' }
+          ]
+        }
+      ];
+
+      /* ----------------------------------------------------------------------
+         2. DATA: 5-PHASE EXECUTION PIPELINE
+         ---------------------------------------------------------------------- */
+      const PIPELINE_PHASES = [
+        {
+          num: 1,
+          badge: 'PHASE 1 • LOCK',
+          title: 'Product & Architecture Lock',
+          short: 'Specs, API contracts & folder boundaries',
+          agents: ['Dept 1: ceo-executive-orchestrator', 'Dept 2: product-pmo-lead', 'Dept 3: cto-cloud-architect'],
+          summary: 'Before any implementation code is written, Product and CTO read .agents/rules/project-context.md, decompose the requirement into atomic tasks, and lock shared TypeScript/Python interfaces and database schemas.',
+          inputs: [
+            'User feature request or milestone specification',
+            '.agents/rules/project-context.md (Tech stack, guardrails & folder map)'
+          ],
+          gates: [
+            'Shared interfaces locked in src/types/ or src/contracts/',
+            'Non-overlapping file ownership assigned for Phase 2 engineers',
+            'Unit-economics & FinOps budget constraints verified'
+          ],
+          artifacts: ['specs/task-plan.md', 'src/types/index.ts', '.agents/rules/project-context.md'],
+          prompt: 'Run Phase 1 (Product & Architecture Lock): Have product-pmo-lead and cto-cloud-architect read .agents/rules/project-context.md, decompose this feature into atomic tasks, and lock shared interfaces in src/types/ before coding begins.'
+        },
+        {
+          num: 2,
+          badge: 'PHASE 2 • PARALLEL BUILD',
+          title: 'Parallel Engineering Build',
+          short: '4 concurrent tracks, zero file collisions',
+          agents: [
+            'Dept 4: backend-data-engineer',
+            'Dept 5: frontend-ux-engineer',
+            'Dept 6: ai-agentic-engineer',
+            'Dept 7: ai-ml-langchain-automation-lead'
+          ],
+          summary: 'Four specialized engineering departments build concurrently inside strictly non-overlapping directories using the contracts locked in Phase 1 — eliminating merge conflicts and race conditions.',
+          inputs: [
+            'Locked API/schema contracts from Phase 1 (src/types/)',
+            'Department-specific acceptance criteria from specs/'
+          ],
+          gates: [
+            'Zero edits outside each department’s owned directory paths',
+            'Full adherence to runtime, database, and UI accessibility guardrails',
+            'Clean local module compilation prior to Security & QA handoff'
+          ],
+          artifacts: ['src/backend/ & migrations/', 'src/ui/ & public/', 'src/router/ & src/eval/', 'src/graphs/ & src/mcp/'],
+          prompt: 'Run Phase 2 (Parallel Engineering Build): Dispatch backend-data-engineer, frontend-ux-engineer, ai-agentic-engineer, and ai-ml-langchain-automation-lead in parallel with strict non-overlapping file ownership.'
+        },
+        {
+          num: 3,
+          badge: 'PHASE 3 • SECURITY GATE',
+          title: 'Mandatory Security & Crypto Audit',
+          short: 'Encryption, auth, SSRF & CWE review',
+          agents: ['Dept 8: security-privacy-lead'],
+          summary: 'The CISO & AppSec Lead audits all Phase 2 code changes against project-context.md security invariants and OWASP/CWE standards before QA release testing.',
+          inputs: [
+            'All Phase 2 implementation diffs across backend, frontend, and AI modules',
+            'Security invariants defined in .agents/rules/project-context.md'
+          ],
+          gates: [
+            'AES-256-GCM encryption & SHA-256 API key hashing verified',
+            'JWT/Session authentication, RBAC & tenant isolation verified',
+            'SSRF guards, SQL parameterization & prompt-injection shields verified'
+          ],
+          artifacts: ['Security Audit Verdict (CWE-mapped)', 'src/security/ & src/auth/ patches'],
+          prompt: 'Run Phase 3 (Security & Crypto Audit): Have security-privacy-lead audit all changes against .agents/rules/project-context.md for auth, encryption, SSRF, and CWE compliance.'
+        },
+        {
+          num: 4,
+          badge: 'PHASE 4 • 5-STAGE QA GATE',
+          title: '5-Stage QA & Reality-Checker Gate',
+          short: 'Typecheck, Unit, API, E2E & Certification',
+          agents: ['Dept 9: qa-release-lead'],
+          summary: 'Executes the mandatory 5-Stage Release Gate with real terminal command output. Defaults to "NEEDS WORK" until overwhelming evidence proves production readiness. Any failure automatically routes back to the owning Phase 2 engineer.',
+          inputs: [
+            'Security-cleared codebase from Phase 3',
+            'Acceptance criteria from Phase 1'
+          ],
+          gates: [
+            'Stage 1 & 2: Strict Typecheck + Unit & Boundary Edge-Case Suite',
+            'Stage 3 & 4: API Contract Suite + UI/E2E Playwright & Accessibility',
+            'Stage 5: Evidence-based Reality-Checker Certification (or auto-route back to Phase 2)'
+          ],
+          artifacts: ['tests/ & e2e/ suites', '5-Stage Release Gate Certification Report'],
+          prompt: 'Run Phase 4 (5-Stage QA & Reality-Checker Gate): Have qa-release-lead run typecheck, unit tests, API contract tests, and E2E checks, and provide a Reality-Checker certification report.'
+        },
+        {
+          num: 5,
+          badge: 'PHASE 5 • SHIP & DOCS',
+          title: 'DevOps & Developer Docs Sync',
+          short: 'CI/CD, migrations, FinOps & SDK docs',
+          agents: ['Dept 10: devops-sre-lead', 'Dept 11: gtm-business-ops-lead'],
+          summary: 'Synchronizes deployment manifests, database migrations, CI/CD pipelines, FinOps cost monitors, API reference documentation, and README quickstarts.',
+          inputs: [
+            'QA-certified and Security-approved release candidate',
+            'Updated API contracts and environment requirements'
+          ],
+          gates: [
+            'Zero-downtime migration & deployment configs validated',
+            'FinOps cloud/API cost guardrails and SLO alerts configured',
+            'README.md, API docs, and SDK examples updated in sync with code'
+          ],
+          artifacts: ['.github/workflows/, Dockerfile, scripts/', 'docs/, README.md, examples/'],
+          prompt: 'Run Phase 5 (DevOps & Developer Docs Sync): Have devops-sre-lead verify deployment/migration configs and gtm-business-ops-lead sync README and developer documentation.'
+        }
+      ];
+
+      /* ----------------------------------------------------------------------
+         3. DATA: 11 DEPARTMENT LEAD SUBAGENTS
+         ---------------------------------------------------------------------- */
+      const DEPARTMENTS = [
+        {
+          num: 1,
+          id: 'ceo-executive-orchestrator',
+          role: 'CEO, Chief of Staff & Autonomous Pipeline Orchestrator',
+          trigger: 'Multi-department milestones, full-project builds, master plan alignment, unit-economics checks',
+          paths: ['Workspace-wide coordination', '.agents/rules/project-context.md'],
+          skills: ['agency-ceo-founder-visionary', 'agency-agents-orchestrator', 'agency-master-plan-architect'],
+          prompt: 'Act as ceo-executive-orchestrator: Inspect our repository, initialize .agents/rules/project-context.md, and orchestrate the 5-Phase Company Pipeline for our next milestone.'
+        },
+        {
+          num: 2,
+          id: 'product-pmo-lead',
+          role: 'VP of Product, Technical Program Manager & DX Lead',
+          trigger: 'Spec-to-task breakdown, sprint backlog, acceptance criteria, UX/DX & onboarding flows',
+          paths: ['specs/', 'docs/prd/'],
+          skills: ['agency-product-manager', 'agency-senior-project-manager', 'agency-dx-engineer'],
+          prompt: 'Act as product-pmo-lead: Decompose our feature specification into atomic engineering tasks with clear acceptance criteria and frictionless developer onboarding flows.'
+        },
+        {
+          num: 3,
+          id: 'cto-cloud-architect',
+          role: 'CTO, Principal System Architect & Cloud/Edge Architect',
+          trigger: 'System architecture, shared TypeScript/API contracts, cloud/edge/database design, FinOps guardrails',
+          paths: ['src/types/', 'src/contracts/', '.agents/rules/project-context.md'],
+          skills: ['agency-cto-vp-engineering', 'agency-cloudflare-edge-architect', 'agency-software-architect'],
+          prompt: 'Act as cto-cloud-architect: Lock the shared TypeScript/API interfaces in src/types/, define database schema boundaries, and verify FinOps guardrails.'
+        },
+        {
+          num: 4,
+          id: 'backend-data-engineer',
+          role: 'Principal Backend, API Gateway, Database, Streaming Data & Billing Engineer',
+          trigger: 'Server/Edge API routes, stateful coordinators, SQL schemas & migrations, streaming storage, queues, billing ledgers',
+          paths: ['src/worker/', 'src/backend/', 'src/api/', 'src/do/', 'src/db/', 'src/storage/', 'src/queues/', 'migrations/'],
+          skills: ['agency-backend-architect', 'agency-database-optimizer', 'agency-data-engineer', 'agency-payments-billing-engineer'],
+          prompt: 'Act as backend-data-engineer: Implement the backend API endpoints, parameterized SQL queries, migrations, and idempotent billing webhook handlers.'
+        },
+        {
+          num: 5,
+          id: 'frontend-ux-engineer',
+          role: 'Principal Frontend, UI/UX Systems & Client-Media Engineer',
+          trigger: 'Web/SPA UI, CSS/design systems, client-side state, instant file previews, client calculators & media pipelines',
+          paths: ['src/ui/', 'src/client/', 'src/components/', 'src/media/', 'public/', 'index.html'],
+          skills: ['agency-frontend-developer', 'agency-ux-architect', 'agency-ui-designer'],
+          prompt: 'Act as frontend-ux-engineer: Build a responsive, WCAG AA accessible UI with design tokens, light/dark/system theme support, and Core Web Vitals optimization.'
+        },
+        {
+          num: 6,
+          id: 'ai-agentic-engineer',
+          role: 'Principal AI Systems, Smart Model Router, Search Grounding/RAG & Evaluation Engineer',
+          trigger: 'Multi-provider LLM routers, routing policies, AI execution modes, web/scholarly search grounding, LLM-as-a-Judge evals',
+          paths: ['src/router/', 'src/modes/', 'src/search/', 'src/eval/'],
+          skills: ['agency-multi-agent-systems-architect', 'agency-rag-pipeline-engineer', 'agency-prompt-engineer'],
+          prompt: 'Act as ai-agentic-engineer: Implement a multi-provider LLM router with fallback policies, hybrid RAG re-ranking, and an LLM-as-a-Judge evaluation harness.'
+        },
+        {
+          num: 7,
+          id: 'ai-ml-langchain-automation-lead',
+          role: 'Principal AI/ML, LangChain, LangGraph & Agentic Automation Engineer',
+          trigger: 'LangGraph (StateGraph, Send map-reduce, checkpointers, interrupt() HITL), LangChain LCEL, CrewAI/AutoGen/DSPy, MCP servers',
+          paths: ['src/agents/', 'src/graphs/', 'src/workflows/', 'src/mcp/', 'sdk/'],
+          skills: ['agency-langchain-langgraph-automation-engineer', 'agency-ai-engineer', 'agency-mcp-builder'],
+          prompt: 'Act as ai-ml-langchain-automation-lead: Build a stateful LangGraph StateGraph workflow with checkpointing, human-in-the-loop interrupt(), and custom MCP tools.'
+        },
+        {
+          num: 8,
+          id: 'security-privacy-lead',
+          role: 'CISO, AppSec, Cryptography & Privacy Lead',
+          trigger: 'Encryption (AES-256-GCM), API key hashing (SHA-256), JWT/session auth, SSRF shield, prompt-injection gates, CWE audit',
+          paths: ['src/security/', 'src/crypto/', 'src/auth/', 'Cross-PR Security Gate'],
+          skills: ['agency-security-architect', 'agency-application-security-engineer', 'agency-ai-generated-code-security-auditor'],
+          prompt: 'Act as security-privacy-lead: Audit our authentication, encryption, SQL parameterization, SSRF guards, and prompt-injection shields, mapping any findings to CWE IDs.'
+        },
+        {
+          num: 9,
+          id: 'qa-release-lead',
+          role: 'Director of QA, Test Automation & Release Gatekeeper',
+          trigger: 'Unit tests, API contract tests, E2E Playwright/Vitest tests, edge-case validation, 5-Stage Release Gate & Reality-Checker',
+          paths: ['tests/', 'e2e/', 'vitest.config.ts', 'playwright.config.ts'],
+          skills: ['agency-qa-release-gate-manager', 'agency-api-tester', 'agency-test-automation-engineer', 'agency-reality-checker'],
+          prompt: 'Act as qa-release-lead: Execute the 5-Stage Release Gate (Typecheck, Unit, API Contract, E2E Playwright, and Reality-Checker certification) with real command output.'
+        },
+        {
+          num: 10,
+          id: 'devops-sre-lead',
+          role: 'Lead DevOps, CI/CD, SRE & FinOps Engineer',
+          trigger: 'Cloud/Edge deployment configs, DB migrations, storage lifecycle rules, queue bindings, CI/CD, SLO & FinOps monitoring',
+          paths: ['wrangler.toml', 'Dockerfile', '.github/workflows/', 'scripts/', 'package.json', 'tsconfig.json'],
+          skills: ['agency-devops-automator', 'agency-sre-site-reliability-engineer', 'agency-finops-engineer'],
+          prompt: 'Act as devops-sre-lead: Configure our CI/CD workflows, zero-downtime database migrations, SLO error-budget alerts, and FinOps cost guardrails.'
+        },
+        {
+          num: 11,
+          id: 'gtm-business-ops-lead',
+          role: 'VP of Developer Relations (DevRel), Technical Documentation & Pricing/Unit Economics',
+          trigger: 'Developer documentation, SDK drop-in guides, API references, README, SaaS pricing models & unit economics',
+          paths: ['docs/', 'README.md', 'examples/'],
+          skills: ['agency-technical-writer', 'agency-pricing-analyst'],
+          prompt: 'Act as gtm-business-ops-lead: Write crystal-clear developer documentation, copy-paste SDK quickstarts, and validate our SaaS tier unit-economics margins.'
+        }
+      ];
+
+      /* ----------------------------------------------------------------------
+         4. DATA: ALL 34 CORE TECHNICAL SKILLS
+         ---------------------------------------------------------------------- */
+      const SKILLS = [
+        // Dept 1 (3)
+        { id: 'agency-ceo-founder-visionary', path: '.agents/skills/executive-ceo-founder/SKILL.md', dept: 1, category: 'Executive & Strategy', desc: 'Guards company mission, unit economics, user value proposition, and final executive trade-off decisions across all departments.' },
+        { id: 'agency-agents-orchestrator', path: '.agents/skills/agents-orchestrator/SKILL.md', dept: 1, category: 'Executive & Strategy', desc: 'Autonomous pipeline manager that coordinates the 5-Phase development workflow and enforces quality gates.' },
+        { id: 'agency-master-plan-architect', path: '.agents/skills/specialized-master-plan-architect/SKILL.md', dept: 1, category: 'Executive & Strategy', desc: 'Master planning architect and red-team critic who crafts comprehensive implementation plans and risk analyses.' },
+
+        // Dept 2 (3)
+        { id: 'agency-product-manager', path: '.agents/skills/product-manager/SKILL.md', dept: 2, category: 'Product & DX', desc: 'Owns product discovery, PRD specifications, roadmap prioritization, acceptance criteria, and outcome measurement.' },
+        { id: 'agency-senior-project-manager', path: '.agents/skills/project-manager-senior/SKILL.md', dept: 2, category: 'Product & DX', desc: 'Converts specifications into atomic, realistic engineering tasks with strict scope enforcement and dependency tracking.' },
+        { id: 'agency-dx-engineer', path: '.agents/skills/product-dx-engineer/SKILL.md', dept: 2, category: 'Product & DX', desc: 'Removes friction between developers and their first success — CLI ergonomics, onboarding flows, and actionable error messages.' },
+
+        // Dept 3 (3)
+        { id: 'agency-cto-vp-engineering', path: '.agents/skills/engineering-cto-vp/SKILL.md', dept: 3, category: 'Architecture & Cloud', desc: 'Owns technical strategy, architectural coherence across stack layers, engineering standards, and FinOps governance.' },
+        { id: 'agency-cloudflare-edge-architect', path: '.agents/skills/engineering-cloudflare-edge-architect/SKILL.md', dept: 3, category: 'Architecture & Cloud', desc: 'Designs serverless edge systems using Cloudflare Workers, Durable Objects, D1 SQLite, R2 streaming, Queues, and WebCrypto.' },
+        { id: 'agency-software-architect', path: '.agents/skills/engineering-software-architect/SKILL.md', dept: 3, category: 'Architecture & Cloud', desc: 'Leads domain-driven design, system topology, shared API contract definitions, and scalable architectural patterns.' },
+
+        // Dept 4 (4)
+        { id: 'agency-backend-architect', path: '.agents/skills/engineering-backend-architect/SKILL.md', dept: 4, category: 'Backend & Data', desc: 'Designs and builds high-throughput server/edge APIs, microservices, stateful coordinators, and resilient backend workflows.' },
+        { id: 'agency-database-optimizer', path: '.agents/skills/engineering-database-optimizer/SKILL.md', dept: 4, category: 'Backend & Data', desc: 'Specializes in SQL schema design, indexing strategies, query execution plans, and zero-downtime migrations.' },
+        { id: 'agency-data-engineer', path: '.agents/skills/engineering-data-engineer/SKILL.md', dept: 4, category: 'Backend & Data', desc: 'Builds streaming data pipelines, ETL/ELT workflows, queue consumers, and analytics-ready storage architectures.' },
+        { id: 'agency-payments-billing-engineer', path: '.agents/skills/engineering-payments-billing-engineer/SKILL.md', dept: 4, category: 'Backend & Data', desc: 'Implements PSP integrations (Stripe, Adyen, PayPal), idempotent webhooks, usage ledgers, and subscription reconciliation.' },
+
+        // Dept 5 (3)
+        { id: 'agency-frontend-developer', path: '.agents/skills/engineering-frontend-developer/SKILL.md', dept: 5, category: 'Frontend & Design', desc: 'Builds responsive, accessible modern web applications with Core Web Vitals optimization and clean state management.' },
+        { id: 'agency-ux-architect', path: '.agents/skills/design-ux-architect/SKILL.md', dept: 5, category: 'Frontend & Design', desc: 'Establishes CSS design token systems, responsive grid architectures, information hierarchy, and light/dark/system theming.' },
+        { id: 'agency-ui-designer', path: '.agents/skills/design-ui-designer/SKILL.md', dept: 5, category: 'Frontend & Design', desc: 'Creates pixel-perfect component libraries, visual hierarchies, micro-interactions, and WCAG AA accessible interfaces.' },
+
+        // Dept 6 (3)
+        { id: 'agency-multi-agent-systems-architect', path: '.agents/skills/engineering-multi-agent-systems-architect/SKILL.md', dept: 6, category: 'AI Systems & RAG', desc: 'Designs multi-agent topologies, model routers, context handoffs, failure recovery, and human-in-the-loop governance.' },
+        { id: 'agency-rag-pipeline-engineer', path: '.agents/skills/engineering-rag-pipeline-engineer/SKILL.md', dept: 6, category: 'AI Systems & RAG', desc: 'Builds production RAG systems with semantic chunking, hybrid vector/BM25 search, cross-encoder re-ranking, and grounding evals.' },
+        { id: 'agency-prompt-engineer', path: '.agents/skills/engineering-prompt-engineer/SKILL.md', dept: 6, category: 'AI Systems & RAG', desc: 'Crafts, tests, and systematically optimizes structured system prompts, few-shot templates, and LLM-as-a-Judge rubrics.' },
+
+        // Dept 7 (3)
+        { id: 'agency-langchain-langgraph-automation-engineer', path: '.agents/skills/engineering-langchain-langgraph-automation/SKILL.md', dept: 7, category: 'LangGraph & AI/ML', desc: 'Builds stateful LangGraph StateGraphs, Send map-reduce swarms, checkpointers, interrupt() HITL workflows, and LCEL pipelines.' },
+        { id: 'agency-ai-engineer', path: '.agents/skills/engineering-ai-engineer/SKILL.md', dept: 7, category: 'LangGraph & AI/ML', desc: 'Implements production LLM/ML pipelines, CrewAI/AutoGen/DSPy workflows, model fine-tuning, and MLOps telemetry.' },
+        { id: 'agency-mcp-builder', path: '.agents/skills/specialized-mcp-builder/SKILL.md', dept: 7, category: 'LangGraph & AI/ML', desc: 'Designs, builds, and tests Model Context Protocol (MCP) servers with typed tools, resources, and secure transport.' },
+
+        // Dept 8 (3)
+        { id: 'agency-security-architect', path: '.agents/skills/security-architect/SKILL.md', dept: 8, category: 'Security & AppSec', desc: 'Leads threat modeling, zero-trust boundary analysis, cryptographic architecture (AES-256-GCM, SHA-256), and defense-in-depth.' },
+        { id: 'agency-application-security-engineer', path: '.agents/skills/security-appsec-engineer/SKILL.md', dept: 8, category: 'Security & AppSec', desc: 'Secures the SDLC through secure code review, auth/RBAC enforcement, SSRF & injection prevention, and SAST/DAST gates.' },
+        { id: 'agency-ai-generated-code-security-auditor', path: '.agents/skills/security-ai-generated-code-auditor/SKILL.md', dept: 8, category: 'Security & AppSec', desc: 'Hunts hardcoded secrets, broken tenant isolation, and prompt-injection sinks in AI-written code with CWE-mapped audits.' },
+
+        // Dept 9 (4)
+        { id: 'agency-qa-release-gate-manager', path: '.agents/skills/testing-release-gate-manager/SKILL.md', dept: 9, category: 'QA & Release Gates', desc: 'Coordinates the 5-Stage Release Gate across Typecheck, Unit, API, E2E, Accessibility, Security, and FinOps before release.' },
+        { id: 'agency-api-tester', path: '.agents/skills/testing-api-tester/SKILL.md', dept: 9, category: 'QA & Release Gates', desc: 'Validates REST/GraphQL/RPC contracts, auth boundaries, rate limits, idempotency, and error payloads.' },
+        { id: 'agency-test-automation-engineer', path: '.agents/skills/testing-test-automation-engineer/SKILL.md', dept: 9, category: 'QA & Release Gates', desc: 'Builds deterministic Vitest and Playwright E2E test suites with resilient selectors and CI parallelization.' },
+        { id: 'agency-reality-checker', path: '.agents/skills/testing-reality-checker/SKILL.md', dept: 9, category: 'QA & Release Gates', desc: 'Stops unverified approvals by defaulting to "NEEDS WORK" until real command output proves every requirement passes.' },
+
+        // Dept 10 (3)
+        { id: 'agency-devops-automator', path: '.agents/skills/engineering-devops-automator/SKILL.md', dept: 10, category: 'DevOps, SRE & FinOps', desc: 'Automates CI/CD pipelines, Docker/cloud deployments, infrastructure-as-code, and zero-downtime release workflows.' },
+        { id: 'agency-sre-site-reliability-engineer', path: '.agents/skills/engineering-sre/SKILL.md', dept: 10, category: 'DevOps, SRE & FinOps', desc: 'Defines SLOs, error budgets, structured observability, incident runbooks, and chaos/resilience testing.' },
+        { id: 'agency-finops-engineer', path: '.agents/skills/engineering-finops-engineer/SKILL.md', dept: 10, category: 'DevOps, SRE & FinOps', desc: 'Optimizes cloud compute, storage egress, and LLM token spend with unit-economics dashboards and budget guardrails.' },
+
+        // Dept 11 (2)
+        { id: 'agency-technical-writer', path: '.agents/skills/engineering-technical-writer/SKILL.md', dept: 11, category: 'DevRel & Pricing', desc: 'Authors crystal-clear READMEs, architecture guides, API references, and copy-pasteable SDK tutorials.' },
+        { id: 'agency-pricing-analyst', path: '.agents/skills/specialized-pricing-analyst/SKILL.md', dept: 11, category: 'DevRel & Pricing', desc: 'Models SaaS tier packaging, usage-based unit economics, gross margin guardrails, and competitive pricing strategies.' }
+      ];
+
+      /* ----------------------------------------------------------------------
+         5. THEME SWITCHER LOGIC (Dark / Light / System)
+         ---------------------------------------------------------------------- */
+      const themeButtons = document.querySelectorAll('.theme-btn');
+      function setTheme(mode) {
+        if (mode === 'system') {
+          const isLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+          document.documentElement.setAttribute('data-theme', isLight ? 'light' : 'dark');
+        } else {
+          document.documentElement.setAttribute('data-theme', mode);
+        }
+        themeButtons.forEach((btn) => {
+          btn.setAttribute('aria-checked', String(btn.dataset.themeOpt === mode));
+        });
+        try {
+          localStorage.setItem('uasc-theme', mode);
+        } catch (_) {}
+      }
+
+      themeButtons.forEach((btn) => {
+        btn.addEventListener('click', () => setTheme(btn.dataset.themeOpt));
+      });
+
+      try {
+        const savedTheme = localStorage.getItem('uasc-theme');
+        if (savedTheme) setTheme(savedTheme);
+      } catch (_) {}
+
+      /* ----------------------------------------------------------------------
+         6. CLIPBOARD HELPER
+         ---------------------------------------------------------------------- */
+      function copyTextToClipboard(text, btnElement) {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(text).catch(() => {});
+        } else {
+          const ta = document.createElement('textarea');
+          ta.value = text;
+          document.body.appendChild(ta);
+          ta.select();
+          document.execCommand('copy');
+          document.body.removeChild(ta);
+        }
+        if (btnElement) {
+          const original = btnElement.textContent;
+          btnElement.textContent = 'Copied ✓';
+          btnElement.classList.add('copied');
+          setTimeout(() => {
+            btnElement.textContent = original;
+            btnElement.classList.remove('copied');
+          }, 1800);
+        }
+      }
+
+      document.querySelectorAll('[data-copy-target]').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const targetId = btn.getAttribute('data-copy-target');
+          const el = document.getElementById(targetId);
+          if (el) copyTextToClipboard(el.textContent.trim(), btn);
+        });
+      });
+
+      /* ----------------------------------------------------------------------
+         7. INTERACTIVE SETUP & COMMAND GENERATOR
+         ---------------------------------------------------------------------- */
+      let currentOS = 'npx';
+      let selectedTools = new Set(['all']);
+
+      const toolsGridEl = document.getElementById('tools-grid');
+      const targetDirInput = document.getElementById('target-dir-input');
+      const commandOutputEl = document.getElementById('install-command-output');
+      const terminalOsLabelEl = document.getElementById('terminal-os-label');
+      const manifestListEl = document.getElementById('manifest-list');
+      const manifestCountEl = document.getElementById('manifest-count');
+      const copyInstallBtn = document.getElementById('copy-install-btn');
+
+      function renderToolChips() {
+        toolsGridEl.innerHTML = '';
+        AI_TOOLS.forEach((tool) => {
+          const isSelected = selectedTools.has(tool.id);
+          const btn = document.createElement('button');
+          btn.type = 'button';
+          btn.className = 'tool-chip';
+          btn.setAttribute('aria-pressed', String(isSelected));
+          btn.innerHTML =
+            '<span>' + tool.name + '</span>' +
+            '<span class="tool-chip-flag">--' + tool.flag + '</span>';
+
+          btn.addEventListener('click', () => {
+            if (tool.id === 'all') {
+              selectedTools.clear();
+              selectedTools.add('all');
+            } else {
+              selectedTools.delete('all');
+              if (selectedTools.has(tool.id)) {
+                selectedTools.delete(tool.id);
+                if (selectedTools.size === 0) selectedTools.add('all');
+              } else {
+                selectedTools.add(tool.id);
+              }
+            }
+            renderToolChips();
+            updateInstallOutput();
+          });
+          toolsGridEl.appendChild(btn);
+        });
+      }
+
+      function updateInstallOutput() {
+        const dir = (targetDirInput.value || '.').trim();
+        const activeFlags = Array.from(selectedTools);
+        const lines = [];
+
+        if (currentOS === 'npx') {
+          terminalOsLabelEl.textContent = 'Terminal — npx Cross-Platform Installer (Node.js 18+)';
+          activeFlags.forEach((flag) => {
+            lines.push('npx github:abdelrahman-elkot/universal-ai-software-company ' + dir + ' --agent ' + flag);
+          });
+        } else if (currentOS === 'bash') {
+          terminalOsLabelEl.textContent = 'Terminal — macOS / Linux / Git Bash (install.sh)';
+          lines.push('git clone https://github.com/abdelrahman-elkot/universal-ai-software-company.git');
+          activeFlags.forEach((flag) => {
+            lines.push('./universal-ai-software-company/install.sh "' + dir + '" ' + flag);
+          });
+        } else {
+          terminalOsLabelEl.textContent = 'Terminal — Windows PowerShell (install.ps1)';
+          lines.push('git clone https://github.com/abdelrahman-elkot/universal-ai-software-company.git');
+          activeFlags.forEach((flag) => {
+            lines.push('.\\universal-ai-software-company\\install.ps1 -TargetDir "' + dir + '" -Agent ' + flag);
+          });
+        }
+
+        commandOutputEl.textContent = lines.join('\n');
+
+        // Build deduplicated manifest
+        const seenPaths = new Set();
+        const manifestItems = [];
+        AI_TOOLS.forEach((tool) => {
+          if (selectedTools.has(tool.id)) {
+            tool.files.forEach((f) => {
+              if (!seenPaths.has(f.path)) {
+                seenPaths.add(f.path);
+                manifestItems.push(f);
+              }
+            });
+          }
+        });
+
+        manifestCountEl.textContent = String(manifestItems.length);
+        manifestListEl.innerHTML = manifestItems
+          .map(
+            (item) =>
+              '<li class="manifest-item">' +
+              '<span class="manifest-path">' + item.path + '</span>' +
+              '<span style="color:var(--text-secondary);">' + item.desc + '</span>' +
+              '</li>'
+          )
+          .join('');
+      }
+
+      document.querySelectorAll('.os-tab').forEach((tab) => {
+        tab.addEventListener('click', () => {
+          document.querySelectorAll('.os-tab').forEach((t) => {
+            t.classList.remove('active');
+            t.setAttribute('aria-selected', 'false');
+          });
+          tab.classList.add('active');
+          tab.setAttribute('aria-selected', 'true');
+          currentOS = tab.dataset.os;
+          if (currentOS === 'npx' && (targetDirInput.value === '/path/to/your-project' || targetDirInput.value === 'C:\\path\\to\\your-project')) {
+            targetDirInput.value = '.';
+          } else if (currentOS === 'bash' && (targetDirInput.value === '.' || targetDirInput.value === 'C:\\path\\to\\your-project')) {
+            targetDirInput.value = '/path/to/your-project';
+          } else if (currentOS === 'ps1' && (targetDirInput.value === '.' || targetDirInput.value === '/path/to/your-project')) {
+            targetDirInput.value = 'C:\\path\\to\\your-project';
+          }
+          updateInstallOutput();
+        });
+      });
+
+      targetDirInput.addEventListener('input', updateInstallOutput);
+      copyInstallBtn.addEventListener('click', () => {
+        copyTextToClipboard(commandOutputEl.textContent, copyInstallBtn);
+      });
+
+      renderToolChips();
+      updateInstallOutput();
+
+      /* ----------------------------------------------------------------------
+         8. INTERACTIVE 5-PHASE PIPELINE VISUALIZER
+         ---------------------------------------------------------------------- */
+      let activePhaseIndex = 0;
+      const pipelineTabsEl = document.getElementById('pipeline-tabs');
+      const phaseDetailPanelEl = document.getElementById('phase-detail-panel');
+
+      function renderPipeline() {
+        pipelineTabsEl.innerHTML = '';
+        PIPELINE_PHASES.forEach((p, idx) => {
+          const btn = document.createElement('button');
+          btn.type = 'button';
+          btn.className = 'phase-tab';
+          btn.setAttribute('role', 'tab');
+          btn.setAttribute('aria-selected', String(idx === activePhaseIndex));
+          btn.innerHTML =
+            '<span class="phase-step-badge">' + p.badge + '</span>' +
+            '<div class="phase-tab-title">' + p.title + '</div>' +
+            '<div class="phase-tab-sub">' + p.short + '</div>';
+          btn.addEventListener('click', () => {
+            activePhaseIndex = idx;
+            renderPipeline();
+          });
+          pipelineTabsEl.appendChild(btn);
+        });
+
+        const phase = PIPELINE_PHASES[activePhaseIndex];
+        phaseDetailPanelEl.innerHTML =
+          '<div>' +
+            '<span class="phase-step-badge">' + phase.badge + '</span>' +
+            '<h3 style="font-size:1.35rem; margin-bottom:0.5rem;">' + phase.title + '</h3>' +
+            '<p style="color:var(--text-secondary); font-size:0.93rem; margin-bottom:1rem;">' + phase.summary + '</p>' +
+            '<strong style="font-size:0.82rem; text-transform:uppercase; color:var(--text-muted);">Active Department Leads</strong>' +
+            '<div class="inspector-paths">' +
+              phase.agents.map((a) => '<span class="path-pill">' + a + '</span>').join('') +
+            '</div>' +
+            '<strong style="font-size:0.82rem; text-transform:uppercase; color:var(--text-muted);">Handoff Artifacts &amp; Owned Paths</strong>' +
+            '<div class="inspector-paths">' +
+              phase.artifacts.map((art) => '<span class="path-pill" style="color:var(--accent-emerald);">' + art + '</span>').join('') +
+            '</div>' +
+          '</div>' +
+          '<div style="display:flex; flex-direction:column; justify-content:space-between; gap:1rem;">' +
+            '<div>' +
+              '<strong style="font-size:0.82rem; text-transform:uppercase; color:var(--text-muted);">Required Inputs</strong>' +
+              '<ul class="detail-list" style="margin-bottom:1rem;">' +
+                phase.inputs.map((inp) => '<li>' + inp + '</li>').join('') +
+              '</ul>' +
+              '<strong style="font-size:0.82rem; text-transform:uppercase; color:var(--text-muted);">Mandatory Quality Gates</strong>' +
+              '<ul class="detail-list">' +
+                phase.gates.map((g) => '<li>' + g + '</li>').join('') +
+              '</ul>' +
+            '</div>' +
+            '<div class="prompt-snippet">' +
+              '<code id="phase-prompt-code">' + phase.prompt + '</code>' +
+              '<button type="button" id="copy-phase-prompt-btn" class="copy-btn">Copy Prompt</button>' +
+            '</div>' +
+          '</div>';
+
+        const copyPhaseBtn = document.getElementById('copy-phase-prompt-btn');
+        if (copyPhaseBtn) {
+          copyPhaseBtn.addEventListener('click', () => {
+            copyTextToClipboard(phase.prompt, copyPhaseBtn);
+          });
+        }
+      }
+
+      renderPipeline();
+
+      /* ----------------------------------------------------------------------
+         9. INTERACTIVE 11 DEPARTMENT LEAD EXPLORER
+         ---------------------------------------------------------------------- */
+      let activeDeptIndex = 0;
+      const deptGridEl = document.getElementById('dept-grid');
+      const deptInspectorEl = document.getElementById('dept-inspector');
+
+      function renderDepartments() {
+        deptGridEl.innerHTML = '';
+        DEPARTMENTS.forEach((d, idx) => {
+          const card = document.createElement('button');
+          card.type = 'button';
+          card.className = 'dept-card';
+          card.setAttribute('role', 'option');
+          card.setAttribute('aria-selected', String(idx === activeDeptIndex));
+          card.innerHTML =
+            '<span class="dept-num">DEPT ' + d.num + '</span>' +
+            '<div class="dept-id">' + d.id + '</div>' +
+            '<div class="dept-role">' + d.role + '</div>';
+          card.addEventListener('click', () => {
+            activeDeptIndex = idx;
+            renderDepartments();
+          });
+          deptGridEl.appendChild(card);
+        });
+
+        const dept = DEPARTMENTS[activeDeptIndex];
+        deptInspectorEl.innerHTML =
+          '<span class="dept-num">DEPARTMENT ' + dept.num + ' OF 11</span>' +
+          '<h3 style="font-family:var(--font-mono); font-size:1.25rem; margin-bottom:0.25rem;">' + dept.id + '</h3>' +
+          '<p style="font-weight:700; color:var(--accent-cyan); font-size:0.95rem; margin-bottom:0.85rem;">' + dept.role + '</p>' +
+          '<strong style="font-size:0.78rem; text-transform:uppercase; color:var(--text-muted);">Automatic Routing Trigger Intent</strong>' +
+          '<p style="color:var(--text-secondary); font-size:0.9rem; margin:0.3rem 0 1rem;">' + dept.trigger + '</p>' +
+          '<strong style="font-size:0.78rem; text-transform:uppercase; color:var(--text-muted);">Default Owned Codebase Paths (Overridable in project-context.md)</strong>' +
+          '<div class="inspector-paths">' +
+            dept.paths.map((p) => '<span class="path-pill">' + p + '</span>').join('') +
+          '</div>' +
+          '<strong style="font-size:0.78rem; text-transform:uppercase; color:var(--text-muted); display:block; margin-bottom:0.35rem;">Assigned Core Technical Skills (' + dept.skills.length + ')</strong>' +
+          '<div style="margin-bottom:1.2rem;">' +
+            dept.skills.map((s) => '<button type="button" class="skill-link-btn" data-jump-skill="' + s + '">' + s + ' &#8594;</button>').join('') +
+          '</div>' +
+          '<strong style="font-size:0.78rem; text-transform:uppercase; color:var(--text-muted); display:block; margin-bottom:0.4rem;">Copy-Paste Starter Prompt</strong>' +
+          '<div class="prompt-snippet">' +
+            '<code>' + dept.prompt + '</code>' +
+            '<button type="button" id="copy-dept-prompt-btn" class="copy-btn">Copy</button>' +
+          '</div>';
+
+        const copyDeptBtn = document.getElementById('copy-dept-prompt-btn');
+        if (copyDeptBtn) {
+          copyDeptBtn.addEventListener('click', () => {
+            copyTextToClipboard(dept.prompt, copyDeptBtn);
+          });
+        }
+
+        deptInspectorEl.querySelectorAll('[data-jump-skill]').forEach((btn) => {
+          btn.addEventListener('click', () => {
+            const skillId = btn.getAttribute('data-jump-skill');
+            skillSearchInput.value = skillId;
+            activeSkillCategory = 'All';
+            renderSkillFilters();
+            renderSkills();
+            document.getElementById('skills').scrollIntoView({ behavior: 'smooth' });
+          });
+        });
+      }
+
+      renderDepartments();
+
+      /* ----------------------------------------------------------------------
+         10. INTERACTIVE 34 SKILLS SEARCH & FILTER
+         ---------------------------------------------------------------------- */
+      const SKILL_CATEGORIES = [
+        'All',
+        'Executive & Strategy',
+        'Product & DX',
+        'Architecture & Cloud',
+        'Backend & Data',
+        'Frontend & Design',
+        'AI Systems & RAG',
+        'LangGraph & AI/ML',
+        'Security & AppSec',
+        'QA & Release Gates',
+        'DevOps, SRE & FinOps',
+        'DevRel & Pricing'
+      ];
+
+      let activeSkillCategory = 'All';
+      const skillSearchInput = document.getElementById('skill-search-input');
+      const skillFilterPillsEl = document.getElementById('skill-filter-pills');
+      const skillsGridEl = document.getElementById('skills-grid');
+      const skillCountNumEl = document.getElementById('skill-count-num');
+
+      function renderSkillFilters() {
+        skillFilterPillsEl.innerHTML = '';
+        SKILL_CATEGORIES.forEach((cat) => {
+          const count = cat === 'All' ? SKILLS.length : SKILLS.filter((s) => s.category === cat).length;
+          const btn = document.createElement('button');
+          btn.type = 'button';
+          btn.className = 'filter-pill';
+          btn.setAttribute('aria-pressed', String(cat === activeSkillCategory));
+          btn.textContent = cat + ' (' + count + ')';
+          btn.addEventListener('click', () => {
+            activeSkillCategory = cat;
+            renderSkillFilters();
+            renderSkills();
+          });
+          skillFilterPillsEl.appendChild(btn);
+        });
+      }
+
+      function renderSkills() {
+        const query = (skillSearchInput.value || '').trim().toLowerCase();
+        const filtered = SKILLS.filter((skill) => {
+          const matchesCat = activeSkillCategory === 'All' || skill.category === activeSkillCategory;
+          const matchesQuery =
+            !query ||
+            skill.id.toLowerCase().includes(query) ||
+            skill.path.toLowerCase().includes(query) ||
+            skill.category.toLowerCase().includes(query) ||
+            skill.desc.toLowerCase().includes(query) ||
+            ('dept ' + skill.dept).includes(query);
+          return matchesCat && matchesQuery;
+        });
+
+        skillCountNumEl.textContent = String(filtered.length);
+
+        if (filtered.length === 0) {
+          skillsGridEl.innerHTML =
+            '<div style="grid-column: 1 / -1; padding: 2rem; text-align: center; background: var(--bg-card); border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">' +
+              '<p style="color: var(--text-secondary); margin-bottom: 0.75rem;">No skills matched your search query.</p>' +
+              '<button type="button" id="reset-skills-btn" class="copy-btn">Reset Search &amp; Filters</button>' +
+            '</div>';
+          const resetBtn = document.getElementById('reset-skills-btn');
+          if (resetBtn) {
+            resetBtn.addEventListener('click', () => {
+              skillSearchInput.value = '';
+              activeSkillCategory = 'All';
+              renderSkillFilters();
+              renderSkills();
+            });
+          }
+          return;
+        }
+
+        skillsGridEl.innerHTML = filtered
+          .map(
+            (s) =>
+              '<article class="skill-card">' +
+                '<div>' +
+                  '<div class="skill-top">' +
+                    '<span class="skill-dept-tag">DEPT ' + s.dept + ' • ' + s.category + '</span>' +
+                  '</div>' +
+                  '<div class="skill-name">' + s.id + '</div>' +
+                  '<p class="skill-desc">' + s.desc + '</p>' +
+                '</div>' +
+                '<div class="skill-footer">' +
+                  '<span style="overflow:hidden; text-overflow:ellipsis; white-space:nowrap;" title="' + s.path + '">' + s.path + '</span>' +
+                  '<button type="button" class="copy-btn" data-copy-skill-path="' + s.path + '">Copy Path</button>' +
+                '</div>' +
+              '</article>'
+          )
+          .join('');
+
+        skillsGridEl.querySelectorAll('[data-copy-skill-path]').forEach((btn) => {
+          btn.addEventListener('click', () => {
+            copyTextToClipboard(btn.getAttribute('data-copy-skill-path'), btn);
+          });
+        });
+      }
+
+      skillSearchInput.addEventListener('input', renderSkills);
+
+      // Keyboard shortcut '/' to focus skill search
+      document.addEventListener('keydown', (e) => {
+        if (e.key === '/' && document.activeElement !== skillSearchInput && document.activeElement !== targetDirInput) {
+          e.preventDefault();
+          skillSearchInput.focus();
+        }
+      });
+
+      renderSkillFilters();
+      renderSkills();
+    })();
+  </script>
+</body>
+</html>

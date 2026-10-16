@@ -1,0 +1,5 @@
+# Aider Configuration — Universal AI Software Company OS
+# Automatically loads the 11-Department Company Operating System and Active Project Context
+read:
+  - AGENTS.md
+  - .agents/rules/project-context.md

@@ -1,0 +1,265 @@
+<div align="center">
+
+<img src="./assets/hero-banner.svg" alt="Universal AI Software Company OS — 11 Department Agents • 34 Core Technical Skills • 5-Phase Pipeline" width="100%" />
+
+# 🏢 Universal AI Software Company OS
+
+**Turn Claude Code, Cursor, Windsurf, Google Antigravity, OpenCode, GitHub Copilot, and 10+ other AI coding tools into One Cohesive Enterprise Software Company.**
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-3b82f6.svg?style=for-the-badge)](LICENSE)
+[![Department Agents](https://img.shields.io/badge/Department_Agents-11-8b5cf6.svg?style=for-the-badge)](#-the-11-department-lead-subagents--34-core-technical-skills)
+[![Core Technical Skills](https://img.shields.io/badge/Core_Skills-34-10b981.svg?style=for-the-badge)](#-the-11-department-lead-subagents--34-core-technical-skills)
+[![AI Coding Tools](https://img.shields.io/badge/AI_Coding_Tools-16%2B_Supported-f59e0b.svg?style=for-the-badge)](#️-supported-ai-coding-tools-ides--clis-16-platforms-out-of-the-box)
+[![Zero Dependencies](https://img.shields.io/badge/Dependencies-Zero-06b6d4.svg?style=for-the-badge)](#-30-second-quickstart-3-ways-to-install)
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-ec4899.svg?style=for-the-badge)](CONTRIBUTING.md)
+
+[**⚡ 30-Second Quickstart**](#-30-second-quickstart-3-ways-to-install) • [**🚀 3-Step Usage Guide**](#-how-to-use-it-in-3-simple-steps-for-new-users) • [**🛠️ 16+ Supported IDEs & CLIs**](#️-supported-ai-coding-tools-ides--clis-16-platforms-out-of-the-box) • [**🔄 5-Phase Pipeline**](#-visual-5-phase-execution-pipeline) • [**🏛️ 11 Agents & 34 Skills**](#-the-11-department-lead-subagents--34-core-technical-skills) • [**📖 IDE Setup Guide**](docs/IDE_SETUP_GUIDE.md)
+
+</div>
+
+---
+
+## 💡 Why This Exists (The Problem With Multi-Agent Prompt Dumps)
+
+Most AI agent repositories dump **150+ uncoordinated markdown prompts** into your workspace. When you try to build real software with them, three things break immediately:
+
+1. **Context Window Bloat & Persona Confusion**: Your AI coding assistant reads 150 overlapping skill descriptions on every turn and hallucinates the wrong persona or mixes conflicting coding styles.
+2. **Parallel File Collisions**: Subagents overwrite each other's files because no architect locked the shared TypeScript/Python interfaces, database schemas, or folder ownership boundaries before coding started.
+3. **Hardcoded Tech Stacks & Fantasy Approvals**: Prompts assume a single framework and declare tasks "complete" without running a real security audit or executing tests.
+
+### ✅ How Universal AI Software Company OS Solves It
+
+We separated the **Company Operating System** from your **Project Context**:
+
+- **Layer 1 — Universal Company Engine (`100% Project-Agnostic`)**: **11 Department Lead Subagents** + **34 Core Technical Skills** + a strict **5-Phase Execution Pipeline** with non-overlapping directory ownership.
+- **Layer 2 — Single Project Identity Card ([`.agents/rules/project-context.md`](.agents/rules/project-context.md))**: The **ONLY** file in your workspace that stores your project's tech stack, master specification path, architectural guardrails, and directory map — **automatically generated** by your CEO and CTO agents on your first prompt.
+
+| Capability | Typical 150-Prompt Agent Dumps | Single `.cursorrules` / `CLAUDE.md` File | **Universal AI Software Company OS** |
+| :--- | :--- | :--- | :--- |
+| **Organization & Routing** | ❌ 150+ unindexed files; manual picking | ⚠️ Monolithic wall of text | ✅ **11 Department Leads + Mandatory Auto-Dispatcher** |
+| **Context Window Efficiency** | ❌ Bloats token budget on every turn | ⚠️ Everything loaded at once | ✅ **Lean routing matrix + on-demand `SKILL.md` loading** |
+| **Parallel Subagent Safety** | ❌ Agents overwrite the same files | ❌ Single-threaded execution | ✅ **Phase 1 Contract Lock + Non-Overlapping Folder Ownership** |
+| **Project Onboarding** | ❌ Manual copy-editing across dozens of files | ❌ Manual rewrite per repository | ✅ **1-Prompt Auto-Onboarding (`"Initialize project context"`)** |
+| **Security & Crypto Gate** | ❌ Optional or forgotten | ⚠️ Passive reminder in prompt | ✅ **Mandatory Phase 3 CISO Gate (Auth, Crypto, SSRF, CWE)** |
+| **Release Verification** | ❌ "Looks good to me" fantasy approvals | ❌ Unenforced | ✅ **Mandatory Phase 4 5-Stage QA & Reality-Checker Gate** |
+| **Cross-Tool Portability** | ⚠️ Usually locked to 1 tool | ⚠️ Locked to 1 editor | ✅ **16+ AI IDEs & CLIs Out-of-the-Box** |
+
+---
+
+## ⚡ 30-Second Quickstart (3 Ways to Install)
+
+### Method 1: Instant `npx` CLI (Any OS, Zero Clone Required)
+
+Run directly inside any new or existing project directory (requires Node.js 18+):
+
+```bash
+# Install all 11 departments, 34 skills, and configs for all supported AI tools
+npx github:abdelrahman-elkot/universal-ai-software-company . --agent all
+
+# Or install only for your specific AI coding tool:
+npx github:abdelrahman-elkot/universal-ai-software-company . --agent claude
+npx github:abdelrahman-elkot/universal-ai-software-company . --agent cursor
+npx github:abdelrahman-elkot/universal-ai-software-company . --agent windsurf
+npx github:abdelrahman-elkot/universal-ai-software-company . --agent antigravity
+npx github:abdelrahman-elkot/universal-ai-software-company . --agent opencode
+npx github:abdelrahman-elkot/universal-ai-software-company . --agent copilot
+
+# List all 11 departments, 34 skills, and supported agent targets
+npx github:abdelrahman-elkot/universal-ai-software-company --list
+
+# Run the built-in health check & project-context verifier
+npx github:abdelrahman-elkot/universal-ai-software-company . --doctor
+```
+
+### Method 2: macOS / Linux / Git Bash (`install.sh`)
+
+```bash
+git clone https://github.com/abdelrahman-elkot/universal-ai-software-company.git && ./universal-ai-software-company/install.sh /path/to/your-project all
+```
+
+### Method 3: Windows PowerShell (`install.ps1`)
+
+```powershell
+git clone https://github.com/abdelrahman-elkot/universal-ai-software-company.git; .\universal-ai-software-company\install.ps1 -TargetDir "C:\path\to\your-project" -Agent all
+```
+
+> 💡 **Safe for Existing Projects**: The installer **never overwrites** an already-initialized `.agents/rules/project-context.md` unless you explicitly pass `--force` (or `-ForceOverwriteContext` in PowerShell). See the full **[Quickstart Guide (`docs/QUICKSTART.md`)](docs/QUICKSTART.md)** for details.
+
+---
+
+## 🚀 How to Use It in 3 Simple Steps (For New Users)
+
+### Step 1: Install Into Your Project
+Run any of the 3 installation commands above inside your new or existing repository.
+
+### Step 2: Auto-Onboard Your Repository (`"Initialize project context"`)
+Open your project in your AI coding tool (Claude Code, Cursor, Windsurf, Antigravity, OpenCode, Copilot, etc.) and send this single prompt:
+
+```text
+Initialize project context
+```
+
+**What happens automatically:**
+1. **Dept 1 (`ceo-executive-orchestrator`)** and **Dept 3 (`cto-cloud-architect`)** scan your repository (`README.md`, `package.json`, `pyproject.toml`, `go.mod`, `Cargo.toml`, database schemas, and `src/` folder layout).
+2. They populate **[`.agents/rules/project-context.md`](.agents/rules/project-context.md)** with your exact tech stack, architectural guardrails, security invariants, and department-to-directory ownership map.
+3. Every future prompt from any department now obeys your project's single source of truth.
+
+### Step 3: Build Features, Fix Bugs, or Run Audits (Copy-Paste Starter Prompts)
+
+You can talk to your AI normally—the routing matrix in `AGENTS.md` automatically dispatches the right Department Leads. Or use these **Ready-to-Use Starter Prompts**:
+
+| Workflow Goal | Copy-Paste Prompt | Departments Activated |
+| :--- | :--- | :--- |
+| **🏗️ Full-Stack Feature Build (All 5 Phases)** | `"Run the 5-Phase Company Pipeline to build [FEATURE NAME]. Lock interfaces in Phase 1, build backend and UI in Phase 2, audit security in Phase 3, run the 5-Stage QA gate in Phase 4, and update docs in Phase 5."` | Depts `1` → `2, 3` → `4, 5` → `8` → `9` → `10, 11` |
+| **📐 Architecture & DB Contract Lock** | `"Use cto-cloud-architect and product-pmo-lead to break down [SPEC/FEATURE] into atomic tasks and lock the shared TypeScript/API interfaces and database schema before implementation."` | Dept `2` (`product-pmo-lead`) + Dept `3` (`cto-cloud-architect`) |
+| **🤖 LangGraph / AI Agent Workflow** | `"Use ai-ml-langchain-automation-lead and ai-agentic-engineer to design and implement a stateful LangGraph workflow with model routing, checkpointing, and evaluation tests for [USE CASE]."` | Dept `6` (`ai-agentic-engineer`) + Dept `7` (`ai-ml-langchain-automation-lead`) |
+| **🔐 Security, Crypto & CWE Audit** | `"Use security-privacy-lead to perform a Phase 3 security and CWE audit across our authentication, API endpoints, secret handling, SSRF guards, and untrusted-content taint gates."` | Dept `8` (`security-privacy-lead`) |
+| **🧪 5-Stage QA & Reality-Checker Gate** | `"Use qa-release-lead to execute the 5-Stage Release Gate: run typecheck, unit tests, API contract tests, E2E tests, and issue an evidence-based Reality-Checker certification."` | Dept `9` (`qa-release-lead`) |
+| **☁️ CI/CD, Deployment & FinOps Audit** | `"Use devops-sre-lead and gtm-business-ops-lead to audit our deployment configs, database migrations, cloud cost guardrails, and developer documentation."` | Dept `10` (`devops-sre-lead`) + Dept `11` (`gtm-business-ops-lead`) |
+
+---
+
+## 🛠️ Supported AI Coding Tools, IDEs & CLIs (16 Platforms Out-of-the-Box)
+
+Universal AI Software Company OS ships with native configuration files and adapters for **16 AI coding platforms**. See **[`docs/IDE_SETUP_GUIDE.md`](docs/IDE_SETUP_GUIDE.md)** for exact slash commands and `@agent` syntax for each tool.
+
+| # | AI Coding Tool / IDE / CLI | Native Configuration Files Installed | How Subagents & Skills Are Invoked |
+| :---: | :--- | :--- | :--- |
+| **1** | **Claude Code (`claude`)** | `CLAUDE.md`, `.claude/agents/*.md`, `.claude/skills/*/SKILL.md` | Automatic task delegation + `/agents` command & `@agent-name` mentions |
+| **2** | **Cursor** | `.cursor/rules/software-company.mdc`, `AGENTS.md`, `.agents/skills/` | Always-on `.mdc` routing rule + `@software-company.mdc` & skill references |
+| **3** | **Windsurf (Codeium)** | `.windsurfrules`, `.windsurf/rules/software-company.md`, `AGENTS.md` | Cascade auto-loads workspace rules + `@AGENTS.md` & `.agents/skills/` |
+| **4** | **Google Antigravity** | `AGENTS.md`, `.agents/agents/*.md`, `.agents/skills/`, `.agents/plugins/` | Native `invoke_subagent` tool + Workspace Priority #1 skill & rule loader |
+| **5** | **OpenCode (`opencode`)** | `AGENTS.md`, `.opencode/agent/*.md`, `.agents/skills/*/SKILL.md` | Native `@agent-id` subagent invocation (`mode: subagent`) + `AGENTS.md` |
+| **6** | **GitHub Copilot (VS Code)** | `.github/copilot-instructions.md`, `.github/agents/*.agent.md` | Repo-wide instructions + custom Copilot Chat agents (`@ceo-executive-orchestrator`, etc.) |
+| **7** | **Cline** | `.clinerules/software-company.md`, `AGENTS.md`, `.agents/skills/` | Automatic `.clinerules/` ingestion + on-demand `SKILL.md` reading |
+| **8** | **Roo Code** | `.roo/rules/software-company.md`, `.roomodes`, `AGENTS.md` | Custom department modes in `.roomodes` + `.roo/rules/` workspace governance |
+| **9** | **OpenAI Codex CLI** | `AGENTS.md`, `.agents/skills/*/SKILL.md` | Native hierarchical `AGENTS.md` discovery + `.agents/skills/` |
+| **10** | **Google Gemini CLI** | `GEMINI.md`, `AGENTS.md`, `.agents/skills/*/SKILL.md` | Automatic `GEMINI.md` root context + `.agents/skills/` |
+| **11** | **Aider** | `.aider.conf.yml`, `CONVENTIONS.md`, `AGENTS.md` | Auto-loaded `read: [AGENTS.md, .agents/rules/project-context.md]` |
+| **12** | **Continue.dev** | `.continue/rules/software-company.md`, `AGENTS.md` | Workspace `.continue/rules/` system prompt injection |
+| **13** | **Zed AI** | `.rules`, `AGENTS.md`, `.agents/skills/` | Native root `.rules` & `AGENTS.md` context loading |
+| **14** | **Trae IDE** | `.trae/rules/project_rules.md`, `AGENTS.md` | Builder mode automatic `.trae/rules/project_rules.md` governance |
+| **15** | **Kilo Code** | `.kilocode/rules/software-company.md`, `.kilocodemodes`, `AGENTS.md` | Orchestrator & department specialist modes + `.kilocode/rules/` |
+| **16** | **Block Goose** | `.goosehints`, `AGENTS.md`, `.agents/skills/` | Automatic `.goosehints` & `.agents/skills/` discovery |
+
+---
+
+## 🔄 Visual 5-Phase Execution Pipeline
+
+<div align="center">
+<img src="./assets/pipeline-diagram.svg" alt="5-Phase Execution Pipeline — Product & Architecture Lock, Parallel Engineering Build, Security Audit, 5-Stage QA Gate, DevOps & Docs Sync" width="100%" />
+</div>
+
+Every feature, milestone, or bug fix follows this strict **5-Phase Execution Pipeline** so departments never step on each other's files or ship broken code:
+
+1. **Phase 1 — Product & Architecture Lock (`product-pmo-lead` + `cto-cloud-architect`)**
+   - Reads **[`.agents/rules/project-context.md`](.agents/rules/project-context.md)**, decomposes specifications into atomic engineering tasks, and locks shared TypeScript/Python interfaces, API contracts, and database schemas in `src/types/` before any implementation begins.
+2. **Phase 2 — Parallel Engineering Build (`Depts 4, 5, 6, 7`)**
+   - Four engineering departments execute in parallel with **strictly non-overlapping file ownership**:
+     - **Dept 4 (`backend-data-engineer`)**: API routes, stateful coordinators, SQL migrations, storage streams, queues, and billing ledgers.
+     - **Dept 5 (`frontend-ux-engineer`)**: Web/SPA UI components, CSS/design systems, client state, instant previews, and media pipelines.
+     - **Dept 6 (`ai-agentic-engineer`)**: Multi-provider LLM routers, execution modes, RAG/search grounding, and LLM-as-a-Judge evaluations.
+     - **Dept 7 (`ai-ml-langchain-automation-lead`)**: Stateful LangGraph (`StateGraph`, `Send` map-reduce, checkpointers, `interrupt()` HITL), LangChain LCEL, CrewAI/AutoGen/DSPy, and MCP servers.
+3. **Phase 3 — Mandatory Security & Cryptography Audit (`security-privacy-lead`)**
+   - Audits `AES-256-GCM` encryption, `SHA-256` key hashing, JWT/session authentication, SSRF shields, SQL parameterization, untrusted-content taint gates, and CWE vulnerabilities.
+4. **Phase 4 — Mandatory 5-Stage QA & Reality-Checker Gate (`qa-release-lead`)**
+   - Runs real verification commands across 5 stages: **(1) Typecheck & Lint**, **(2) Unit & Edge-Case Tests**, **(3) API Contract Tests**, **(4) UI/E2E & Accessibility Tests**, and **(5) Reality-Checker Certification**. Any failure automatically routes back to Phase 2.
+5. **Phase 5 — DevOps & Developer Documentation Sync (`devops-sre-lead` + `gtm-business-ops-lead`)**
+   - Verifies deployment configurations, CI/CD pipelines, database migration safety, FinOps guardrails, and updates developer documentation and SDK examples.
+
+---
+
+## 🏛️ The 11 Department Lead Subagents & 34 Core Technical Skills
+
+Each Department Lead owns a dedicated domain and loads **2 to 4 specialized technical skills** with zero overlap:
+
+| Dept # | Subagent ID | Role & Automatic Trigger Intent | Default Owned Paths | Assigned Core Skills (`.agents/skills/`) |
+| :---: | :--- | :--- | :--- | :--- |
+| **1** | [`ceo-executive-orchestrator`](.agents/agents/ceo-executive-orchestrator.md) | **CEO, Chief of Staff & Pipeline Orchestrator** — Multi-department milestones, full-project builds, master plan alignment & unit economics | Workspace-wide coordination | • [`executive-ceo-founder`](.agents/skills/executive-ceo-founder/SKILL.md)<br>• [`agents-orchestrator`](.agents/skills/agents-orchestrator/SKILL.md)<br>• [`specialized-master-plan-architect`](.agents/skills/specialized-master-plan-architect/SKILL.md) |
+| **2** | [`product-pmo-lead`](.agents/agents/product-pmo-lead.md) | **VP of Product, TPM & DX Lead** — Spec-to-task breakdown, sprint backlog, acceptance criteria & frictionless onboarding flows | `specs/`, `docs/prd/` | • [`product-manager`](.agents/skills/product-manager/SKILL.md)<br>• [`project-manager-senior`](.agents/skills/project-manager-senior/SKILL.md)<br>• [`product-dx-engineer`](.agents/skills/product-dx-engineer/SKILL.md) |
+| **3** | [`cto-cloud-architect`](.agents/agents/cto-cloud-architect.md) | **CTO & Principal Cloud/Edge Architect** — System architecture, shared TypeScript/API contracts, cloud/edge/DB design & FinOps guardrails | `src/types/`, `src/contracts/` | • [`engineering-cto-vp`](.agents/skills/engineering-cto-vp/SKILL.md)<br>• [`engineering-cloudflare-edge-architect`](.agents/skills/engineering-cloudflare-edge-architect/SKILL.md)<br>• [`engineering-software-architect`](.agents/skills/engineering-software-architect/SKILL.md) |
+| **4** | [`backend-data-engineer`](.agents/agents/backend-data-engineer.md) | **Principal Backend, DB & Streaming Data Engineer** — Server/Edge API routes, stateful coordinators, SQL schemas, streaming storage, queues & billing | `src/worker/`, `src/backend/`, `src/do/`, `src/db/`, `src/storage/`, `src/queues/`, `migrations/` | • [`engineering-backend-architect`](.agents/skills/engineering-backend-architect/SKILL.md)<br>• [`engineering-database-optimizer`](.agents/skills/engineering-database-optimizer/SKILL.md)<br>• [`engineering-data-engineer`](.agents/skills/engineering-data-engineer/SKILL.md)<br>• [`engineering-payments-billing-engineer`](.agents/skills/engineering-payments-billing-engineer/SKILL.md) |
+| **5** | [`frontend-ux-engineer`](.agents/agents/frontend-ux-engineer.md) | **Principal Frontend, UI/UX & Client-Media Engineer** — Web/SPA UI, CSS/design systems, client state, instant previews & browser media pipelines | `src/ui/`, `src/client/`, `src/media/`, `public/`, `index.html` | • [`engineering-frontend-developer`](.agents/skills/engineering-frontend-developer/SKILL.md)<br>• [`design-ux-architect`](.agents/skills/design-ux-architect/SKILL.md)<br>• [`design-ui-designer`](.agents/skills/design-ui-designer/SKILL.md) |
+| **6** | [`ai-agentic-engineer`](.agents/agents/ai-agentic-engineer.md) | **Principal AI Systems, Smart Router & RAG Engineer** — Multi-provider LLM routers, routing policies, execution modes, search grounding & LLM-as-a-Judge evals | `src/router/`, `src/modes/`, `src/search/`, `src/eval/` | • [`engineering-multi-agent-systems-architect`](.agents/skills/engineering-multi-agent-systems-architect/SKILL.md)<br>• [`engineering-rag-pipeline-engineer`](.agents/skills/engineering-rag-pipeline-engineer/SKILL.md)<br>• [`engineering-prompt-engineer`](.agents/skills/engineering-prompt-engineer/SKILL.md) |
+| **7** | [`ai-ml-langchain-automation-lead`](.agents/agents/ai-ml-langchain-automation-lead.md) | **Principal AI/ML, LangChain, LangGraph & Automation Engineer** — LangGraph (`StateGraph`, `Send`, checkpointers, `interrupt()`), LangChain LCEL, CrewAI, AutoGen, DSPy, MCP & fine-tuning | `src/agents/`, `src/graphs/`, `src/workflows/`, `src/mcp/`, `sdk/` | • [`engineering-langchain-langgraph-automation`](.agents/skills/engineering-langchain-langgraph-automation/SKILL.md)<br>• [`engineering-ai-engineer`](.agents/skills/engineering-ai-engineer/SKILL.md)<br>• [`specialized-mcp-builder`](.agents/skills/specialized-mcp-builder/SKILL.md) |
+| **8** | [`security-privacy-lead`](.agents/agents/security-privacy-lead.md) | **CISO, AppSec & Cryptography Lead** — `AES-256-GCM` encryption, `SHA-256` key hashing, JWT/session auth, SSRF shield, untrusted-content taint gates & CWE audit | `src/security/`, `src/crypto/`, `src/auth/` | • [`security-architect`](.agents/skills/security-architect/SKILL.md)<br>• [`security-appsec-engineer`](.agents/skills/security-appsec-engineer/SKILL.md)<br>• [`security-ai-generated-code-auditor`](.agents/skills/security-ai-generated-code-auditor/SKILL.md) |
+| **9** | [`qa-release-lead`](.agents/agents/qa-release-lead.md) | **Director of QA & Release Gatekeeper** — 5-Stage Release Gate: Typecheck, Unit/Boundary, API Contract, E2E Playwright/Vitest & Reality-Checker certification | `tests/`, `e2e/`, `vitest.config.ts`, `playwright.config.ts` | • [`testing-release-gate-manager`](.agents/skills/testing-release-gate-manager/SKILL.md)<br>• [`testing-api-tester`](.agents/skills/testing-api-tester/SKILL.md)<br>• [`testing-test-automation-engineer`](.agents/skills/testing-test-automation-engineer/SKILL.md)<br>• [`testing-reality-checker`](.agents/skills/testing-reality-checker/SKILL.md) |
+| **10** | [`devops-sre-lead`](.agents/agents/devops-sre-lead.md) | **Lead DevOps, CI/CD, SRE & FinOps Engineer** — Cloud/Edge deployment configs, DB migrations, storage lifecycle rules, queue bindings, CI/CD & FinOps monitoring | `wrangler.toml`, `Dockerfile`, `.github/workflows/`, `scripts/`, `package.json`, `tsconfig.json` | • [`engineering-devops-automator`](.agents/skills/engineering-devops-automator/SKILL.md)<br>• [`engineering-sre`](.agents/skills/engineering-sre/SKILL.md)<br>• [`engineering-finops-engineer`](.agents/skills/engineering-finops-engineer/SKILL.md) |
+| **11** | [`gtm-business-ops-lead`](.agents/agents/gtm-business-ops-lead.md) | **VP of DevRel, Technical Docs & SaaS Pricing** — Developer documentation, SDK drop-in guides, API references, README, SaaS pricing models & unit economics | `docs/`, `README.md`, `examples/` | • [`engineering-technical-writer`](.agents/skills/engineering-technical-writer/SKILL.md)<br>• [`specialized-pricing-analyst`](.agents/skills/specialized-pricing-analyst/SKILL.md) |
+
+---
+
+## 🖥️ Interactive Web Showcase & Command Builder
+
+Explore the entire architecture visually by opening **[`docs/index.html`](docs/index.html)** in any browser (or via GitHub Pages):
+
+- **Interactive CLI Command Builder**: Pick your OS (`npx`, `macOS/Linux`, `Windows PowerShell`) and target AI coding tool (`all`, `claude`, `cursor`, `windsurf`, `antigravity`, `opencode`, `copilot`, etc.) to generate a one-click copyable install command.
+- **11-Department Interactive Explorer**: Filter departments by pipeline phase, inspect owned paths, and copy department-specific starter prompts.
+- **Live 34-Skill Search**: Search across all 34 engineering, AI, security, QA, DevOps, product, and executive skills.
+
+---
+
+## 📁 Repository Structure
+
+```text
+universal-ai-software-company/
+├── AGENTS.md                              # Universal Company Operating System & Routing Matrix
+├── CLAUDE.md                              # Claude Code root entry point (@AGENTS.md + @project-context.md)
+├── GEMINI.md                              # Gemini CLI root entry point
+├── package.json                           # Zero-dependency npx CLI package manifest
+├── bin/
+│   └── cli.mjs                            # Cross-platform npx installer, --list & --doctor CLI
+├── install.sh                             # 1-command installer for macOS / Linux / Git Bash
+├── install.ps1                            # 1-command installer for Windows PowerShell
+├── assets/
+│   ├── hero-banner.svg                    # Custom SVG Hero Banner
+│   └── pipeline-diagram.svg               # Custom SVG 5-Phase Execution Pipeline Diagram
+├── docs/
+│   ├── index.html                         # Interactive Web Showcase & CLI Command Builder
+│   ├── QUICKSTART.md                      # 5-Minute New-User Onboarding & First Feature Walkthrough
+│   └── IDE_SETUP_GUIDE.md                 # Per-IDE Setup & Invocation Guide (16+ Tools)
+├── .agents/
+│   ├── rules/
+│   │   └── project-context.md             # ⚡ THE ONLY PROJECT-SPECIFIC FILE (Auto-populated on first run)
+│   ├── agents/                            # 11 Universal Department Lead Subagents
+│   ├── skills/                            # 34 Universal Core Technical Skills (SKILL.md)
+│   └── plugins/
+│       └── software-company-team/         # Portable Google Antigravity Plugin Bundle (plugin.json)
+├── .claude/
+│   ├── agents/                            # 11 Native Claude Code Subagents
+│   └── skills/                            # 34 Native Claude Code Skills
+├── .opencode/
+│   └── agent/                             # 11 Native OpenCode Subagents (mode: subagent)
+├── .cursor/
+│   └── rules/
+│       └── software-company.mdc           # Native Cursor Rule (.mdc)
+├── .windsurf/
+│   └── rules/
+│       └── software-company.md            # Native Windsurf Rule
+├── .clinerules/
+│   └── software-company.md                # Native Cline Rule
+├── .roo/
+│   └── rules/
+│       └── software-company.md            # Native Roo Code Rule
+└── .github/
+    ├── copilot-instructions.md            # Native GitHub Copilot Repository Instructions
+    └── agents/                            # Native GitHub Copilot Custom Agents (*.agent.md)
+```
+
+---
+
+## 📚 Documentation & Guides
+
+- **[⚡ 5-Minute Quickstart Guide (`docs/QUICKSTART.md`)](docs/QUICKSTART.md)** — Step-by-step installation, auto-onboarding walkthrough, and running your first 5-Phase build.
+- **[🛠️ Complete IDE & CLI Setup Guide (`docs/IDE_SETUP_GUIDE.md`)](docs/IDE_SETUP_GUIDE.md)** — Exact configuration files, slash commands, and `@agent` invocation syntax for all 16 supported AI coding tools.
+- **[🤝 Contributing Guide (`CONTRIBUTING.md`)](CONTRIBUTING.md)** — How to propose new technical skills, improve department prompts, or add adapters for new AI coding tools.
+
+---
+
+## 🤝 Contributing
+
+Contributions, bug reports, and new IDE adapters are welcome! Please read **[CONTRIBUTING.md](CONTRIBUTING.md)** before submitting a Pull Request.
+
+## 📜 License
+
+Released under the **[MIT License](LICENSE)**.
