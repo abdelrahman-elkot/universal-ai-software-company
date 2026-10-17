@@ -1,7 +1,7 @@
 {
-  "displayName": "Enterprise Software Company (11 Department Leads)",
-  "description": "Complete, self-contained Enterprise Software Company with 11 Department Lead Subagents and 34 core technical skills across Product, Cloud Architecture, Backend/Data, Frontend/UX, Smart Router AI, LangChain/LangGraph Automation, Security, QA, DevOps, and DevRel.",
+  "displayName": "Enterprise Software Company OS v2.1 (11 Department Leads)",
+  "description": "100% Domain- & Stack-Agnostic Enterprise Software Company OS v2.1 with Rule #0 CEO Dispatcher, Dynamic Squad Assembly, 11 Department Lead Subagents, and 34 Core Skills across Product, System Architecture, High-Scale Zero-N+1 Backend, Bespoke Anti-AI-Slop Frontend, AI/LangGraph/MCP, Security, 5-Stage QA, DevOps, and Mandatory README/Docs Sync.",
   "name": "software-company-team",
   "disabled": false,
-  "version": "2.0.0"
+  "version": "2.1.0"
 }

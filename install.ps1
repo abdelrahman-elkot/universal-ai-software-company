@@ -1,17 +1,17 @@
 <#
 .SYNOPSIS
-    Universal AI Software Company Installer (Windows PowerShell)
+    Universal AI Software Company Installer v2.1.0 (Windows PowerShell)
     Repository: https://github.com/abdelrahman-elkot/universal-ai-software-company
 
     Installs the 11 Department Lead Subagents, 34 Core Technical Skills, and 5-Phase Company Pipeline
     into any target project directory for 16+ AI Coding Tools, IDEs & CLIs:
     antigravity, claude, opencode, cursor, windsurf, copilot, cline, roo,
-    gemini, codex, aider, continue, zed, trae, kilo, goose (or "all").
+    gemini, codex, aider, continue, zed, trae, kilo (or kilocode), goose (or "all").
 
 .EXAMPLE
     .\install.ps1 -TargetDir "C:\path\to\my-project" -Agent "all"
     .\install.ps1 -TargetDir "." -Agent "cursor,claude,copilot"
-    .\install.ps1 -TargetDir "." -Agent "windsurf"
+    .\install.ps1 -TargetDir "." -Agent "kilocode"
 #>
 
 param(
@@ -32,7 +32,7 @@ $Dest = $ResolvedTarget.Path
 $ValidAgents = @(
     "all", "antigravity", "claude", "opencode", "cursor", "windsurf",
     "copilot", "cline", "roo", "gemini", "codex", "aider",
-    "continue", "zed", "trae", "kilo", "goose"
+    "continue", "zed", "trae", "kilo", "kilocode", "goose"
 )
 
 $RequestedAgents = $Agent.ToLower().Split(",") | ForEach-Object { $_.Trim() } | Where-Object { $_ -ne "" }
@@ -43,11 +43,14 @@ foreach ($req in $RequestedAgents) {
 }
 
 function Test-AgentSelected([string]$Name) {
+    if (($Name -eq "kilo") -and ($RequestedAgents -contains "kilocode")) {
+        return $true
+    }
     return ($RequestedAgents -contains "all") -or ($RequestedAgents -contains $Name)
 }
 
 Write-Host "================================================================================" -ForegroundColor Cyan
-Write-Host "  Universal AI Software Company OS Installer (11 Depts | 34 Skills | 16+ Tools)" -ForegroundColor Cyan
+Write-Host "  Universal AI Software Company OS v2.1.0 Installer (11 Depts | 34 Skills | 16+ Tools)" -ForegroundColor Cyan
 Write-Host "  Target Project : $Dest" -ForegroundColor White
 Write-Host "  Agent Mode     : $($RequestedAgents -join ', ')" -ForegroundColor White
 Write-Host "================================================================================" -ForegroundColor Cyan
@@ -174,7 +177,7 @@ if (Test-AgentSelected "trae") {
     Write-Host "[+] Installed Trae IDE (.trae/rules/project_rules.md)" -ForegroundColor Green
 }
 
-# 16. Kilo Code
+# 16. Kilo Code (accepts 'kilo' or 'kilocode')
 if (Test-AgentSelected "kilo") {
     New-Item -ItemType Directory -Force -Path "$Dest\.kilocode\rules" | Out-Null
     Copy-Item -Force "$SourceDir\.kilocode\rules\software-company.md" "$Dest\.kilocode\rules\software-company.md"
@@ -190,5 +193,5 @@ if (Test-AgentSelected "goose") {
 Write-Host ""
 Write-Host "================================================================================" -ForegroundColor Cyan
 Write-Host "  Installation Complete! Next step inside your AI Coding Agent / IDE:" -ForegroundColor Cyan
-Write-Host '  Prompt: "Initialize project context from my repo and start the 5-Phase Company Pipeline."' -ForegroundColor White
+Write-Host '  Prompt: "Initialize project context"' -ForegroundColor White
 Write-Host "================================================================================" -ForegroundColor Cyan

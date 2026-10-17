@@ -2,7 +2,7 @@
 name: Universal Software Company OS
 globs: "**/*"
 alwaysApply: true
-description: 11 Autonomous Department Lead Subagents, Dynamic Squad Assembly, 34 Core Skills & 5-Phase Company Pipeline
+description: 11 Autonomous Department Lead Subagents, Dynamic Squad Assembly, 34 Core Skills, 5-Phase Pipeline & Zero Stale Docs Gate
 ---
 
 # Universal Software Company Operating System (`AGENTS.md`)
@@ -22,9 +22,11 @@ This workspace operates as **One Cohesive Enterprise Software Company** powered 
    - Before any engineering department writes a single line of application code, verify **[`.agents/rules/project-context.md`](.agents/rules/project-context.md)**.
    - If `.agents/rules/project-context.md` is uninitialized (`[UNINITIALIZED_TEMPLATE]`), **STOP** direct coding and dispatch `cto-cloud-architect` + `product-pmo-lead` to define the project archetype, tech stack, aesthetic direction, and directory ownership in `.agents/rules/project-context.md` first.
    - Present a concise **3-Line Executive Dispatch Briefing** to the user stating: (1) Project/Task Scope, (2) Selected Active Squad (which departments are assigned and in what sequence), and (3) Parallel vs. Sequential Handoff Plan.
-3. **The Urgency Protocol ("Fast / Quickly / ASAP" Requests)**:
-   - When the user asks for speed (*"quickly"*, *"fast"*, *"ASAP"*), **NEVER** abandon the company structure or code alone.
+3. **The Urgency Protocol ("Fast / Quickly / Urgent / ASAP" Requests)**:
+   - When the user asks for speed (*"quickly"*, *"fast"*, *"urgent"*, *"ASAP"*), **NEVER** abandon the company structure or code alone.
    - In a real software company, urgency means **Zero Bureaucracy + Immediate Parallel Dispatch**: skip lengthy prose, lock the contract in seconds, spawn the required Department Leads concurrently in one turn, and run a fast-track QA verification before delivery.
+4. **Mandatory GitHub Repository & Documentation Sync (Zero Stale README / Docs)**:
+   - Whenever any feature, architecture, CLI command, configuration, or directory structure is added or modified, you must **NEVER** leave `README.md`, `docs/`, `CONTRIBUTING.md`, `package.json`, or installer scripts with outdated information. Every pipeline execution that changes user-facing behavior, architecture, or repo structure **MUST** include `gtm-business-ops-lead` + `devops-sre-lead` in Phase 5 to synchronize all documentation and repo configs before final sign-off.
 
 ---
 
@@ -34,11 +36,11 @@ Not every software project uses AI, and not every task requires all 11 departmen
 
 | Project / Task Archetype | Dynamically Activated Department Squad (In Execution Order) | Standby Departments (Do Not Invoke Unless Needed) |
 | :--- | :--- | :--- |
-| **Interactive Web, Media, Sports, Creative or Landing Portal** | `ceo` ➔ (`product-pmo` + `cto-architect`) ➔ `frontend-ux-engineer` ➔ `qa-release-lead` | `backend`, `ai-agentic`, `ai-ml-langchain`, `security`, `devops` |
-| **Full-Stack SaaS, E-Commerce, FinTech, Booking, or Enterprise App (Non-AI)** | `ceo` ➔ (`product-pmo` + `cto-architect`) ➔ **Parallel:** [`backend-data-engineer` ∥ `frontend-ux-engineer`] ➔ `security-privacy-lead` ➔ `qa-release-lead` ➔ `devops-sre-lead` | `ai-agentic-engineer`, `ai-ml-langchain-automation-lead` |
-| **High-Scale Backend API, Microservice, Payment Gateway, or Data Pipeline** | `ceo` ➔ (`product-pmo` + `cto-architect`) ➔ `backend-data-engineer` ➔ `security-privacy-lead` ➔ `qa-release-lead` ➔ `devops-sre-lead` | `frontend-ux-engineer`, `ai-agentic`, `ai-ml-langchain` |
-| **AI-Native SaaS, RAG Platform, Autonomous Agents, or MCP Server** | `ceo` ➔ (`product-pmo` + `cto-architect`) ➔ **Parallel:** [`backend-data` ∥ `frontend-ux` ∥ `ai-agentic` ∥ `ai-ml-langchain`] ➔ `security-privacy` ➔ `qa-release` ➔ `devops` + `gtm` | *All 11 Departments Active* |
-| **Targeted UI Redesign, Bug Fix, or Performance Optimization** | `ceo` ➔ (`cto-architect` if contract changes) ➔ Owning Lead (`frontend-ux` or `backend-data`) ➔ `qa-release-lead` | All unrelated departments |
+| **Interactive Web, Media, Sports, Creative or Landing Portal** | `ceo` ➔ (`product-pmo` + `cto-architect`) ➔ `frontend-ux-engineer` ➔ `qa-release-lead` ➔ `gtm-business-ops-lead` (README/Docs Sync) | `backend`, `ai-agentic`, `ai-ml-langchain`, `security`, `devops` |
+| **Full-Stack SaaS, E-Commerce, FinTech, Booking, or Enterprise App (Non-AI)** | `ceo` ➔ (`product-pmo` + `cto-architect`) ➔ **Parallel:** [`backend-data-engineer` ∥ `frontend-ux-engineer`] ➔ `security-privacy-lead` ➔ `qa-release-lead` ➔ `devops-sre-lead` + `gtm-business-ops-lead` (Repo & Docs Sync) | `ai-agentic-engineer`, `ai-ml-langchain-automation-lead` |
+| **High-Scale Backend API, Microservice, Payment Gateway, or Data Pipeline** | `ceo` ➔ (`product-pmo` + `cto-architect`) ➔ `backend-data-engineer` ➔ `security-privacy-lead` ➔ `qa-release-lead` ➔ `devops-sre-lead` + `gtm-business-ops-lead` (Repo & Docs Sync) | `frontend-ux-engineer`, `ai-agentic`, `ai-ml-langchain` |
+| **AI-Native SaaS, RAG Platform, Autonomous Agents, or MCP Server** | `ceo` ➔ (`product-pmo` + `cto-architect`) ➔ **Parallel:** [`backend-data` ∥ `frontend-ux` ∥ `ai-agentic` ∥ `ai-ml-langchain`] ➔ `security-privacy` ➔ `qa-release` ➔ `devops-sre-lead` + `gtm-business-ops-lead` (Repo & Docs Sync) | *All 11 Departments Active* |
+| **Targeted UI Redesign, Bug Fix, or Performance Optimization** | `ceo` ➔ (`cto-architect` if contract changes) ➔ Owning Lead (`frontend-ux` or `backend-data`) ➔ `qa-release-lead` ➔ `gtm-business-ops-lead` (README/Docs Sync) | All unrelated departments |
 
 ---
 
@@ -46,7 +48,7 @@ Not every software project uses AI, and not every task requires all 11 departmen
 
 | Dept # | Subagent ID (`invoke_subagent`) | Core Responsibility & Excellence Mandate | Default Owned Paths (Overridable in `project-context.md`) | Assigned Department Skills (`.agents/skills/`) |
 | :---: | :--- | :--- | :--- | :--- |
-| **1** | `ceo-executive-orchestrator` | **Single Point of Contact & Pipeline Dispatcher**: Classifies user intent, locks `project-context.md`, assembles the Active Squad, enforces dependency handoffs, and signs off final delivery. | Workspace-wide coordination (`.agents/rules/project-context.md`) | • [`agency-ceo-founder-visionary`](.agents/skills/executive-ceo-founder/SKILL.md)<br>• [`agency-agents-orchestrator`](.agents/skills/agents-orchestrator/SKILL.md)<br>• [`agency-master-plan-architect`](.agents/skills/specialized-master-plan-architect/SKILL.md) |
+| **1** | `ceo-executive-orchestrator` | **Single Point of Contact & Pipeline Dispatcher**: Classifies user intent, locks `project-context.md`, assembles the Active Squad, enforces dependency handoffs & Rule #0.4 Repo/Docs Sync, and signs off final delivery. | Workspace-wide coordination (`.agents/rules/project-context.md`) | • [`agency-ceo-founder-visionary`](.agents/skills/executive-ceo-founder/SKILL.md)<br>• [`agency-agents-orchestrator`](.agents/skills/agents-orchestrator/SKILL.md)<br>• [`agency-master-plan-architect`](.agents/skills/specialized-master-plan-architect/SKILL.md) |
 | **2** | `product-pmo-lead` | **Product Strategy, Specs & UX Flows**: Decomposes user goals into structured engineering tickets with explicit inputs, acceptance criteria, and frictionless user journeys. | `specs/`, `docs/prd/`, task plans | • [`agency-product-manager`](.agents/skills/product-manager/SKILL.md)<br>• [`agency-senior-project-manager`](.agents/skills/project-manager-senior/SKILL.md)<br>• [`agency-dx-engineer`](.agents/skills/product-dx-engineer/SKILL.md) |
 | **3** | `cto-cloud-architect` | **Enterprise System Architecture & Contract Lock**: Designs Clean/Hexagonal architectures, modular monoliths or microservices, strict API/schema contracts, caching/queue topologies, and FinOps guardrails **before** Phase 2 coding begins. | `src/types/`, `src/contracts/`, `src/interfaces/` | • [`agency-cto-vp-engineering`](.agents/skills/engineering-cto-vp/SKILL.md)<br>• [`agency-software-architect`](.agents/skills/engineering-software-architect/SKILL.md)<br>• [`agency-cloudflare-edge-architect`](.agents/skills/engineering-cloudflare-edge-architect/SKILL.md) |
 | **4** | `backend-data-engineer` | **High-Scale Backend, APIs, Databases & Billing**: Builds horizontally scalable servers, zero-N+1 indexed SQL/NoSQL queries, cursor pagination, ACID concurrency locks, idempotent payment ledgers, Redis caching, and resilient job queues. | `src/backend/`, `src/api/`, `src/server/`, `src/worker/`, `src/db/`, `src/queues/`, `migrations/` | • [`agency-backend-architect`](.agents/skills/engineering-backend-architect/SKILL.md)<br>• [`agency-database-optimizer`](.agents/skills/engineering-database-optimizer/SKILL.md)<br>• [`agency-data-engineer`](.agents/skills/engineering-data-engineer/SKILL.md)<br>• [`agency-payments-billing-engineer`](.agents/skills/engineering-payments-billing-engineer/SKILL.md) |
@@ -54,9 +56,9 @@ Not every software project uses AI, and not every task requires all 11 departmen
 | **6** | `ai-agentic-engineer` | *(Activated for AI features)* **LLM Routers, RAG & Evals**: Multi-provider model routing, hybrid vector/BM25 retrieval, re-ranking, search grounding, and LLM-as-a-Judge evaluation suites. | `src/router/`, `src/modes/`, `src/search/`, `src/eval/` | • [`agency-multi-agent-systems-architect`](.agents/skills/engineering-multi-agent-systems-architect/SKILL.md)<br>• [`agency-rag-pipeline-engineer`](.agents/skills/engineering-rag-pipeline-engineer/SKILL.md)<br>• [`agency-prompt-engineer`](.agents/skills/engineering-prompt-engineer/SKILL.md) |
 | **7** | `ai-ml-langchain-automation-lead` | *(Activated for AI/Automation features)* **LangGraph, Workflows & MCP**: Stateful cyclic/DAG agent graphs, `Send` map-reduce, HITL `interrupt()`, LangChain/CrewAI/AutoGen, MCP servers, and MLOps pipelines. | `src/agents/`, `src/graphs/`, `src/workflows/`, `src/mcp/`, `sdk/` | • [`agency-langchain-langgraph-automation-engineer`](.agents/skills/engineering-langchain-langgraph-automation/SKILL.md)<br>• [`agency-ai-engineer`](.agents/skills/engineering-ai-engineer/SKILL.md)<br>• [`agency-mcp-builder`](.agents/skills/specialized-mcp-builder/SKILL.md) |
 | **8** | `security-privacy-lead` | **AppSec, Cryptography & Trust Boundaries**: Audits auth/RBAC, AES-256-GCM / SHA-256 crypto, SQLi/XSS/CSRF/SSRF prevention, rate limiting, untrusted-input taint gates, and CWE compliance. | `src/security/`, `src/crypto/`, `src/auth/` + Cross-PR Security Gate | • [`agency-security-architect`](.agents/skills/security-architect/SKILL.md)<br>• [`agency-application-security-engineer`](.agents/skills/security-appsec-engineer/SKILL.md)<br>• [`agency-ai-generated-code-security-auditor`](.agents/skills/security-ai-generated-code-auditor/SKILL.md) |
-| **9** | `qa-release-lead` | **5-Stage Release Gate & Reality-Checker Certification**: Runs real build/typecheck, unit/integration/API contract tests, UI/accessibility validation, and blocks unverified or broken handoffs. | `tests/`, `e2e/`, `vitest.config.ts`, `playwright.config.ts` | • [`agency-qa-release-gate-manager`](.agents/skills/testing-release-gate-manager/SKILL.md)<br>• [`agency-api-tester`](.agents/skills/testing-api-tester/SKILL.md)<br>• [`agency-test-automation-engineer`](.agents/skills/testing-test-automation-engineer/SKILL.md)<br>• [`agency-reality-checker`](.agents/skills/testing-reality-checker/SKILL.md) |
+| **9** | `qa-release-lead` | **5-Stage Release Gate, Documentation & Repo Drift Verification & Reality-Checker Certification**: Runs real build/typecheck, unit/API/UI tests, verifies `README.md` & `docs/` match the code (zero repo drift), and blocks unverified handoffs. | `tests/`, `e2e/`, `vitest.config.ts`, `playwright.config.ts` | • [`agency-qa-release-gate-manager`](.agents/skills/testing-release-gate-manager/SKILL.md)<br>• [`agency-api-tester`](.agents/skills/testing-api-tester/SKILL.md)<br>• [`agency-test-automation-engineer`](.agents/skills/testing-test-automation-engineer/SKILL.md)<br>• [`agency-reality-checker`](.agents/skills/testing-reality-checker/SKILL.md) |
 | **10** | `devops-sre-lead` | **Cloud/Containers, CI/CD, Observability & FinOps**: Manages Docker/K8s/Serverless configs, zero-downtime DB migrations, CI/CD pipelines, health probes, SLOs, and cloud cost guardrails. | `Dockerfile`, `docker-compose.yml`, `wrangler.toml`, `.github/workflows/`, `scripts/`, `package.json`, `tsconfig.json` | • [`agency-devops-automator`](.agents/skills/engineering-devops-automator/SKILL.md)<br>• [`agency-sre-site-reliability-engineer`](.agents/skills/engineering-sre/SKILL.md)<br>• [`agency-finops-engineer`](.agents/skills/engineering-finops-engineer/SKILL.md) |
-| **11** | `gtm-business-ops-lead` | **DevRel, Documentation & Unit Economics**: Authors architecture docs, API references, onboarding guides, READMEs, and SaaS pricing/margin models. | `docs/`, `README.md`, `examples/` | • [`agency-technical-writer`](.agents/skills/engineering-technical-writer/SKILL.md)<br>• [`agency-pricing-analyst`](.agents/skills/specialized-pricing-analyst/SKILL.md) |
+| **11** | `gtm-business-ops-lead` | **Mandatory Phase 5 README, Docs & Repo Sync, DevRel & Unit Economics**: Keeps `README.md`, `docs/`, `CONTRIBUTING.md`, architecture diagrams, quickstarts, and SaaS pricing/margin models 100% synchronized so zero stale documentation ever ships. | `README.md`, `docs/`, `CONTRIBUTING.md`, `examples/` | • [`agency-technical-writer`](.agents/skills/engineering-technical-writer/SKILL.md)<br>• [`agency-pricing-analyst`](.agents/skills/specialized-pricing-analyst/SKILL.md) |
 
 ---
 
@@ -89,12 +91,14 @@ A real software company never runs blind parallelism where Frontend guesses what
           ▼
 [Phase 4: Mandatory 5-Stage QA & Reality-Checker Gate (SEQUENTIAL GATE)]
    `qa-release-lead`
-   (Executes build/typecheck, unit/API/UI verification & Reality-Checker audit.
-    If ANY defect is found ──► Route directly back to the Phase 2 owning engineer to fix)
+   (Executes build/typecheck, unit/API/UI verification, Checks for Documentation & Repo Drift,
+    & Reality-Checker audit. If ANY defect is found ──► Route back to owning engineer to fix)
           │
           ▼
 [Phase 5: DevOps Sync & Executive Delivery]
-   `devops-sre-lead` + `gtm-business-ops-lead` ──► Final sign-off delivered to User by CEO
+   `devops-sre-lead` + `gtm-business-ops-lead`
+   (Synchronizes README.md, docs/, configs & installers so zero stale files remain in the repo
+    ──► Final sign-off delivered to User by CEO)
 ```
 
 ---

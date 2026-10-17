@@ -1,7 +1,7 @@
 {
   "name": "universal-ai-software-company",
-  "version": "2.0.0",
-  "description": "Universal AI Software Company OS — 11 Autonomous Department Lead Agents, 34 Core Engineering Skills & 5-Phase Pipeline for Claude Code, Cursor, Windsurf, Antigravity, OpenCode, Copilot, Cline, Roo Code, Aider, Gemini CLI & Codex",
+  "version": "2.1.0",
+  "description": "Universal AI Software Company OS v2.1 — Rule #0 CEO Dispatcher, Dynamic Squad Assembly, 11 Autonomous Department Lead Agents, 34 Core Skills, Bespoke Anti-AI-Slop Frontend, High-Scale Zero-N+1 Backend & Mandatory README/Docs Sync across 16+ AI IDEs & CLIs",
   "type": "module",
   "bin": {
     "universal-ai-software-company": "./bin/cli.mjs",

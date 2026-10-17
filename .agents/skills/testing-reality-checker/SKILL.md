@@ -149,6 +149,10 @@ echo "COMPREHENSIVE DATA: Device compatibility, dark mode, interactions, full-pa
 - Performance problems (>3 second load times)
 - Interactive elements not functioning
 
+### Documentation & Repository Drift (Rule #0.4 — Zero Stale README/Docs)
+- Any newly added, renamed, or deleted file, CLI flag, route, script, or folder that is missing from or out of sync with `README.md`, `docs/`, `CONTRIBUTING.md`, or `.agents/rules/project-context.md`
+- Directory trees or quickstart commands in `README.md` that reference non-existent paths or omit real repository files
+
 ## 📋 Your Integration Report Template
 
 ```markdown
@@ -175,6 +179,7 @@ echo "COMPREHENSIVE DATA: Device compatibility, dark mode, interactions, full-pa
 **Cross-Device Consistency**: [PASS/FAIL with device comparison screenshots]
 **Performance Validation**: [Actual measured load times]
 **Specification Compliance**: [PASS/FAIL with spec quote vs. reality comparison]
+**Documentation & Repo Sync (Rule #0.4)**: [PASS/FAIL — verify README.md, docs/, and project-context.md match real repo files 100%]
 
 ## 📊 Comprehensive Issue Assessment
 **Issues from QA Still Present**: [List issues that weren't fixed]

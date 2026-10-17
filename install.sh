@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 # ==============================================================================
-# Universal AI Software Company Installer (macOS / Linux / Git Bash)
+# Universal AI Software Company Installer v2.1.0 (macOS / Linux / Git Bash)
 # Repository: https://github.com/abdelrahman-elkot/universal-ai-software-company
 #
 # Installs the 11 Department Lead Subagents, 34 Core Technical Skills, and
 # 5-Phase Company Pipeline into any project for 16+ AI Coding Tools, IDEs & CLIs:
 #   antigravity, claude, opencode, cursor, windsurf, copilot, cline, roo,
-#   gemini, codex, aider, continue, zed, trae, kilo, goose (or 'all')
+#   gemini, codex, aider, continue, zed, trae, kilo (or kilocode), goose (or 'all')
 #
 # Usage:
 #   ./install.sh [TARGET_DIR] [all|cursor,claude,copilot,...]
@@ -22,7 +22,7 @@ mkdir -p "$TARGET_DIR"
 DEST="$(cd "$TARGET_DIR" && pwd)"
 
 echo "================================================================================"
-echo "  Universal AI Software Company OS Installer (11 Depts | 34 Skills | 16+ Tools)"
+echo "  Universal AI Software Company OS v2.1.0 Installer (11 Depts | 34 Skills | 16+ Tools)"
 echo "  Target Project : $DEST"
 echo "  Agent Mode     : $AGENT_MODE"
 echo "================================================================================"
@@ -155,8 +155,8 @@ if has_agent "trae"; then
   echo "[+] Installed Trae IDE (.trae/rules/project_rules.md)"
 fi
 
-# 16. Kilo Code
-if has_agent "kilo"; then
+# 16. Kilo Code (accepts 'kilo' or 'kilocode')
+if has_agent "kilo" || has_agent "kilocode"; then
   mkdir -p "$DEST/.kilocode/rules"
   cp "$SCRIPT_DIR/.kilocode/rules/software-company.md" "$DEST/.kilocode/rules/software-company.md"
   echo "[+] Installed Kilo Code (.kilocode/rules/software-company.md)"
@@ -171,5 +171,5 @@ fi
 echo ""
 echo "================================================================================"
 echo "  Installation Complete! Next step inside your AI Coding Agent / IDE:"
-echo '  Prompt: "Initialize project context from my repo and start the 5-Phase Company Pipeline."'
+echo '  Prompt: "Initialize project context"'
 echo "================================================================================"

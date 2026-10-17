@@ -21,18 +21,18 @@ Choose **one** of the three installation methods below and run it against your p
 Open your terminal inside your target project folder and run:
 
 ```bash
-# Install all 11 departments, 34 skills, and adapters for all supported AI tools
+# Install all 11 departments, 34 skills, and adapters for all 16 supported AI tools
 npx github:abdelrahman-elkot/universal-ai-software-company . --agent all
 ```
 
-Want to keep your repository ultra-minimal and install files **only** for the single AI tool you use? Pass `--agent <tool>`:
+Want to keep your repository ultra-minimal and install files **only** for the specific AI tool(s) you use? Pass `--agent <tool>` (supports a single tool or comma-separated list):
 
 ```bash
 # Claude Code only
 npx github:abdelrahman-elkot/universal-ai-software-company . --agent claude
 
-# Cursor only
-npx github:abdelrahman-elkot/universal-ai-software-company . --agent cursor
+# Cursor + Claude Code
+npx github:abdelrahman-elkot/universal-ai-software-company . --agent cursor,claude
 
 # Windsurf only
 npx github:abdelrahman-elkot/universal-ai-software-company . --agent windsurf
@@ -46,6 +46,8 @@ npx github:abdelrahman-elkot/universal-ai-software-company . --agent opencode
 # GitHub Copilot only
 npx github:abdelrahman-elkot/universal-ai-software-company . --agent copilot
 ```
+
+> 💡 **Preserving Your Existing Project Context**: The installer never overwrites an existing `.agents/rules/project-context.md` unless you explicitly pass `--force-context` (or `-ForceOverwriteContext` in PowerShell).
 
 ### Option B: macOS / Linux / Git Bash (`install.sh`)
 
@@ -95,6 +97,7 @@ Initialize project context
    - **Section 2 (Creative Direction & UI/UX Aesthetic System)**: Locks your domain aesthetic persona, expressive typography pairing, and anti-AI-slop color tokens.
    - **Section 3 (Tech Stack & Scalability Guardrails)**: Locks your architecture pattern, zero-`N+1` database rules, caching/queue strategy, and security invariants.
    - **Section 4 (Non-Overlapping File Boundaries)**: Assigns exact directory paths to each active department so parallel agents never collide.
+3. **Automatic `README.md` & Docs Synchronization (Rule #0.4)**: From this point forward, whenever you add features, change CLI flags, update APIs, or restructure folders, **Dept 11 (`gtm-business-ops-lead`)** and **Dept 9 (`qa-release-lead`)** ensure your repository's `README.md` and `docs/` are updated in the exact same turn—eliminating stale documentation forever.
 
 > 💡 **Starting a Brand-New Empty Repo?**
 > If your folder is empty, tell the CEO what kind of product you want to build:
@@ -112,16 +115,16 @@ Initialize project context
 
 Once `.agents/rules/project-context.md` is initialized, the Main Agent acts strictly as your **CEO & Pipeline Dispatcher** — presenting a **3-Line Executive Dispatch Briefing** and routing work to the right Department Squad. Try any of these starter prompts:
 
-### Scenario 1: Interactive Sports, Media, or Creative Web Portal (Frontend + QA Squad)
+### Scenario 1: Interactive Sports, Media, or Creative Web Portal (Frontend + QA + Docs Squad)
 
 ```text
-Build an interactive football match center and live league table portal with a Broadcast Sports aesthetic. Lock the data contracts and design tokens in Phase 1, have frontend-ux-engineer build a bespoke anti-AI-slop UI with custom SVG pitch visuals and instant filtering in Phase 2, and have qa-release-lead verify responsive layout and accessibility in Phase 4.
+Build an interactive football match center and live league table portal with a Broadcast Sports aesthetic. Lock the data contracts and design tokens in Phase 1, have frontend-ux-engineer build a bespoke anti-AI-slop UI with custom SVG pitch visuals and instant filtering in Phase 2, have qa-release-lead verify responsive layout and accessibility in Phase 4, and have gtm-business-ops-lead update README.md in Phase 5.
 ```
 
-### Scenario 2: High-Scale E-Commerce or FinTech Backend (Backend + Security + QA Squad)
+### Scenario 2: High-Scale E-Commerce or FinTech Backend (Backend + Security + QA + Docs Squad)
 
 ```text
-Design and implement an idempotent order checkout and Stripe webhook processing API. Lock the schema and OpenAPI contracts with cto-cloud-architect in Phase 1, build the service with ACID row-level locking, cursor pagination, and Redis caching via backend-data-engineer in Phase 2, audit payment security with security-privacy-lead in Phase 3, and run API contract tests with qa-release-lead in Phase 4.
+Design and implement an idempotent order checkout and Stripe webhook processing API. Lock the schema and OpenAPI contracts with cto-cloud-architect in Phase 1, build the service with ACID row-level locking, cursor pagination, and Redis caching via backend-data-engineer in Phase 2, audit payment security with security-privacy-lead in Phase 3, run API contract tests with qa-release-lead in Phase 4, and sync API docs and README.md in Phase 5.
 ```
 
 ### Scenario 3: Full-Stack SaaS Feature (Parallel Backend ∥ Frontend Build)
@@ -131,8 +134,8 @@ Run the 5-Phase Company Pipeline to build team workspace invitations and role-ba
 - Phase 1: product-pmo-lead + cto-cloud-architect lock shared TypeScript interfaces and DB migrations.
 - Phase 2: backend-data-engineer builds the API endpoints & SQL migrations while frontend-ux-engineer builds the team management UI in parallel.
 - Phase 3: security-privacy-lead audits RBAC authorization boundaries and CWE compliance.
-- Phase 4: qa-release-lead runs build, typecheck, unit tests, and E2E tests.
-- Phase 5: devops-sre-lead + gtm-business-ops-lead update deployment configs and API docs.
+- Phase 4: qa-release-lead runs build, typecheck, unit tests, E2E tests, and checks for documentation drift.
+- Phase 5: devops-sre-lead + gtm-business-ops-lead update deployment configs, API docs, and README.md.
 ```
 
 ### Scenario 4: AI / LangGraph Stateful Agent Workflow (AI Squad — Depts 6 & 7)
@@ -144,12 +147,12 @@ Use ai-ml-langchain-automation-lead and ai-agentic-engineer to build a stateful 
 ### Scenario 5: Dedicated Security Audit or 5-Stage QA Release Gate
 
 ```text
-Use security-privacy-lead to audit our codebase against .agents/rules/project-context.md for auth/RBAC flaws, secret exposure, SQLi/XSS/SSRF risks, and untrusted-content taint gates, then use qa-release-lead to execute the 5-Stage Release Gate.
+Use security-privacy-lead to audit our codebase against .agents/rules/project-context.md for auth/RBAC flaws, secret exposure, SQLi/XSS/SSRF risks, and untrusted-content taint gates, then use qa-release-lead to execute the 5-Stage Release Gate including README/docs drift verification.
 ```
 
 ---
 
 ## 🔗 Next Steps
 
-- **[Complete IDE & CLI Setup Guide (`docs/IDE_SETUP_GUIDE.md`)](IDE_SETUP_GUIDE.md)** — Learn the exact slash commands, `@agent` mentions, and custom modes for your specific editor.
+- **[Complete IDE & CLI Setup Guide (`docs/IDE_SETUP_GUIDE.md`)](IDE_SETUP_GUIDE.md)** — Learn the exact slash commands, `@agent` mentions, and installed files for all 16 supported editors and CLIs.
 - **[Interactive Web Showcase (`docs/index.html`)](index.html)** — Open in your browser to explore all 11 departments and search all 34 skills interactively.

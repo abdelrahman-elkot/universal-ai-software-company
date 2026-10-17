@@ -195,42 +195,44 @@
     <text x="14" y="100" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">Dept 9 Reality-Checker</text>
 
     <!-- 5 Stages -->
-    <g transform="translate(14, 114)" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#E2E8F0">
+    <g transform="translate(14, 114)" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#E2E8F0">
       <rect width="158" height="154" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1" />
-      <text x="10" y="24" fill="#6EE7B7" font-weight="700">Evidence Required:</text>
-      <text x="10" y="46">1. Build &amp; Typecheck</text>
-      <text x="10" y="68">2. Unit &amp; Edge Tests</text>
-      <text x="10" y="90">3. API Contract Suite</text>
-      <text x="10" y="112">4. UI / Accessibility</text>
-      <text x="10" y="134">5. Reality Certification</text>
+      <text x="10" y="22" fill="#6EE7B7" font-weight="700">Evidence Required:</text>
+      <text x="10" y="43">1. Build &amp; Typecheck</text>
+      <text x="10" y="63">2. Unit &amp; Edge Tests</text>
+      <text x="10" y="83">3. API Contract Suite</text>
+      <text x="10" y="103">4. UI / Accessibility</text>
+      <text x="10" y="123">5. Reality Certification</text>
+      <text x="10" y="143" fill="#FDE68A" font-weight="700">&#10003; Zero Doc-Drift Check</text>
     </g>
   </g>
 
   <!-- Connector 4 -> 5 -->
   <line x1="976" y1="308" x2="1002" y2="308" stroke="#34D399" stroke-width="2.2" marker-end="url(#arrow-emerald)" />
 
-  <!-- PHASE 5: DevOps, FinOps & DevRel Docs -->
+  <!-- PHASE 5: DevOps, FinOps & Mandatory Docs/Repo Sync -->
   <g transform="translate(1008, 166)">
     <rect width="156" height="284" rx="14" fill="url(#phase-card)" stroke="#C084FC" stroke-width="1.6" />
     <rect x="0" y="0" width="156" height="38" rx="14" fill="#4C1D95" fill-opacity="0.7" />
-    <text x="14" y="24" fill="#E9D5FF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" font-weight="800">PHASE 5 &#8226; SHIP</text>
+    <text x="12" y="24" fill="#E9D5FF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" font-weight="800">PHASE 5 &#8226; DOCS &amp; SHIP</text>
     <circle cx="136" cy="19" r="8" fill="#9333EA" />
     <text x="136" y="23" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="10.5" font-weight="800">5</text>
 
-    <text x="14" y="64" fill="#FFFFFF" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="800">DevOps &amp; Docs</text>
-    <text x="14" y="82" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">Executive sign-off</text>
+    <text x="12" y="62" fill="#FFFFFF" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="800">DevOps &amp; Docs Sync</text>
+    <text x="12" y="79" fill="#FDE68A" font-family="system-ui, sans-serif" font-size="10.5" font-weight="600">Zero Stale Repo Docs</text>
 
-    <rect x="12" y="98" width="132" height="74" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1" />
-    <text x="20" y="116" fill="#D8B4FE" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" font-weight="700">Dept 10: devops-sre</text>
-    <text x="20" y="134" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="10.5">&#8226; CI/CD &amp; Docker</text>
-    <text x="20" y="150" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="10.5">&#8226; DB Migrations</text>
-    <text x="20" y="166" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="10.5">&#8226; FinOps &amp; SLOs</text>
+    <rect x="12" y="92" width="132" height="74" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1" />
+    <text x="18" y="110" fill="#D8B4FE" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" font-weight="700">Dept 10: devops-sre</text>
+    <text x="18" y="128" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="10.5">&#8226; CI/CD &amp; Docker</text>
+    <text x="18" y="144" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="10.5">&#8226; DB Migrations</text>
+    <text x="18" y="160" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="10.5">&#8226; FinOps &amp; SLOs</text>
 
-    <rect x="12" y="182" width="132" height="86" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1" />
-    <text x="20" y="200" fill="#D8B4FE" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" font-weight="700">Dept 11: gtm-docs</text>
-    <text x="20" y="218" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="10.5">&#8226; API Docs &amp; SDK</text>
-    <text x="20" y="234" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="10.5">&#8226; README Sync</text>
-    <text x="20" y="250" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="10.5">&#8226; Unit Economics</text>
+    <rect x="12" y="174" width="132" height="96" rx="8" fill="#0F172A" stroke="#A855F7" stroke-opacity="0.7" stroke-width="1" />
+    <text x="18" y="191" fill="#E9D5FF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" font-weight="700">Dept 11: gtm-docs</text>
+    <text x="18" y="209" fill="#FDE68A" font-family="system-ui, sans-serif" font-size="10" font-weight="700">&#8226; Mandatory README</text>
+    <text x="18" y="224" fill="#FDE68A" font-family="system-ui, sans-serif" font-size="10" font-weight="700">  Docs &amp; Repo Sync</text>
+    <text x="18" y="241" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="10">&#8226; API &amp; SDK Guides</text>
+    <text x="18" y="257" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="10">&#8226; Unit Economics</text>
   </g>
 
   <!-- ==================== SELF-HEALING FEEDBACK LOOP (PHASE 3/4 -> PHASE 2) ==================== -->

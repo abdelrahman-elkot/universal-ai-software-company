@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 /**
- * Universal AI Software Company OS — Zero-Dependency Cross-Platform CLI Installer
+ * Universal AI Software Company OS v2.1.0 — Zero-Dependency Cross-Platform CLI Installer
  * Repository: https://github.com/abdelrahman-elkot/universal-ai-software-company
  *
  * Installs the 11 Autonomous Department Lead Subagents, 34 Core Engineering Skills,
- * and 5-Phase Company Pipeline into any project for 16+ AI Coding Tools, IDEs & CLIs.
+ * Dynamic Squad Assembly, and 5-Phase Company Pipeline into any project for 16+ AI Coding Tools, IDEs & CLIs.
  */
 
 import fs from "node:fs";
@@ -19,25 +19,25 @@ const DEPARTMENTS = [
   {
     dept: "01",
     id: "ceo-executive-orchestrator",
-    role: "CEO, Chief of Staff & Autonomous Pipeline Orchestrator",
+    role: "CEO, Chief of Staff & Rule #0 Single Point of Contact Dispatcher (Dynamic Squad Assembly)",
     skills: ["agency-ceo-founder-visionary", "agency-agents-orchestrator", "agency-master-plan-architect"],
   },
   {
     dept: "02",
     id: "product-pmo-lead",
-    role: "VP of Product, Technical Program Manager & DX Lead",
+    role: "VP of Product, Technical Program Manager & Frictionless UX/DX Lead",
     skills: ["agency-product-manager", "agency-senior-project-manager", "agency-dx-engineer"],
   },
   {
     dept: "03",
     id: "cto-cloud-architect",
-    role: "CTO, Principal System Architect & Cloud/Edge Architect",
-    skills: ["agency-cto-vp-engineering", "agency-cloudflare-edge-architect", "agency-software-architect"],
+    role: "CTO, Principal Enterprise System Architect & Phase 1 Contract Lock Lead",
+    skills: ["agency-cto-vp-engineering", "agency-software-architect", "agency-cloudflare-edge-architect"],
   },
   {
     dept: "04",
     id: "backend-data-engineer",
-    role: "Principal Backend, API Gateway, Database & Billing Engineer",
+    role: "Principal High-Scale Backend, Zero-N+1 Database, ACID Locks, Queues & Billing Engineer",
     skills: [
       "agency-backend-architect",
       "agency-database-optimizer",
@@ -48,25 +48,25 @@ const DEPARTMENTS = [
   {
     dept: "05",
     id: "frontend-ux-engineer",
-    role: "Principal Frontend, UI/UX Systems & Client-Media Engineer",
+    role: "Principal Bespoke Creative UI/UX & Strict Anti-AI-Slop Frontend Engineer",
     skills: ["agency-frontend-developer", "agency-ux-architect", "agency-ui-designer"],
   },
   {
     dept: "06",
     id: "ai-agentic-engineer",
-    role: "Principal AI Systems, Smart Model Router, RAG & Eval Engineer",
+    role: "Principal AI Systems, Smart Model Router, Hybrid RAG & LLM-as-a-Judge Eval Engineer (Dynamic)",
     skills: ["agency-multi-agent-systems-architect", "agency-rag-pipeline-engineer", "agency-prompt-engineer"],
   },
   {
     dept: "07",
     id: "ai-ml-langchain-automation-lead",
-    role: "Principal AI/ML, LangChain, LangGraph & MCP Automation Lead",
+    role: "Principal AI/ML, Stateful LangGraph, LangChain, Multi-Agent & MCP Automation Lead (Dynamic)",
     skills: ["agency-langchain-langgraph-automation-engineer", "agency-ai-engineer", "agency-mcp-builder"],
   },
   {
     dept: "08",
     id: "security-privacy-lead",
-    role: "CISO, AppSec, Cryptography & Privacy Lead",
+    role: "CISO, AppSec, AES-256-GCM/SHA-256 Cryptography, Trust Boundaries & CWE Gatekeeper",
     skills: [
       "agency-security-architect",
       "agency-application-security-engineer",
@@ -76,7 +76,7 @@ const DEPARTMENTS = [
   {
     dept: "09",
     id: "qa-release-lead",
-    role: "Director of QA, Test Automation & Release Gatekeeper",
+    role: "Director of QA, 5-Stage Release Gate, Repo/Docs Drift Check & Reality-Checker Certification",
     skills: [
       "agency-qa-release-gate-manager",
       "agency-api-tester",
@@ -87,13 +87,13 @@ const DEPARTMENTS = [
   {
     dept: "10",
     id: "devops-sre-lead",
-    role: "Lead DevOps, CI/CD, SRE & FinOps Engineer",
+    role: "Lead DevOps, CI/CD, Containers/Cloud, Observability, FinOps & 16-IDE Ecosystem Engineer",
     skills: ["agency-devops-automator", "agency-sre-site-reliability-engineer", "agency-finops-engineer"],
   },
   {
     dept: "11",
     id: "gtm-business-ops-lead",
-    role: "VP of DevRel, Technical Documentation & Pricing/Unit Economics",
+    role: "VP of DevRel, Mandatory Phase 5 README/Docs Sync & SaaS Pricing/Unit Economics",
     skills: ["agency-technical-writer", "agency-pricing-analyst"],
   },
 ];
@@ -218,6 +218,15 @@ const AGENT_TARGETS = {
   },
 };
 
+const AGENT_ALIASES = {
+  kilocode: "kilo",
+};
+
+function normalizeAgentKey(rawKey) {
+  const k = rawKey.toLowerCase().trim();
+  return AGENT_ALIASES[k] || k;
+}
+
 function copyRecursive(src, dest) {
   const stat = fs.statSync(src);
   if (stat.isDirectory()) {
@@ -233,7 +242,7 @@ function copyRecursive(src, dest) {
 
 function printBanner() {
   console.log("================================================================================");
-  console.log("  Universal AI Software Company OS v2.0.0");
+  console.log("  Universal AI Software Company OS v2.1.0");
   console.log("  11 Autonomous Department Lead Agents | 34 Core Skills | 16+ AI IDEs & CLIs");
   console.log("  https://github.com/abdelrahman-elkot/universal-ai-software-company");
   console.log("================================================================================");
@@ -248,7 +257,7 @@ USAGE:
 
 OPTIONS:
   --agent <list>     Install for specific AI tool(s), comma-separated, or 'all' (default: all)
-                     Supported: all, ${Object.keys(AGENT_TARGETS).join(", ")}
+                     Supported: all, ${Object.keys(AGENT_TARGETS).join(", ")} (alias: kilocode)
   --force-context    Overwrite existing .agents/rules/project-context.md with fresh template
   --list, -l         Display all 11 Department Leads, 34 Core Skills & 16 Supported AI Tools
   --doctor, -d       Inspect a project directory and report installed AI tools & skills
@@ -293,7 +302,8 @@ function printList() {
   console.log(`${"--agent Flag".padEnd(14)} | ${"AI Tool / IDE / CLI".padEnd(25)} | ${"Installed Native Configs"}`);
   console.log("--------------------------------------------------------------------------------");
   for (const [key, cfg] of Object.entries(AGENT_TARGETS)) {
-    console.log(`${key.padEnd(14)} | ${cfg.name.padEnd(25)} | ${cfg.paths.join(", ")}`);
+    const flagLabel = key === "kilo" ? "kilo/kilocode" : key;
+    console.log(`${flagLabel.padEnd(14)} | ${cfg.name.padEnd(25)} | ${cfg.paths.join(", ")}`);
   }
   console.log("--------------------------------------------------------------------------------\n");
 }
@@ -376,15 +386,15 @@ function install(targetDir, agentArg, forceContext) {
   const requested = agentArg
     .toLowerCase()
     .split(",")
-    .map((s) => s.trim())
+    .map((s) => normalizeAgentKey(s))
     .filter(Boolean);
 
   const selectedKeys =
     requested.includes("all") || requested.length === 0
       ? Object.keys(AGENT_TARGETS)
-      : requested.filter((k) => {
+      : [...new Set(requested)].filter((k) => {
           if (!AGENT_TARGETS[k]) {
-            console.warn(`[!] Unknown agent target '${k}' ignored. Valid: all, ${Object.keys(AGENT_TARGETS).join(", ")}`);
+            console.warn(`[!] Unknown agent target '${k}' ignored. Valid: all, ${Object.keys(AGENT_TARGETS).join(", ")}, kilocode`);
             return false;
           }
           return true;
@@ -431,7 +441,7 @@ function install(targetDir, agentArg, forceContext) {
   console.log("\n================================================================================");
   console.log("  Installation Complete!");
   console.log("  Next Step — Open your AI Coding Agent / IDE and run this first prompt:");
-  console.log('  "Initialize project context from my repo and start the 5-Phase Company Pipeline."');
+  console.log('  "Initialize project context"');
   console.log("================================================================================\n");
 }
 
