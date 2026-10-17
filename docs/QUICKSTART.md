@@ -1,12 +1,12 @@
 # ⚡ 5-Minute Quickstart Guide
 
-Welcome to **Universal AI Software Company OS**! After completing this 5-minute guide, you will have **11 Department Lead Subagents** and **34 Core Technical Skills** installed in your repository, automatically calibrated to your exact tech stack, and ready to build features through the **5-Phase Execution Pipeline**.
+Welcome to **Universal AI Software Company OS**! After completing this 5-minute guide, you will have **11 Department Lead Subagents** and **34 Core Technical Skills** installed in your repository, automatically calibrated to your project domain and tech stack, and ready to build **any software product** — from interactive sports/media web portals and full-stack SaaS apps to high-scale payment APIs and AI agent systems.
 
 ---
 
 ## 📋 Prerequisites
 
-- Any new or existing software project directory (TypeScript, Python, Go, Rust, Java, Next.js, FastAPI, Cloudflare Workers, etc.)
+- Any new or existing software project directory (TypeScript, Python, Go, Rust, Java, C#, Next.js, React, Vue, Astro, FastAPI, NestJS, Cloudflare Workers, PostgreSQL, etc.)
 - One or more supported AI coding tools (Claude Code, Cursor, Windsurf, Google Antigravity, OpenCode, GitHub Copilot, Cline, Roo Code, Codex CLI, Gemini CLI, Aider, Continue.dev, Zed AI, Trae IDE, Kilo Code, or Block Goose)
 - **Node.js 18+** *(optional — only needed if using the zero-clone `npx` installer)*
 
@@ -65,14 +65,14 @@ git clone https://github.com/abdelrahman-elkot/universal-ai-software-company.git
 
 ## Step 2: Verify Your Installation (`--doctor`)
 
-You can verify that all core files, department subagents, skills, and project context templates are properly installed by running:
+Verify that all core files, department subagents, skills, and project context templates are properly installed by running:
 
 ```bash
 npx github:abdelrahman-elkot/universal-ai-software-company . --doctor
 ```
 
 You will see a checklist confirming:
-- `AGENTS.md` (Universal Company Operating System & Routing Matrix)
+- `AGENTS.md` (Universal Company Operating System, Rule #0 Executive Mandate & Dynamic Squad Matrix)
 - `.agents/rules/project-context.md` (Active Project Identity Card)
 - `.agents/skills/` (All 34 Core Technical Skills)
 - Tool-specific agent adapters (`.claude/`, `.opencode/`, `.cursor/`, `.github/`, etc.)
@@ -89,52 +89,62 @@ Initialize project context
 
 ### What Happens Behind the Scenes?
 
-1. **Automatic Inspection**: **Dept 1 (`ceo-executive-orchestrator`)** and **Dept 3 (`cto-cloud-architect`)** read your repository's existing files (`README.md`, `package.json`, `pyproject.toml`, `go.mod`, `Cargo.toml`, database schemas, `Dockerfile`, and `src/` directory layout).
-2. **Populating Your Single Source of Truth**: They replace the `[UNINITIALIZED_TEMPLATE]` placeholders in **[`.agents/rules/project-context.md`](../.agents/rules/project-context.md)** with:
-   - **Section 1**: Project Identity, Master Specification path, and Unit-Economics/Budget guardrails.
-   - **Section 2**: Approved Tech Stack (Backend runtime, Primary DB & migration folder, Frontend framework, AI/LLM stack, and Security/Crypto invariants).
-   - **Section 3**: Exact directory ownership map for all 11 departments tailored to your repository's folder structure.
-3. **Review & Commit**: Open `.agents/rules/project-context.md`, review the generated configuration, tweak any custom architectural rules you want enforced, and commit it to version control.
+1. **Executive Intake (Rule #0)**: **Dept 1 (`ceo-executive-orchestrator`)** dispatches **Dept 2 (`product-pmo-lead`)** and **Dept 3 (`cto-cloud-architect`)** to inspect your repository (`README.md`, `package.json`, `pyproject.toml`, `go.mod`, `Cargo.toml`, database schemas, `Dockerfile`, and `src/` directory layout).
+2. **Dynamic Squad Selection & Context Lock**: They replace the `[UNINITIALIZED_TEMPLATE]` placeholders in **[`.agents/rules/project-context.md`](../.agents/rules/project-context.md)** with:
+   - **Section 1 (Identity & Active Squad)**: Selects your project archetype (*Interactive Web/Media Portal*, *Full-Stack SaaS*, *FinTech/Payments*, *High-Scale Backend/API*, or *AI/Agentic System*) and places unneeded departments (such as AI Depts 6 & 7 on a non-AI project) on **`STANDBY`**.
+   - **Section 2 (Creative Direction & UI/UX Aesthetic System)**: Locks your domain aesthetic persona, expressive typography pairing, and anti-AI-slop color tokens.
+   - **Section 3 (Tech Stack & Scalability Guardrails)**: Locks your architecture pattern, zero-`N+1` database rules, caching/queue strategy, and security invariants.
+   - **Section 4 (Non-Overlapping File Boundaries)**: Assigns exact directory paths to each active department so parallel agents never collide.
 
 > 💡 **Starting a Brand-New Empty Repo?**
-> If your folder is completely empty, tell the AI what you want to build:
+> If your folder is empty, tell the CEO what kind of product you want to build:
 > ```text
-> Initialize project context for a SaaS application using Next.js 15, FastAPI, PostgreSQL, and LangGraph. Create docs/spec.md and populate .agents/rules/project-context.md.
+> Initialize project context for a high-energy football live scores and stats web portal using Astro, TypeScript, and Tailwind CSS.
+> ```
+> Or for a Full-Stack SaaS / FinTech product:
+> ```text
+> Initialize project context for a multi-tenant B2B FinTech invoicing SaaS using Next.js, Node.js/Fastify, PostgreSQL, and Redis.
 > ```
 
 ---
 
-## Step 4: Run Your First 5-Phase Feature Build
+## Step 4: Build Your First Feature or Product (Copy-Paste Workflows)
 
-Once `.agents/rules/project-context.md` is initialized, every feature request automatically routes through the right departments. Try any of these workflows:
+Once `.agents/rules/project-context.md` is initialized, the Main Agent acts strictly as your **CEO & Pipeline Dispatcher** — presenting a **3-Line Executive Dispatch Briefing** and routing work to the right Department Squad. Try any of these starter prompts:
 
-### Scenario 1: Build an End-to-End Feature Across All 5 Phases
+### Scenario 1: Interactive Sports, Media, or Creative Web Portal (Frontend + QA Squad)
 
 ```text
-Run the 5-Phase Company Pipeline to implement user API key management with SHA-256 hashing, rate-limit tiers, and a settings UI:
-- Phase 1: product-pmo-lead + cto-cloud-architect lock shared types and DB schema.
-- Phase 2: backend-data-engineer builds the API & migrations while frontend-ux-engineer builds the UI in parallel.
-- Phase 3: security-privacy-lead audits key hashing, auth guards, and CWE compliance.
-- Phase 4: qa-release-lead runs typecheck, unit tests, and API contract tests.
-- Phase 5: devops-sre-lead + gtm-business-ops-lead update migrations and API documentation.
+Build an interactive football match center and live league table portal with a Broadcast Sports aesthetic. Lock the data contracts and design tokens in Phase 1, have frontend-ux-engineer build a bespoke anti-AI-slop UI with custom SVG pitch visuals and instant filtering in Phase 2, and have qa-release-lead verify responsive layout and accessibility in Phase 4.
 ```
 
-### Scenario 2: Build an AI / LangGraph Agent Workflow
+### Scenario 2: High-Scale E-Commerce or FinTech Backend (Backend + Security + QA Squad)
 
 ```text
-Use ai-ml-langchain-automation-lead and ai-agentic-engineer to build a stateful LangGraph workflow with human-in-the-loop interrupt(), multi-provider fallback routing, and an evaluation test suite.
+Design and implement an idempotent order checkout and Stripe webhook processing API. Lock the schema and OpenAPI contracts with cto-cloud-architect in Phase 1, build the service with ACID row-level locking, cursor pagination, and Redis caching via backend-data-engineer in Phase 2, audit payment security with security-privacy-lead in Phase 3, and run API contract tests with qa-release-lead in Phase 4.
 ```
 
-### Scenario 3: Run a Dedicated Security & CWE Code Audit
+### Scenario 3: Full-Stack SaaS Feature (Parallel Backend ∥ Frontend Build)
 
 ```text
-Use security-privacy-lead to audit our codebase against .agents/rules/project-context.md. Check authentication, encryption, SQL parameterization, SSRF protections, and untrusted-content taint gates, and report findings mapped to CWE IDs.
+Run the 5-Phase Company Pipeline to build team workspace invitations and role-based access control (RBAC):
+- Phase 1: product-pmo-lead + cto-cloud-architect lock shared TypeScript interfaces and DB migrations.
+- Phase 2: backend-data-engineer builds the API endpoints & SQL migrations while frontend-ux-engineer builds the team management UI in parallel.
+- Phase 3: security-privacy-lead audits RBAC authorization boundaries and CWE compliance.
+- Phase 4: qa-release-lead runs build, typecheck, unit tests, and E2E tests.
+- Phase 5: devops-sre-lead + gtm-business-ops-lead update deployment configs and API docs.
 ```
 
-### Scenario 4: Run the 5-Stage QA & Reality-Checker Release Gate
+### Scenario 4: AI / LangGraph Stateful Agent Workflow (AI Squad — Depts 6 & 7)
 
 ```text
-Use qa-release-lead to execute the 5-Stage Release Gate on our current branch. Run typechecking, unit tests, API contract tests, and E2E tests, and issue an evidence-based Reality-Checker verdict.
+Use ai-ml-langchain-automation-lead and ai-agentic-engineer to build a stateful LangGraph workflow with human-in-the-loop interrupt(), multi-provider fallback routing, hybrid RAG retrieval, and an evaluation test suite.
+```
+
+### Scenario 5: Dedicated Security Audit or 5-Stage QA Release Gate
+
+```text
+Use security-privacy-lead to audit our codebase against .agents/rules/project-context.md for auth/RBAC flaws, secret exposure, SQLi/XSS/SSRF risks, and untrusted-content taint gates, then use qa-release-lead to execute the 5-Stage Release Gate.
 ```
 
 ---
